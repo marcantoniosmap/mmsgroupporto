@@ -6,6 +6,8 @@ function Header(props){
     
 
     return(
+        <>
+        <div style={{height:'100px'}}></div>
     <Parallax
         bgImage={props.imageUrl}
         bgImageStyle={{top:'9%', minHeight:'100%'}}
@@ -27,6 +29,7 @@ function Header(props){
             </div>
         </div>
     </Parallax>
+        </>
     )
 }
 

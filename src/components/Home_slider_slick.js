@@ -43,6 +43,9 @@ function Home_slider_slick(props){
     
 
     return(
+        <>
+                <div style={{height:'100px'}}></div>
+
         <div style={{height:'100vh', display:'block',width:'100%',position:'relative'}}>
             <Slider {...setting}>
             {sliderContent.map((content)=>
@@ -68,6 +71,7 @@ function Home_slider_slick(props){
             </Slider>
 
         </div>
+        </>
     )
 }
 export default Home_slider_slick;

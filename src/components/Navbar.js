@@ -24,7 +24,7 @@ function Navbar(props){
 
 
     return(
-        <header id="header" class="" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+        <header id="header" class="position-fixed" style={{width:'100vw'}}>
 				<div class='header-body border-top-0 header-body-bottom-border'>
 					<div class="header-container container">
 						<div class="header-row">
