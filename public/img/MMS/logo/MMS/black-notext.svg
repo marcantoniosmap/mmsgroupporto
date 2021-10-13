@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186" height="186" viewBox="0 0 186 186">
+  <defs>
+    <clipPath id="clip-black-notext">
+      <rect width="186" height="186"/>
+    </clipPath>
+  </defs>
+  <g id="black-notext" clip-path="url(#clip-black-notext)">
+    <g id="Artboard_3useed" data-name="Artboard 3useed" transform="translate(3.947 9.04)">
+      <path id="Path_1" data-name="Path 1" d="M175.449,102.548l-171.339.49v-.1a4.625,4.625,0,0,1,.458-.327L37.257,81.546a1.308,1.308,0,0,1,.981-.2l28.946,4.462L91.7,89.571l28.276,4.3,27.786,4.348,22.392,3.432,4.9.735.441.131Z" transform="translate(2.608 51.596)"/>
+      <path id="Path_2" data-name="Path 2" d="M86,3.39c0,1.52.147,3.04.212,4.544q.49,11.833,1,23.683.229,5.443.49,10.9a1.634,1.634,0,0,1-.409,1.226L59.755,77.937,9.186,140.912.392,151.863a.834.834,0,0,1-.392.294L85.906,3.423H86" transform="translate(0 2.151)"/>
+      <path id="Path_3" data-name="Path 3" d="M55,0l85.514,148.211-.588-.278-33.931-17.75a1.357,1.357,0,0,1-.719-.785Q80.219,64.953,55.131.49Z" transform="translate(34.894)" fill="#ed1d24"/>
+    </g>
+  </g>
+</svg>
