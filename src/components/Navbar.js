@@ -78,31 +78,31 @@ function Navbar(props){
 													</li>
 
                                                      {/* ESG */}
-                                                     <li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="index.html">
-															ESG
-														</a>
+													 <li class="dropdown">
+                                                    <Link class={`${page=='/esg'&&'active '}dropdown-item dropdown-toggle`} to="/esg">
+                                                            ESG
+                                                        </Link>
 													</li>
 
                                                        {/* NEWS */}
-                                                       <li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="index.html">
-															News
-														</a>
+													   <li class="dropdown">
+                                                    <Link class={`${page=='/news'&&'active '}dropdown-item dropdown-toggle`} to="/news">
+                                                            News
+                                                        </Link>
 													</li>
 
                                                       {/* Career */}
-                                                      <li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="index.html">
-															Career
-														</a>
+													  <li class="dropdown">
+                                                    <Link class={`${page=='/career'&&'active '}dropdown-item dropdown-toggle`} to="/career">
+                                                            Career
+                                                        </Link>
 													</li>
 
                                                      {/* Contact */}
-                                                     <li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="index.html">
-															Contact
-														</a>
+													 <li class="dropdown">
+                                                    <Link class={`${page=='/contact'&&'active '}dropdown-item dropdown-toggle`} to="/contact">
+                                                            Contact
+                                                        </Link>
 													</li>
 													
 												</ul>

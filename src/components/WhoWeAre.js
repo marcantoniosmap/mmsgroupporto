@@ -9,7 +9,7 @@ function WhoWeAre(props){
 
 		<div class="container container-xl-custom">
 			<div class="row align-items-center">
-				<div class="col-md-6 col-lg-5 col-xl-6 text-center pe-5 mb-5 mb-md-0" >
+				<div class="col-md-6 col-lg-5 col-xl-6 text-center pe-md-5 mb-5 mb-md-0" >
 					<img src="img/MMS/Pullman.jpg" class="img-fluid" alt="" />
 				</div>
 				<div class="col-md-6 col-lg-7 col-xl-6">

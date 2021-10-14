@@ -6,7 +6,7 @@ function Footer(props){
     const footerAboutUsText="MMS Group Indonesia was started in 2005 as a coal trading company, supplying coal to local industries such as sugar refinery and textile. Enhancing our position as a reliable coal supplier in Indonesia, we acquired coal mine PT. Dutadharma Utama in 2016 and prestigious CCoW mine PT. Multi Harapan Utama in 2017."
 
     return(
-        <footer id="footer">
+        <footer id="footer" className="mt-0">
         <div class="container">
             <div class="row py-5 my-4">
                 <div class="col-md-9 mb-4 mb-lg-0">
