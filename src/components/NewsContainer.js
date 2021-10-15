@@ -16,6 +16,7 @@ function NewsContainer(props){
                                         {content.map((news,index)=>(
 									        <div class="col-md-4">
                                                 <NewsCard 
+													id={news.id}
                                                     title={news.title}
                                                     imageUrl={news.imageUrl}
                                                     newsUrl={news.newsContent}

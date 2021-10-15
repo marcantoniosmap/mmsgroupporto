@@ -17,7 +17,7 @@ function WhoWeAre(props){
 					<h2 class="text-color-dark font-weight-bold text-12 mb-4 pt-0 mt-0">MMS Brief History</h2>
 					<p class="lead">MMS Group Indonesia was started in 2005 as a coal trading company, supplying coal to local industries such as sugar refinery and textile. Enhancing our position as a reliable coal supplier in Indonesia, we acquired coal mine PT. Dutadharma Utama in 2016 and prestigious CCoW mine PT. Multi Harapan Utama in 2017.</p>
 					<p class ="lead">Today, our group have grown into one of the most reputable and reliable coal suppliers for both national and international markets.</p>
-					{/* <a href="#" class="btn btn-primary font-weight-semibold rounded-0 btn-px-5 py-3 text-2">Explore Line of Business</a> */}
+					<button onClick={props.setmilestoneFunction} class="btn btn-primary font-weight-semibold rounded-0 btn-px-5 py-3 text-2">{props.milestone ?'Hide MMSGI Milestone' : 'Explore MMSGI Milestone'}<i class="fas fa-arrow-right ms-2"></i></button>
 				</div>
 			</div>
 		</div>

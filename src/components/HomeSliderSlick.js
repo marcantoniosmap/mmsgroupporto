@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import Slider from 'react-slick'
 import { fadeIn } from 'react-animations'
 
-function Home_slider_slick(props){
+function HomeSliderSlick({sliderContent}){
     const setting ={
         className:'h-100',
         infinite: true,
@@ -13,35 +13,6 @@ function Home_slider_slick(props){
         autoplaySpeed:4000,
         adaptiveHeight: true
     }
-
-    const sliderContent=[
-
-        {imageUrl: '/img/MMS/slider-1.png',
-        Textline1 : 'Building Indonesia',
-        Textline2 : 'Since 2005',
-        Paragraph : 'learn more about our values',
-        CTA : 'About MMS',
-        CTAlink : '/about',
-        },
-
-        {imageUrl: '/img/MMS/slider-2.png',
-        Textline1 : 'Diversified',
-        Textline2 : 'Line of Business',
-        Paragraph : 'Seek more on MMS 3 main Business pillars',
-        CTA : 'Our Business',
-        CTAlink : '/business',
-        },
-
-        {imageUrl: '/img/MMS/slider-3.png',
-        Textline1 : 'Environmental, social',
-        Textline2 : 'and corporate governance',
-        Paragraph : 'Learn more about MMS ESG!',
-        CTA : 'Our ESG',
-        CTAlink : '/esg',
-        },
-    ]
-    
-
     return(
         <>
                 <div style={{height:'100px'}}></div>
@@ -74,4 +45,4 @@ function Home_slider_slick(props){
         </>
     )
 }
-export default Home_slider_slick;
+export default HomeSliderSlick;

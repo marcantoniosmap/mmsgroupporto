@@ -1,14 +1,40 @@
 import React from "react";
 import {useEffect} from 'react';
-import Home_slider from '../components/Home_slider'
-import Home_slider_slick from "../components/Home_slider_slick";
+import HomeSliderSlick from "../components/HomeSliderSlick";
 
-    function Home(props){
+function Home(props){
 
+	const sliderContent=[
+
+        {imageUrl: '/img/MMS/slider-1.png',
+        Textline1 : 'Building Indonesia',
+        Textline2 : 'Since 2005',
+        Paragraph : 'learn more about our values',
+        CTA : 'About MMS',
+        CTAlink : '/about',
+        },
+
+        {imageUrl: '/img/MMS/slider-2.png',
+        Textline1 : 'Diversified',
+        Textline2 : 'Line of Business',
+        Paragraph : 'Seek more on MMS 3 main Business pillars',
+        CTA : 'Our Business',
+        CTAlink : '/business',
+        },
+
+        {imageUrl: '/img/MMS/slider-3.png',
+        Textline1 : 'Environmental, social',
+        Textline2 : 'and corporate governance',
+        Paragraph : 'Learn more about MMS ESG!',
+        CTA : 'Our ESG',
+        CTAlink : '/esg',
+        },
+    ]
+    
 
 return(
     <div role="main" class="main">
-        <Home_slider_slick/>
+        <HomeSliderSlick sliderContent={sliderContent}/>
 
 				<div class="container py-4">
 					<div class="row pt-4 mt-5">

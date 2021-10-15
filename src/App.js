@@ -2,6 +2,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect
 } from "react-router-dom";
 
 import Navbar from './components/Navbar';
@@ -11,6 +12,8 @@ import Footer from './components/Footer';
 import Contact from './Pages/Contact';
 import Career from './Pages/Career';
 import News from "./Pages/News";
+import Subholding from "./Pages/Subholding";
+import NewsContent from "./Pages/NewsContent";
 
 function App() {
 
@@ -39,11 +42,37 @@ function App() {
                   />}
             />
 
+          {/* <Route
+                path="/business"
+                component={(props) =>
+                  <Business
+                    {...props}
+                  />
+                }
+              /> */}
+
+          <Route
+            path="/business/:id"
+            component={(props) =>
+              <Subholding
+                {...props}
+              />
+            }
+            />
+
           <Route 
             exact
             path='/news'
             component={(props) =>
                   <News 
+                    {...props}
+                  />}
+            />
+
+          <Route 
+            path='/news/:id'
+            component={(props) =>
+                  <NewsContent 
                     {...props}
                   />}
             />
@@ -65,6 +94,7 @@ function App() {
                     {...props}
                   />}
             />
+         <Redirect to="/" />
         </Switch>
         <Footer/>
 

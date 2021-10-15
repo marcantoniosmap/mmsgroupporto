@@ -17,11 +17,11 @@ function Navbar(props){
         }
     });
 
-    useEffect(()=>{    
-        setPage(location.pathname)
-        console.log(location.pathname)
+    useEffect(()=>{
+        setPage(location.pathname.split('/')[1])
+        console.log(location.pathname.split('/')[1])
     },[location])
-
+	
 
     return(
         <header id="header" class="position-fixed" style={{width:'100vw'}}>
@@ -48,25 +48,25 @@ function Navbar(props){
 
                                                     {/* HOME */}
 													<li class="dropdown">
-                                                        <Link class={`${page=='/'&&'active '}dropdown-item dropdown-toggle`} to="/">
+                                                        <Link class={`${page==''&&'active '}dropdown-item dropdown-toggle`} to="/">
                                                             Home
                                                         </Link>
 													</li>
                                                     {/* ABOUT US */}
                                                     <li class="dropdown">
-                                                    <Link class={`${page=='/about'&&'active '}dropdown-item dropdown-toggle`} to="/about">
+                                                    <Link class={`${page=='about'&&'active '}dropdown-item dropdown-toggle`} to="/about">
                                                             About Us
                                                         </Link>
 													</li>
 
 													{/* OUR BUSINESS */}
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="#">
+														<Link class={`${page=='business'&&'active '}dropdown-item dropdown-toggle`} to="/esg">
 															Our Business
-														</a>
+														</Link>
 														<ul class="dropdown-menu">
 			                                                <li>
-																<a class="dropdown-item" href="#">MMS Resources</a>
+																<Link class="dropdown-item" to="/business/resources">MMS Resources</Link>
 															</li>
                                                             <li>
 																<a class="dropdown-item" href="#">MMS Land</a>
@@ -79,28 +79,28 @@ function Navbar(props){
 
                                                      {/* ESG */}
 													 <li class="dropdown">
-                                                    <Link class={`${page=='/esg'&&'active '}dropdown-item dropdown-toggle`} to="/esg">
+                                                    <Link class={`${page=='esg'&&'active '}dropdown-item dropdown-toggle`} to="/esg">
                                                             ESG
                                                         </Link>
 													</li>
 
                                                        {/* NEWS */}
 													   <li class="dropdown">
-                                                    <Link class={`${page=='/news'&&'active '}dropdown-item dropdown-toggle`} to="/news">
+                                                    <Link class={`${page=='news'&&'active '}dropdown-item dropdown-toggle`} to="/news">
                                                             News
                                                         </Link>
 													</li>
 
                                                       {/* Career */}
 													  <li class="dropdown">
-                                                    <Link class={`${page=='/career'&&'active '}dropdown-item dropdown-toggle`} to="/career">
+                                                    <Link class={`${page=='career'&&'active '}dropdown-item dropdown-toggle`} to="/career">
                                                             Career
                                                         </Link>
 													</li>
 
                                                      {/* Contact */}
 													 <li class="dropdown">
-                                                    <Link class={`${page=='/contact'&&'active '}dropdown-item dropdown-toggle`} to="/contact">
+                                                    <Link class={`${page=='contact'&&'active '}dropdown-item dropdown-toggle`} to="/contact">
                                                             Contact
                                                         </Link>
 													</li>

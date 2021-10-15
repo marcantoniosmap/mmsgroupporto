@@ -1,5 +1,6 @@
 var content=[
     {
+        id:'102938547',
         title:'MMSGI kembali memberikan bantuan.',
         imageUrl:'img/MMS/News/News – 1.jpg ',
         newsUrl:'/',
@@ -11,6 +12,7 @@ var content=[
     },
 
     {
+        id:'102938544',
         title:'Indahnya Berbagi di Bulan Penuh Berkah',
         imageUrl:'img/MMS/News/News – 2.jpg ',
         newsUrl:'/',
@@ -24,6 +26,7 @@ var content=[
     },
 
     {
+        id:'102938s547',
         title:'MMSGI kembali memberikan bantuan.',
         imageUrl:'img/MMS/News/News – 3.jpg ',
         newsUrl:'/',
@@ -35,6 +38,7 @@ var content=[
     },
 
     {
+        id:'1029fwd547',
         title:'MMSGI kembali memberikan bantuan.',
         imageUrl:'img/MMS/News/News – 4.jpg ',
         newsUrl:'/',
@@ -45,6 +49,7 @@ var content=[
         Kamis 22 Oktober 2020 yang lalu, MMS Group Indonesia kembali memberikan sumbangan dan  kali ini ditujukan kepada Gereja Sidang Jemaat Kristus di Tangerang dalam bentuk furniture dan barang Electronic seperti televisi dan sebagainya.   Bapak Sudieli sebagai wakil dari Pengurus Yayasan Gereja menerima bantuan yang dikirimkan oleh Wakil dari Perusahaan dan menyampaikan bahwa bantuan akan dimanfaatkan oleh yayasan untuk umatnya yang memerlukan terutama yang tinggal didaerah terpencil.    MMS Group Indonesia yakin bahwa bisnis yang berkelanjutan harus membawa dampak yang positif yang dapat dirasakan langsung oleh masyarakat dan lingkungannya.`
     },
     {
+        id:'1947ej373',
         title:'MMSGI kembali memberikan bantuan.',
         imageUrl:'img/MMS/News/News – 5.jpg ',
         newsUrl:'/',
@@ -55,6 +60,7 @@ var content=[
         Kamis 22 Oktober 2020 yang lalu, MMS Group Indonesia kembali memberikan sumbangan dan  kali ini ditujukan kepada Gereja Sidang Jemaat Kristus di Tangerang dalam bentuk furniture dan barang Electronic seperti televisi dan sebagainya.   Bapak Sudieli sebagai wakil dari Pengurus Yayasan Gereja menerima bantuan yang dikirimkan oleh Wakil dari Perusahaan dan menyampaikan bahwa bantuan akan dimanfaatkan oleh yayasan untuk umatnya yang memerlukan terutama yang tinggal didaerah terpencil.    MMS Group Indonesia yakin bahwa bisnis yang berkelanjutan harus membawa dampak yang positif yang dapat dirasakan langsung oleh masyarakat dan lingkungannya.`
     },
     {
+        id:'efvdw362',
         title:'MMSGI kembali memberikan bantuan.',
         imageUrl:'img/MMS/News/News – 6.jpg ',
         newsUrl:'/',
@@ -65,6 +71,7 @@ var content=[
         Kamis 22 Oktober 2020 yang lalu, MMS Group Indonesia kembali memberikan sumbangan dan  kali ini ditujukan kepada Gereja Sidang Jemaat Kristus di Tangerang dalam bentuk furniture dan barang Electronic seperti televisi dan sebagainya.   Bapak Sudieli sebagai wakil dari Pengurus Yayasan Gereja menerima bantuan yang dikirimkan oleh Wakil dari Perusahaan dan menyampaikan bahwa bantuan akan dimanfaatkan oleh yayasan untuk umatnya yang memerlukan terutama yang tinggal didaerah terpencil.    MMS Group Indonesia yakin bahwa bisnis yang berkelanjutan harus membawa dampak yang positif yang dapat dirasakan langsung oleh masyarakat dan lingkungannya.`
     },
     {
+        id:'635ff3sfcb',
         title:'MMSGI kembali memberikan bantuan.',
         imageUrl:'img/MMS/News/News – 7.jpg ',
         newsUrl:'/',
