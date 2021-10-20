@@ -41,7 +41,7 @@ function Introduction(props){
                 <div class="col-md-10 col-lg-7">
 					<div class="position-relative">
 						<div>
-							<img src="img/MMS/3business.jpg" class="img-fluid" alt="" />
+							<img src="img/MMS/threebusiness.jpg" class="img-fluid" alt="" />
 						</div>
 					
 					</div>
