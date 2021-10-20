@@ -2262,11 +2262,11 @@ html .word-rotator.loading-bar-light .word-rotator-words::after {
 }
 
 .process .process-step-circle {
-	border-color: #953735;
+	border-color: transparent;
 }
 
 .process .process-step:hover .process-step-circle {
-	background-color: #953735;
+	background-color: #ffffff;
 }
 
 .process .process-step:hover .process-step-circle .process-step-circle-content {

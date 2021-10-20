@@ -11,7 +11,7 @@ function Contact(props){
                 textOne="Us" breadcrumb={[
                     {name :'home',url:'/'}
                 ]}/>
-        <div class="container">
+        <div class="container my-5">
 
 					<div class="row py-4">
 						<div class="col-lg-6">
@@ -22,14 +22,14 @@ function Contact(props){
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.399677340555!2d106.8142241156511!3d-6.210900762568472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6a9c14edf29%3A0xaa58930ff69274c0!2sTower%20one!5e0!3m2!1sen!2sid!4v1634203779005!5m2!1sen!2sid" 
                                 title="mmsgrouploc"
                                 width="100%" 
-                                height="500px" 
+                                height="520px" 
                                 style={{border:0}} 
                                 allowfullscreen="" 
                                 loading="lazy"></iframe>
                             </div>
 
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 px-lg-4">
 
 							<div class="">
 								<h4 class="mt-2 mb-1">Our <strong>Office</strong></h4>
@@ -40,7 +40,14 @@ function Contact(props){
 									<li><i class="fas fa-fax top-6"></i> <strong class="text-dark">Fax:</strong> (62-21) 29529478</li>
 								</ul>
 							</div>
-
+							<div class="">
+								<h4 class="pt-5">Social <strong>Media</strong></h4>
+								<ul class="list list-icons list-icons-style-2 mt-2">
+										<li><i class="fab fa-instagram top-6"></i> <strong class="text-dark">Instagram:</strong> <a href="https://www.instagram.com/mmsgroupindonesia/">mmsgroupindonesia</a></li>
+										<li><i class="fab fa-facebook-f top-6"></i> <strong class="text-dark">Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100070979171968">MMS Group Indonesia</a></li>
+										<li><i class="fab fa-linkedin-in top-6"></i> <strong class="text-dark">LinkedIn:</strong> <a href="https://www.linkedin.com/company/mms-group-indonesia">MMS GROUP INDONESIA</a></li>
+								</ul>
+							</div>
 							<div class="">
 								<h4 class="pt-5">Business <strong>Hours</strong></h4>
 								<ul class="list list-icons list-dark mt-2">
@@ -50,8 +57,7 @@ function Contact(props){
 								</ul>
 							</div>
 
-							<h4 class="pt-5">Get in <strong>Touch</strong></h4>
-							<p class="lead mb-0 text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
 
 						</div>
 

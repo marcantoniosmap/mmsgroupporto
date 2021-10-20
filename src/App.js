@@ -14,6 +14,7 @@ import Career from './Pages/Career';
 import News from "./Pages/News";
 import Subholding from "./Pages/Subholding";
 import NewsContent from "./Pages/NewsContent";
+import ScrollToTop from './ScrollToTop'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
     
       <Router>
         <Navbar/>
+        <ScrollToTop>
         <Switch>
           <Route 
             exact
@@ -96,6 +98,8 @@ function App() {
             />
          <Redirect to="/" />
         </Switch>
+        </ScrollToTop>
+
         <Footer/>
 
       </Router>

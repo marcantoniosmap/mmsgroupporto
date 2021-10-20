@@ -29,7 +29,7 @@ function About(){
                 <WhoWeAre 
                     milestone={milestoneshow}
                     setmilestoneFunction={changeMilestoneshow}/>
-                { milestoneshow && <Milestone/>}
+                { milestoneshow && <Milestone setmilestoneFunction={changeMilestoneshow}/>}
             <Corporate_value/>
             <JajaranDireksi/>
         </>

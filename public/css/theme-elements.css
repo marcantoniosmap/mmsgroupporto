@@ -13109,7 +13109,21 @@ html.boxed .nav-secondary.sticky-active {
 	.process.process-shapes .process-step:before {
 		top: 23px;
 	}
+	.mmsgroup-holding:before {
+		content: '';
+		height: 12%;
+		display: block;
+		background-color: #EDEDED;
+		position: absolute;
+		width: 4px;
+		bottom: 35%;
+		left: 50%;
+	}
 }
+
+
+
+
 
 .process-vertical {
 	text-align: left;

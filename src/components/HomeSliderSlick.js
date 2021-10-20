@@ -15,9 +15,8 @@ function HomeSliderSlick({sliderContent}){
     }
     return(
         <>
-                <div style={{height:'100px'}}></div>
-
-        <div style={{height:'100vh', display:'block',width:'100%',position:'relative'}}>
+        <div style={{height:'100px'}}></div>
+        <div style={{height:'calc(100vh - 100px)', display:'block',width:'100%',position:'relative'}}>
             <Slider {...setting}>
             {sliderContent.map((content)=>
             <>

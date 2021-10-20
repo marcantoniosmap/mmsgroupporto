@@ -14,7 +14,9 @@ function News(){
                     {name :'home',url:'/'}
                 ]}/>
 
-            <NewsContainer/>
+            <NewsContainer 
+                showPagination={true}
+                maxNews={7}/>
 
         </>
     )

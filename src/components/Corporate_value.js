@@ -39,11 +39,12 @@ function Corporate_value(props){
 
     return(
     <section class="section bg-color-grey-scale-1 section-height-1 section-no-border my-0">
-    <div class="container">
+    <div class="container py-3">
         <div class="row">
-            <div class="col text-center">
-                <h2 class="font-weight-normal text-6 mb-5 mt-4">Corporate <strong class="font-weight-bold">Culture</strong></h2>
-            </div>
+        <div className="col text-center py-5">
+            <h3 class="font-weight-bold text-color-primary text-4-5 ls-0 mb-2">MMS GROUP INDONESIA</h3>
+            <h2 class="font-weight-bold text-color-dark text-11 line-height-3 line-height-md-1 mb-5">Corporate Value</h2>
+        </div>
         </div>
 
         <div class="row justify-content-center ">
