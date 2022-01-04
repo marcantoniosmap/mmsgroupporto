@@ -34,7 +34,7 @@ function WhoWeAre(props){
             top:'82%',
         },
 		{
-            id:'Bajo',
+            id:'Labuan Bajo',
             left:'55%',
             top:'82%',
         },

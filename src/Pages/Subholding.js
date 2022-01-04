@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Header from "../components/Header";
 import HeaderSubholding from "../components/HeaderSubholding";
+import LandSection from "../components/LandSection";
+import ResourcesSection from "../components/ResourcesSection";
 import SolutionSection from "../components/SolutionSection";
 import content from '../subholdingdetail'
 
@@ -66,7 +68,7 @@ function Subholding(props){
 					<p class=" mb-4 text-4">{subholdingContent.caption}</p>
                     <div className="row">
                         {subholdingContent.company.map((comp,index)=>
-                        <div className="col-xl-3 col-3" key={index}>
+                        <div className="col-xl-3 col-md-4 col-6" key={index}>
                             <img className="img-fluid" src={`/img/MMS/subholding/logo/${comp}.png`} alt={comp} />
                         </div>
                         )}
@@ -74,22 +76,22 @@ function Subholding(props){
                     </div>
 				</div>
 				<div class="col-lg-6 text-center px-2 mt-3 mt-lg-0 order-lg-2 order-1" style={{overflow:'hidden'}} >
-                {/* <iframe width="100%" height="400" src="https://www.youtube.com/embed/LbVbQFwgYOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-					<img src={subholdingContent.desc_image} style={{height:'100%', width:'auto'}} className="d-lg-block d-none " alt=""/>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/LbVbQFwgYOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					{/* <img src={subholdingContent.desc_image} style={{height:'100%', width:'auto'}} className="d-lg-block " alt=""/> */}
 				</div>		
 			</div>
 
             
 		</div>
-            {subholdingContent.id==='solution' && <SolutionSection/>}
+            {subholdingContent.id==='solution' ? <SolutionSection/> : subholdingContent.id==='land' ? <LandSection/> : <ResourcesSection/>}
 
-        <div class="">
+        {/* <div class="">
 			<Slider {...setting}>
                 {listNum.map((num,index)=>
                     <img className='' src={`/img/MMS/milestone/milestone-2 (${num}).jpg`}/>
                 )}
             </Slider>
-		</div>
+		</div> */}
         </>
     }
         </>

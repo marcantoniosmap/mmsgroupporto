@@ -13,7 +13,7 @@ var content=[
         subheading:'MMS LAND',
         title:'Pengembangan Properti',
         caption:'MMS Land merupakan sub-holding yang didirikan pada 2018 untuk menaungi sektor properti MMSGI. Kegiatan usaha MMS Land meliputi pengelolaan pengembangan dan pengelolaan properti residensial dan komersial seperti komplek perumahan (minicity), hotel, gedung perkantoran. Selain itu, MMS Land juga mengembangkan dan mengelola data center sebagai upaya untuk penyediaan infrastruktur digital',
-        company:['MAP','MGR','MPH','MIG'],
+        company:['MAP','KHS','MGR','MIG'],
         header_image : '/img/MMS/slider-2.png',
         desc_image : '/img/MMS/subholding/land.jpg',
     },
