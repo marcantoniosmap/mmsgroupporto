@@ -1,7 +1,7 @@
 import React from "react";
 import {useEffect} from 'react';
 import HomeSliderSlick from "../components/HomeSliderSlick";
-import IndonesiaMap from "../components/IndonesiaMap";
+import IndonesiaMap from "../components/IndonesiaMapSection";
 import BusinessDevelopment from "../components/BusinessDevelopment";
 import Introduction from "../components/Introduction";
 import OverviewSubsidiaries from "../components/OverviewSubsidiaries";
@@ -13,27 +13,27 @@ function Home(props){
 	const sliderContent=[
 
         {imageUrl: '/img/MMS/slider-1.png',
-        Textline1 : 'Building Indonesia',
-        Textline2 : 'Since 2005',
-        Paragraph : 'learn more about our values',
-        CTA : 'About MMS',
+        Textline1 : 'Berbekal visi misi yang kuat',
+        Textline2 : 'Kami berkembang dengan Pasti',
+        Paragraph : 'Melalui visi misi yang kuat, perusahaan kami berkembang dan bertumbuh secara berkelanjutan untuk kemajuan Indonesia',
+        CTA : 'Tentang Kami',
         CTAlink : '/about',
         },
 
         {imageUrl: '/img/MMS/slider-2.png',
-        Textline1 : 'Diversified',
-        Textline2 : 'Line of Business',
-        Paragraph : 'Seek more on MMS 3 main Business pillars',
-        CTA : 'Our Business',
+        Textline1 : 'Melalui 3 Pilar Usaha ',
+        Textline2 : 'Kami Mengabdi Kepada Negeri',
+        Paragraph : 'Bermula dari usaha batubara, MMSGI mewujudkan bakti pada negeri melalui 3 pilar usaha: MMS Resources, MMS Land, dan MMS Solution',
+        CTA : 'Bisnis Kami',
         CTAlink : '/business',
         },
 
         {imageUrl: '/img/MMS/slider-3.png',
-        Textline1 : 'Environmental, social',
-        Textline2 : 'and corporate governance',
-        Paragraph : 'Learn more about MMS ESG!',
-        CTA : 'Our ESG',
-        CTAlink : '/esg',
+        Textline1 : 'Lewat Berbagai Inisiatif,',
+        Textline2 : 'Kami Bersumbangsih Pada Negeri',
+        Paragraph : 'Kami mendukung kemajuan masyarakat yang berkesinambungan melalui berbagai insiatif guna menciptakan silih asih antar sesama',
+        CTA : 'CSR',
+        CTAlink : '/csr',
         },
     ]
     
@@ -43,7 +43,7 @@ return(
         <HomeSliderSlick sliderContent={sliderContent}/>
 		<Introduction/>
 		<OverviewSubsidiaries/>
-		<IndonesiaMap/>
+		{/* <IndonesiaMap/> */}
 		<ESGSection/>
 		<NewsonHome/>
 

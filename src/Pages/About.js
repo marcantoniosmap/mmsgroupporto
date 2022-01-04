@@ -1,10 +1,13 @@
 import React, {useEffect,useState} from 'react'
+import Awards from '../components/Awards';
 import Corporate_value from '../components/Corporate_value';
 import Header from '../components/Header';
 import JajaranDireksi from '../components/JajaranDireksi';
 import Milestone from '../components/Milestone';
+import MilestoneTab from '../components/MilestoneDesign2';
 import NumberSection from '../components/NumberSection';
 import SambutanCEO from '../components/SambutanCEO';
+import VissionMission from '../components/VisionMission';
 import WhoWeAre from '../components/WhoWeAre';
 
 function About(){
@@ -20,18 +23,21 @@ function About(){
         <>
             <Header 
                 imageUrl="img/MMS/slider-2.png" 
-                textZero="About" 
-                textOne="Us" breadcrumb={[
-                    {name :'home',url:'/'}
+                textZero="Tentang" 
+                textOne="Kami" breadcrumb={[
+                    {name :'Beranda',url:'/'}
                 ]}/>
+                {/* <div style={{height:'100px'}}/> */}
             <SambutanCEO/>
-            <NumberSection/>
+            <VissionMission/>
+            {/* <NumberSection/> */}
                 <WhoWeAre 
                     milestone={milestoneshow}
                     setmilestoneFunction={changeMilestoneshow}/>
-                { milestoneshow && <Milestone setmilestoneFunction={changeMilestoneshow}/>}
+                {/* { milestoneshow && <MilestoneTab setmilestoneFunction={changeMilestoneshow}/>} */}
             <Corporate_value/>
             <JajaranDireksi/>
+            <Awards/>
         </>
     )
 }

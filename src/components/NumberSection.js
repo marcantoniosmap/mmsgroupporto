@@ -22,8 +22,8 @@ function NumberSection(props){
         },
         {
             iconName:'briefcase',
-            number :'130',
-            caption :'Subsidiaries'
+            number :'3',
+            caption :'Line of Business'
         },
 
     ]

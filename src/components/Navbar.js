@@ -19,20 +19,19 @@ function Navbar(props){
 
     useEffect(()=>{
         setPage(location.pathname.split('/')[1])
-        console.log(location.pathname.split('/')[1])
     },[location])
 	
 
     return(
         <header id="header" class="position-fixed" style={{width:'100vw'}}>
 				<div class='header-body border-top-0 header-body-bottom-border'>
-					<div class="header-container container">
+					<div class="header-container container container-xl-custom">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
 										<Link to="/">
-											<img alt="Porto" height={isScrolled?'70':'60'} src="img/MMS/logo/MMS/black-notext.svg"/>
+											<img alt="MMSGI Logo" className="my-2" height={isScrolled?'60':'50'}  src="img/MMS/logo/MMS/MMSGI Horizontal.png"/>
 										</Link>
 									</div>
 								</div>
@@ -48,60 +47,60 @@ function Navbar(props){
 
                                                     {/* HOME */}
 													<li class="dropdown">
-                                                        <Link class={`${page==''&&'active '}dropdown-item dropdown-toggle`} to="/">
-                                                            Home
+                                                        <Link class={`${page==''&&'active '}dropdown-item text-3 dropdown-toggle`} to="/">
+                                                            Beranda
                                                         </Link>
 													</li>
                                                     {/* ABOUT US */}
                                                     <li class="dropdown">
-                                                    <Link class={`${page=='about'&&'active '}dropdown-item dropdown-toggle`} to="/about">
-                                                            About Us
+                                                    <Link class={`${page=='about'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/about">
+                                                            Tentang Kami
                                                         </Link>
 													</li>
 
 													{/* OUR BUSINESS */}
 													<li class="dropdown">
-														<Link class={`${page=='business'&&'active '}dropdown-item dropdown-toggle`} to="/esg">
-															Our Business
+														<Link class={`${page=='business'&&'active '} dropdown-item text-3 dropdown-toggle`} to='/' >
+															Bisnis Kami
 														</Link>
 														<ul class="dropdown-menu">
 			                                                <li>
-																<Link class="dropdown-item" to="/business/resources">MMS Resources</Link>
+																<Link onClick={props.listenToChange} className="dropdown-item" to="/business/resources">MMS Resources</Link>
 															</li>
                                                             <li>
-																<a class="dropdown-item" href="#">MMS Land</a>
+																<Link onClick={props.listenToChange} className="dropdown-item" to="/business/land">MMS Land</Link>
 															</li>
                                                             <li>
-																<a class="dropdown-item" href="#">MMS Initiatives</a>
+																<Link onClick={props.listenToChange} className="dropdown-item" to="/business/solution">MMS Solution</Link>
 															</li>
 														</ul>
 													</li>
 
                                                      {/* ESG */}
 													 <li class="dropdown">
-                                                    <Link class={`${page=='esg'&&'active '}dropdown-item dropdown-toggle`} to="/esg">
-                                                            ESG
+                                                    <Link class={`${page=='CSR'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/CSR">
+                                                            CSR
                                                         </Link>
 													</li>
 
                                                        {/* NEWS */}
 													   <li class="dropdown">
-                                                    <Link class={`${page=='news'&&'active '}dropdown-item dropdown-toggle`} to="/news">
-                                                            News
+                                                    <Link class={`${page=='news'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/news">
+                                                            Berita
                                                         </Link>
 													</li>
 
                                                       {/* Career */}
 													  <li class="dropdown">
-                                                    <Link class={`${page=='career'&&'active '}dropdown-item dropdown-toggle`} to="/career">
-                                                            Career
+                                                    <Link class={`${page=='career'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/career">
+                                                            Karir
                                                         </Link>
 													</li>
 
                                                      {/* Contact */}
 													 <li class="dropdown">
-                                                    <Link class={`${page=='contact'&&'active '}dropdown-item dropdown-toggle`} to="/contact">
-                                                            Contact
+                                                    <Link class={`${page=='contact'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/contact">
+                                                            Kontak
                                                         </Link>
 													</li>
 													

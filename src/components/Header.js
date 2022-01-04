@@ -17,7 +17,7 @@ function Header(props){
         <div class="container">
             <div class="row">
                 <div class="col-md-12 align-self-center p-static order-2 text-center">
-                    <h1>{props.textZero} <strong>{props.textOne}</strong></h1>
+                    <h1>{props.textZero} <span style={{fontWeight:600}}>{props.textOne}</span></h1>
                 </div>
                 <div class="col-md-12 align-self-center order-1">
                     <ul class="breadcrumb breadcrumb-light d-block text-center">

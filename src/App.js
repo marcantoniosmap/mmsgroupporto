@@ -15,15 +15,18 @@ import News from "./Pages/News";
 import Subholding from "./Pages/Subholding";
 import NewsContent from "./Pages/NewsContent";
 import ScrollToTop from './ScrollToTop'
+import CSR from "./Pages/CSR";
+import { useState } from "react";
 
 function App() {
 
-  
+  const [randomState,setRandomState]=useState(0)
+
   return (
     <>
     
       <Router>
-        <Navbar/>
+        <Navbar />
         <ScrollToTop>
         <Switch>
           <Route 
@@ -57,10 +60,22 @@ function App() {
             path="/business/:id"
             component={(props) =>
               <Subholding
+                randomState={randomState}
                 {...props}
+
               />
             }
             />
+
+          <Route 
+
+          exact
+          path='/csr'
+          component={(props) =>
+                <CSR
+                  {...props}
+                />}
+          />
 
           <Route 
             exact
