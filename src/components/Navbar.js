@@ -114,11 +114,11 @@ function Navbar(props){
 										    </button>
 									</div>
                                     
-									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
+									{/* <div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
 										<div class="header-nav-feature header-nav-features-search d-inline-flex">
 											ID
 										</div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

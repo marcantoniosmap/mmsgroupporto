@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Footer(props){
 
-    const footerAboutUsText="MMS Group Indonesia was started in 2005 as a coal trading company, supplying coal to local industries such as sugar refinery and textile. Enhancing our position as a reliable coal supplier in Indonesia, we acquired coal mine PT. Dutadharma Utama in 2016 and prestigious CCoW mine PT. Multi Harapan Utama in 2017."
+    const footerAboutUsText="MMS Group Indonesia merupakan perusahaan energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resurces, MMS Land dan MMS Solution denga lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources"
 
     return(
         <footer id="footer" className="mt-0">

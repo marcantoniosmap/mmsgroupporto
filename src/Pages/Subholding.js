@@ -76,8 +76,8 @@ function Subholding(props){
                     </div>
 				</div>
 				<div class="col-lg-6 text-center px-2 mt-3 mt-lg-0 order-lg-2 order-1" style={{overflow:'hidden'}} >
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/LbVbQFwgYOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					{/* <img src={subholdingContent.desc_image} style={{height:'100%', width:'auto'}} className="d-lg-block " alt=""/> */}
+                {/* <iframe width="100%" height="400" src="https://www.youtube.com/embed/LbVbQFwgYOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+					<img src={subholdingContent.desc_image} style={{height:'100%', width:'auto'}} className="d-lg-block " alt=""/>
 				</div>		
 			</div>
 

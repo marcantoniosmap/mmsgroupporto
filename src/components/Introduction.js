@@ -11,7 +11,7 @@ function Introduction(props){
 
     return(
         <div class="container container-xl-custom py-4">
-            <div class="row py-lg-5 my-5">  
+            <div class="row py-lg-5 mt-5">  
                 <div class="col-lg-7 pe-lg-5 mb-5 mb-lg-0 d-flex align-items-center" >
                     <div>
 

@@ -6,23 +6,23 @@ function SolutionSection(props){
     const projectData=[
         {
             imgUrl:'miniranch.jpg',
-            title :'Peternakan',
+            title :'Peternakan Sapi',
             description:'Saat ini ada sapi desa setempat yang pindah ke peternakan dengan pola kemitraan dengan masyarakat setempat.',
         },
         {
-            imgUrl:'solar.jpg',
-            title :'Panel Tenaga Surya',
-            description:'Proyek ini telah memperoleh izin yang diperlukan untuk memulai pembangunan panel surya 2 MWPV untuk mendukung operasi tambang.',
-        },
-        {
             imgUrl:'corn.jpg',
-            title :'ladang jagung',
+            title :'Pertanian Jagung',
             description:'Lahan jagung dalam tahap demo plot seluas 17 Ha dan persiapan untuk penanaman awal.',
         },
         {
             imgUrl:'smelter.jpg',
-            title :'Smelter nickel',
+            title :'Smelter Nikel',
             description:'Proyek smelter nikel Rotary Kiln-Electric Furnace dirancang untuk menghasilkan 27.500 ton/tahun nikel matte. Jalur produksi terdiri dari jalur produksi 2x48 MVA.',
+        },
+        {
+            imgUrl:'solar.jpg',
+            title :'Panel Surya',
+            description:'Proyek ini telah memperoleh izin yang diperlukan untuk memulai pembangunan panel surya 2 MWPV untuk mendukung operasi tambang.',
         },
     ]
 
@@ -74,7 +74,7 @@ function SolutionSection(props){
                                 <img src={`/img/MMS/subholding/Solution/${project.imgUrl}`} />
                                 <div className="info">
                                     <div className='text-6 font-weight-bold'>{project.title}</div>
-                                    <div className='text-white text-3'>{project.description}</div>
+                                    <div className='text-white text-3' style={{lineHeight:'21px'}}>{project.description}</div>
                                 </div>
                             </div>
 

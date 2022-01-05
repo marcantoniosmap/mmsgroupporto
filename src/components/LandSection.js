@@ -9,21 +9,20 @@ function LandSection(props){
     function clickListener(e,index) {
         e.preventDefault();
         setChosenState(pinpoint[index].id)
-        sliderRef.current.slickGoTo(index);
-        console.log(pinpoint[index].id)
+        sliderRef.current.slickGoTo(index)
      }
 
     const pinpoint=[
         {
             id:'Jakarta',
-            judul:'Kantor dan Data Center',
+            judul:'Gedung Perkantoran dan Data Center',
             description :'',
             left:'27%',
             top:'70%',
         },
         {
             id:'Samarinda',
-            judul:'A mini city project in Tanjung Laong',
+            judul:' ',
             description :'',
             left:'48%',
             top:'42%',
