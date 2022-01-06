@@ -21,7 +21,7 @@ function MapReuse({pinpoint}){
                 <span onMouseEnter={(e)=>clickListener(e,points.id)} onMouseLeave={()=>setChosenState(null)} className="circle"  style={{height:'20px',width:'20px'}}></span>
             </div>
             <div style={{left: points.left, top: points.top}} class="image-hotspot image-hotspot-primary">
-                <span  className={`tooltiptext ${chosenState===points.id ? '': 'd-none'}`}>{points.id}</span>
+                <span  style={{lineHeight:'21px'}}className={`tooltiptext ${chosenState===points.id ? '': 'd-none'}`}>{points.id}</span>
             </div>
                 </>
             ))}

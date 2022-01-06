@@ -11,11 +11,11 @@ function MilestoneTab(props){
             imgSource:'img/MMS/milestone/milestone-2 (1).jpg',
             title : 'Mengawali Perjalanan MMSGI',
             year : '2005',
-            content : ['MMS Group Indonesia (MMSGI) diawali dengan didirikannya PT Mitra Maju Sukses (MMS) pada tahun 2005 sebagai perusahaan perdagangan batu bara dan pemasok batu bara, yang awalnya menjadi pemasok PLN dan Industri lainnya.']
+            content : ['MMS Group Indonesia diawali dengan didirikannya PT Mitra Maju Sukses pada tahun 2005 sebagai perusahaan perdagangan batu bara dan pemasok batu bara, yang awalnya menjadi pemasok PLN dan Industri lainnya.']
         },
         {
             imgSource:'img/MMS/milestone/milestone-2 (2).jpg',
-            title : 'Merintis Pasar Ekspor ',
+            title : 'Meniti Pasar Ekspor ',
             year : '2012',
             content : ['MMSGI mendirikan Mitra Asia Cemerlang untuk memperluas sayapnya dalam ekspor batu bara.']
         }, {
@@ -41,7 +41,7 @@ function MilestoneTab(props){
                 ]
         }, {
             imgSource:'img/MMS/milestone/milestone-2 (6).jpg',
-            title : 'Pengembangan Energi Baru Terbarukan',
+            title : 'Dedikasi Energi Baru Terbarukan',
             year : '2018',
             content : ['MMSGI terus memperkuat portofolio batu baranya dengan mengakuisisi PT Banjar Bumi Persada, sebuah tambang batu bara di Kalimantan Selatan.'
             ,'MMSGI mendirikan MMS LAND (PT Mitra Properti Sukses) sebagai Sub-holding perusahaan Property and Hospitality yang dibentuk untuk mengelola portofolio Property and Hospitality kedepannya.'

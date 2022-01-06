@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Footer(props){
 
-    const footerAboutUsText="MMS Group Indonesia merupakan perusahaan energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resurces, MMS Land dan MMS Solution denga lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources"
+    const footerAboutUsText="MMS Group Indonesia merupakan perusahaan energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources"
 
     return(
         <footer id="footer" className="mt-0">
@@ -12,7 +12,7 @@ function Footer(props){
                 <div class="col-md-9 mb-4 mb-lg-0">
                     <h5 class="text-3 mb-3">ABOUT US</h5>
                     <p class="mt-2 mb-2">{footerAboutUsText}</p>
-                    <p><a href="#" class="btn-flat btn-xs text-color-light"><strong class="text-2">VIEW MORE</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></a></p>
+                    <p><Link to="/aboutus" class="btn-flat btn-xs text-color-light"><strong class="text-2">VIEW MORE</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></Link></p>
                     <div class="row pt-3">
                         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
                             <h5 class="text-3 mb-3">BLOG</h5>

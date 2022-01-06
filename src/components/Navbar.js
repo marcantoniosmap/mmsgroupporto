@@ -31,7 +31,7 @@ function Navbar(props){
 								<div class="header-row">
 									<div class="header-logo">
 										<Link to="/">
-											<img alt="MMSGI Logo" className="my-2" height={isScrolled?'60':'50'}  src="img/MMS/logo/MMS/MMSGI Horizontal.png"/>
+											<img alt="MMSGI Logo" className="my-2" height={isScrolled?'60':'50'}  src="/img/MMS/logo/MMS/MMSGI Horizontal.png"/>
 										</Link>
 									</div>
 								</div>
@@ -60,9 +60,9 @@ function Navbar(props){
 
 													{/* OUR BUSINESS */}
 													<li class="dropdown">
-														<Link class={`${page=='business'&&'active '} dropdown-item text-3 dropdown-toggle`} to='/' >
+														<a class={`${page=='business'&&'active '} dropdown-item text-3 dropdown-toggle`} >
 															Bisnis Kami
-														</Link>
+														</a>
 														<ul class="dropdown-menu">
 			                                                <li>
 																<Link onClick={props.listenToChange} className="dropdown-item" to="/business/resources">MMS Resources</Link>

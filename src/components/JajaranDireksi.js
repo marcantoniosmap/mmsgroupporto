@@ -61,12 +61,12 @@ function JajaranDireksi(props){
         {
             picURL:'img/MMS/profile/Sendi.jpg',
             name :'Sendy Greti',
-            gelar:'Direktur'
+            gelar:'Presiden Direktur'
         },
         {
           picURL:'img/MMS/profile/Andrew.jpg',
           name :'Andrew Lee',
-          gelar:'Wakil Direktur'
+          gelar:'Wakil Presiden Direktur'
         },
         {
           picURL:'img/MMS/profile/Tedy.jpg',
@@ -98,7 +98,7 @@ function JajaranDireksi(props){
                 <div className="text-center mb-4">
                 <h2 class="text-color-dark font-weight-normal text-6 mb-1 ">Jajaran <strong class="font-weight-bold">Direksi</strong></h2>
                 {/* <p class="lead">A board of directors (B of D) is an elected group of individuals that represent shareholders. The board is a governing body that typically meets at regular intervals to set corporate management and oversight policies. Every public company must have a board of directors.</p> */}
-                <p class="mb-4">MMS had built its core strength having most qualified member of the boards.</p>
+                {/* <p class="mb-4">MMSGI didirikan</p> */}
 
                 </div>
             </div>

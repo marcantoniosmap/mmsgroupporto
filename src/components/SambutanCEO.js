@@ -14,10 +14,10 @@ function SambutanCEO(props){
                     <p class="font-weight-bold text-primary text-uppercase mb-0">Sendy Greti</p>
                 </div> */}
                 <p class="text-justify" style={{marginRight:'1rem'}}>
-                MMS Group Indonesia mempunyai cita-cita menjadi perusahaan energi berkelanjutan dan terpercaya untuk seluruh rakyat Indonesia. Seluruh upaya kami tujukan untuk terciptanya green society untuk Indonesia yang tangguh, mandiri, dan berkelanjutan. Cita-cita tersebut kami wujudkan melalui bisnis kami yang menyediakan energi terpadu dari hulu sampai dengan hilir serta bisnis bernuansa green environment.
+                MMS Group Indonesia mempunyai cita-cita menjadi perusahaan energi berkelanjutan dan terpercaya untuk seluruh rakyat Indonesia. Seluruh upaya kami tujukan untuk terciptanya <i>green society</i> untuk Indonesia yang tangguh, mandiri, dan berkelanjutan. Cita-cita tersebut kami wujudkan melalui bisnis kami yang menyediakan energi terpadu dari hulu sampai dengan hilir serta bisnis bernuansa <i>green environment</i>.
 <br/>
 <br/>
-Dengan perkembangan saat ini, aspek lingkungan, sosial dan tata kelola menjadi perhatian dari setiap bisnis, terutama pada perusahaan energi. Kami menjawab tantangan tersebut dimana kami telah berkembang dari sebuah perusahaan di sektor pertambangan dan perdagangan batubara yang kemudian merambah sektor properti dan bisnis-bisnis berkelanjutan yang sesuai dengan prinisip Sustainable Development Goals (SDGs) United Nations seperti solar power plant, hi-tech farming, dan smelter nikel. Khusus untuk aspek sosial, kami aktif berkontribusi kepada masyarakat melalui Yayasan Life After Mine yang kami dirikan untuk meningkatkan kesejahteraan masyarakat terutama di area sekitar pertambangan.
+Dengan perkembangan saat ini, aspek lingkungan, sosial dan tata kelola menjadi perhatian dari setiap bisnis, terutama pada perusahaan energi. Kami menjawab tantangan tersebut dimana kami telah berkembang dari sebuah perusahaan di sektor pertambangan dan perdagangan batubara yang kemudian merambah sektor properti dan bisnis-bisnis berkelanjutan yang sesuai dengan prinisip <i>Sustainable Development Goals (SDGs) United Nations</i> seperti Pembangkit listrik tenaga surya, Pertanian berteknologi tinggi, dan smelter nikel. Khusus untuk aspek sosial, kami aktif berkontribusi kepada masyarakat melalui Yayasan Life After Mine yang kami dirikan untuk meningkatkan kesejahteraan masyarakat terutama di area sekitar pertambangan.
 
 <br/>
 <br/>

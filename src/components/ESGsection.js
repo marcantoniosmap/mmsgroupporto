@@ -16,9 +16,9 @@ function ESGSection(props){
         <div class="container container-xl-custom py-3">
 		    <div class="row align-items-center py-5">
 		    	<div class="col-lg-12 justify-content-center text-center">
-                <h2 className="text-color-light line-height-1 mb-1" style={{fontWeight:600}}>Inspiring Career Start Here</h2>
+                <h2 className="text-color-light line-height-1 mb-1" style={{fontWeight:600}}>Inspiring Career Starts Here</h2>
 		    		<p className="lead text-light text-center pb-1">
-                    Jelajahi kesempatan bekerja bersama MMS Group Indonesia
+                    Mari bergabung menjadi keluarga besar MMS Group Indonesia!
 		    		</p>
                         <Link class="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5" to="/career">Karir<i class="fas fa-arrow-right ms-2"></i></Link>
                     {/* <div class="get-started text-start text-lg-end">

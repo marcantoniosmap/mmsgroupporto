@@ -1,5 +1,6 @@
 import React, { useReducer, useRef, useState } from 'react'
 import Slider from 'react-slick';
+import NextButton from './SolutionSection copy';
 
 function LandSection(props){
 
@@ -22,11 +23,12 @@ function LandSection(props){
         },
         {
             id:'Samarinda',
-            judul:' ',
+            judul:'Waktu Muda',
             description :'',
             left:'48%',
             top:'42%',
         },
+       
         {
             id:'Legian Bali',
             judul:'Hotel 4 Bintang di Legian',
@@ -52,7 +54,9 @@ function LandSection(props){
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        beforeChange: (current, next) => setChosenState(pinpoint[next].id)
+        beforeChange: (current, next) => setChosenState(pinpoint[next].id),
+        nextArrow: <NextButton />,
+        prevArrow: <NextButton />
       };
 
     
@@ -61,9 +65,9 @@ function LandSection(props){
         <section class=" section-height-1 section-no-border my-5">
             <div className='container container-xl-custom pb-5'>
                <div className='row'>
-                   <div className='col-lg-7'>
+                   <div className='col-lg-7 pe-lg-4'>
                         <div class="image-hotspots">
-                             <img src="/img/MMS/Map-Indonesia.png" class="img-fluid" />
+                             <img alt='Indonesian Map' src="/img/MMS/Map-Indonesia.png" class="img-fluid" />
                              {pinpoint.map((points,index)=>(
                                 <div key={index} style={{left: points.left, top: points.top}} class={`image-hotspot ${chosenState===points.id ? 'image-hotspot-primary' :'image-hotspot-dark' }`}>
                                     { chosenState === points.id && <span className="ring" style={{height:'25px',width:'25px'}}/>}

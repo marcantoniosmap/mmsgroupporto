@@ -8,7 +8,7 @@ function  OverviewSubsidiaries(props){
         imgUrl:'img/MMS/logo/Subholding/resources.png',
         title :'MMS Resources',
         caption_en :'was established in 2005 as the sub-holding company of all coal and other mineral mining and trading',
-        caption :'Didirikan pada tahun 2012 sebagai sub-holding dari usaha pertambangan dan mineral',
+        caption :'Didirikan pada tahun 2012 sebagai sub-holding dari usaha pertambangan dan perdagangan mineral',
         url:'business/resources'
     },{
         imgUrl:'img/MMS/logo/Subholding/land.png',
@@ -21,7 +21,7 @@ function  OverviewSubsidiaries(props){
         title :'MMS Solution',
         caption_en : 'was established in 2020 as the sub-holding for all sustainable initiatives',
         caption : 'Didirikan pada tahun 2020 sebagai sub-holding dari usaha berkelanjutan',
-        url:'business/initiatives'
+        url:'business/solution'
     }
     ]
 

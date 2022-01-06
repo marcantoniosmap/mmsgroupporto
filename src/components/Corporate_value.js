@@ -8,7 +8,7 @@ function Corporate_value(props){
             imageUrl:'img/MMS/value/modern.svg',
             letterBold:'M',
             continutity:'odern',
-            caption: 'Untuk mencapai visimisi, MMSGI harus siap beranjak menjadi lebih baik'
+            caption: 'Untuk mencapai visi misi, MMSGI harus siap beranjak menjadi lebih baik'
         },
         {
             imageUrl:'img/MMS/value/meaningful.svg',
