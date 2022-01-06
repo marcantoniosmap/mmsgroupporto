@@ -70,7 +70,7 @@ function SolutionSection(props){
                 <Slider {...settings}>
                     { projectData.map((project,index)=>
                         <div className=''>
-                            <div className="card">
+                            <div className="card-custom">
                                 <img src={`/img/MMS/subholding/Solution/${project.imgUrl}`} />
                                 <div className="info">
                                     <div className='text-6 font-weight-bold'>{project.title}</div>

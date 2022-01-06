@@ -10,9 +10,9 @@ function Career(){
         <>
             <Header 
                 imageUrl="img/MMS/Parallax3.jpg" 
-                textZero="Career" 
+                textZero="Karir" 
                 textOne="" breadcrumb={[
-                    {name :'home',url:'/'}
+                    {name :'Beranda',url:'/'}
                 ]}/>
                 <CareerSection/>
                 <CareerAccordion/>

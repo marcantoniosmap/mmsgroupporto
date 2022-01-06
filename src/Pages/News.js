@@ -9,9 +9,9 @@ function News(){
         <>
             <Header 
                 imageUrl="img/MMS/Parallax4.jpg" 
-                textZero="News" 
+                textZero="Berita" 
                 textOne="" breadcrumb={[
-                    {name :'home',url:'/'}
+                    {name :'Beranda',url:'/'}
                 ]}/>
 
             <NewsContainer 
