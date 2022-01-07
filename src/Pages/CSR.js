@@ -21,7 +21,7 @@ function CSR(){
 
     const containerSegment=[
         {
-            title : 'Berkah yang mengalir dari kolam pascatambang',
+            title : 'Berkah yang Mengalir Dari Kolam Pascatambang',
             belonging : 'Lingkungan',
             img_url : '/img/MMS/CSR/Content/content-1.jpg',
             sgd_symbol : ['03','06','17'],
@@ -29,7 +29,7 @@ function CSR(){
                         'Fasilitas pengolahan air ini mampu menyediakan air bersih untuk lebih dari 1500 kepala keluarga']
         },
         {
-            title : 'Habis tambang terbit ladang gembala',
+            title : 'Habis Tambang Terbit Ladang Gembala',
             belonging : 'Lingkungan',
             sgd_symbol : ['01','02','03','08','17'],
             img_url : '/img/MMS/CSR/Content/content-2.jpg',
@@ -37,7 +37,7 @@ function CSR(){
                         'Peternakan ini dikelola oleh PT Bramasta Sakti, yang merupakan anak perusahaan dari MMSGI, dengan bekerjasama dengan Yayasan Cattle Buffalo Club Indonesia (CBC) dan Yayasan Life After Mine (YLAM).']
         },
         {
-            title : 'Kejar paket kejar impian',
+            title : 'Kejar Paket Kejar Impian',
             belonging : 'Sosial',
             sgd_symbol : ['04','05','17'],
             img_url : '/img/MMS/CSR/Content/content-3.jpg',
@@ -45,7 +45,7 @@ function CSR(){
                         'MMSGI melalui anak perusahaannya PT MHU melakukan insiasi program kesetaraan pendidikan untuk masyarakat yang kurang beruntung dan putus sekolah. Dalam pelaksanaannya PT MHU bermitra dengan Pusat Kegiatan belajar Masyarakat (PKBM) Karang Melenu yang berpengalaman mengelola berbagai aktivitas pendidikan.']
         },
         {
-            title : 'Cepat tanggap hadapi covid-19',
+            title : 'Cepat Tanggap Hadapi Covid-19',
             belonging : 'Sosial',
             sgd_symbol : ['03','17'],
             img_url : '/img/MMS/CSR/Content/content-4.jpg',
@@ -53,7 +53,7 @@ function CSR(){
                         'Melihat situasi ini, MMSGI melalui anak perusahannya PT MHU yang bekerjasama dengan perusahaan-perusahaan mitra kerja, bergerak cepat dan tanggap untuk menggelontorkan bantuan ke rumah sakit dan desa-desa di Kalimantan Timur hingga Rp 5 Milliar berupa APD medis dan sembako yang langsung diterima oleh Gubernur Kalimantan Timur Isran Noor.']
         },
         {
-            title : 'Ekonomi mandiri ala sungai payang',
+            title : 'Ekonomi Mandiri Ala Sungai Payang',
             belonging : 'Tata Kelola',
             sgd_symbol : ['01','08','10','11','17'],
             img_url : '/img/MMS/CSR/Content/content-5.jpg',
@@ -62,7 +62,7 @@ function CSR(){
                         'Program ini juga melibatkan Pemerintah Kabupaten, Dewan Riset Daerah dan Fakultas Pertanian Universitas Kutai Kertanegara.']
         },
         {
-            title : 'Bertukang di lingkar tambang',
+            title : 'Bertukang di Lingkar Tambang',
             belonging : 'Tata Kelola',
             sgd_symbol : ['01','04','08','10','17'],
             img_url : '/img/MMS/CSR/Content/content-6.jpg',

@@ -11,7 +11,7 @@ function HomeSliderSlick({sliderContent}){
         arrow:false,
         slidesToScroll: 1,
         autoplay:true,
-        autoplaySpeed:4000,
+        autoplaySpeed:6000,
         adaptiveHeight: true
     }
     return(
@@ -25,12 +25,12 @@ function HomeSliderSlick({sliderContent}){
                         <div class="container container-xl-custom pt-5 h-100">
 						    <div class="row align-items-center pt-5 h-100">
 							    <div class="col">
-								    <h1 class=" text-color-light  text-12 line-height-2 mb-3">
+								    <h1 class=" text-color-light text-7 text-lg-12 line-height-2 mb-2">
 									    <span>{content.Textline1}<br/> 
 										    <span style={{fontWeight:600}}>{content.Textline2}</span>
                                         </span>
                                     </h1>
-								    <p class="text-4-5 text-color-light font-weight-light opacity-9 mb-4 " style={{maxWidth:'700px'}} >{content.Paragraph}</p>
+								    <p class="text-4 text-lg-4-5 text-color-light font-weight-light opacity-9 mb-4 " style={{maxWidth:'700px'}} >{content.Paragraph}</p>
                                     {
                                          
                                          content.CTA &&<Link to={content.CTAlink} class="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5 mt-2">{content.CTA}<i class="fas fa-arrow-right ms-2"></i></Link>

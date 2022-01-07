@@ -29,7 +29,7 @@ function Introduction(props){
 					<div class="custom-divider divider divider-primary divider-small my-3">
 						<hr class="my-0"/>
 					</div>
-					<p class=" mb-4 lead" >{introText[0]}</p>
+					<p class=" mb-4" >{introText[0]}</p>
 					{/* <p class="pb-1 mb-4">{introText[1]}</p> */}
 					<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
 						<Link to='/about' class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 ">Tentang Kami</Link>

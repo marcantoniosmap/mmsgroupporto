@@ -3,8 +3,8 @@ import React from "react";
 function CareerSection(props){
 
     const careerText={
-        titleBold:'Opportunity',
-        titleNormal:' in MMS Group Indonesia',
+        titleBold:'Karir',
+        titleNormal:' di MMS Group Indonesia',
         paragraph1:' We are committed to providing reasonable accommodations for qualified applicants with disabilities in our job application and recruitment process.',
         paragraph2:'MMSGI values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at MMSGI are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic.',
         quote:'There’s life at work and life outside of work. We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.',
