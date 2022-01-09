@@ -11,6 +11,7 @@ function HomeSliderSlick({sliderContent}){
         arrow:false,
         slidesToScroll: 1,
         autoplay:true,
+        speed:1000,
         autoplaySpeed:6000,
         adaptiveHeight: true
     }

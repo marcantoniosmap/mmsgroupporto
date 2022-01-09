@@ -98,8 +98,8 @@ function ResourcesSection(props){
                         <div className='h-100 px-3'>
                             <div className=''>
                                 <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">Penjualan</p>
-                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Pertumbuhan Pesat Dalam Penjualan</p>
-                                <p class=" mb-4 text-4">KHS merupakana sektor properti MMSGI. Kegiatan usaha MMS Land meliputi pengelolaan pengembangan dan pengelolaan properti residensial dan komersial seperti komplek perumahan (minicity), hotel, gedung perkantoran. Selain itu, MMS Land juga mengembangkan dan mengelola data center sebagai upaya untuk penyediaan infrastruktur digital</p>
+                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Pertumbuhan Pesat sejak akuisisi MHU oleh MMSGI </p>
+                                <p class=" mb-4 text-4">Pasca akuisisi MHU oleh MMSGI pada 2017, MHU mengalami peningkatan volume produksi batu bara yang signifikan. Terjadi peningkatan sebesar [xx]% atau setara dengan xx ton per tahun dalam 3 tahun. Hal ini membuktikan kemampuan MMSGI dalam memberikan nilai tambah untuk pengoperasian tambang batu bara.</p>
                                 {/* <p class=" mb-4 text-4">{points.description}</p> */}
 
                             </div>

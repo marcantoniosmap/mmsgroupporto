@@ -5,24 +5,24 @@ function SolutionSection(props){
 
     const projectData=[
         {
+            imgUrl:'solar.jpg',
+            title :'Pembangkit Listrik Tenaga Surya',
+            description:'MMS Solution melalui PT Mitra Dayatama Energi mengembangkan pembangkit listrik tenaga surya di beberapa lokasi di Indonesia dengan pipeline awal pembangkit 2 MW di Kutai Kartanegara, Kalimantan Timur. ',
+        },
+        {
             imgUrl:'miniranch.jpg',
-            title :'Peternakan Sapi',
-            description:'Saat ini ada sapi desa setempat yang pindah ke peternakan dengan pola kemitraan dengan masyarakat setempat.',
+            title :'Peternakan Sapi Jayatama',
+            description:'PT Bramasta Sakti mengelola peternakan sapi Jayatama yang terintegrasi dengan pertanian jagung Bramasta sebagai fasilitas untuk peternak lokal dengan model kemitraan agar memberikan dampak positif kepada masyarakat.',
         },
         {
             imgUrl:'corn.jpg',
             title :'Pertanian Jagung',
-            description:'Lahan jagung dalam tahap demo plot seluas 17 Ha dan persiapan untuk penanaman awal.',
+            description:'MMS Solution melalui PT Bramasta Sakti mengelola pertanian jagung skala bersar berteknologi tinggi yang menjadi pionir precision farming di Indonesia. Pertanian jagung Bramasta terletak di Kutai Kartanegara, Kalimantan Timur',
         },
         {
             imgUrl:'smelter.jpg',
             title :'Smelter Nikel',
-            description:'Proyek smelter nikel Rotary Kiln-Electric Furnace dirancang untuk menghasilkan 27.500 ton/tahun nikel matte. Jalur produksi terdiri dari jalur produksi 2x48 MVA.',
-        },
-        {
-            imgUrl:'solar.jpg',
-            title :'Panel Surya',
-            description:'Proyek ini telah memperoleh izin yang diperlukan untuk memulai pembangunan panel surya 2 MWPV untuk mendukung operasi tambang.',
+            description:'MMS Solution melalui PT Mitra Murni Perkasa mengembangkan pabrik pemurnian bijih nikel kelas I untuk memproduksi nikel matte dengan kapasitas produksi 22.000 ton nikel per tahun untuk mendukung pengembangan ekosistem energi hijau di Indonesia.',
         },
     ]
 

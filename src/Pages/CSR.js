@@ -2,7 +2,7 @@ import React, {useEffect,useRef,useState} from 'react'
 import Slider from 'react-slick';
 import Header from '../components/Header';
 import HomeSliderSlick from '../components/HomeSliderSlick';
-import NextButton from '../components/SolutionSection copy';
+import NextButton from '../components/NextButton';
 
 function CSR(){
     const [activeState,setActiveState]=useState('Lingkungan')
@@ -21,7 +21,7 @@ function CSR(){
 
     const containerSegment=[
         {
-            title : 'Berkah yang Mengalir Dari Kolam Pascatambang',
+            title : 'Berkah yang Mengalir dari Kolam Pascatambang',
             belonging : 'Lingkungan',
             img_url : '/img/MMS/CSR/Content/content-1.jpg',
             sgd_symbol : ['03','06','17'],
@@ -53,7 +53,7 @@ function CSR(){
                         'Melihat situasi ini, MMSGI melalui anak perusahannya PT MHU yang bekerjasama dengan perusahaan-perusahaan mitra kerja, bergerak cepat dan tanggap untuk menggelontorkan bantuan ke rumah sakit dan desa-desa di Kalimantan Timur hingga Rp 5 Milliar berupa APD medis dan sembako yang langsung diterima oleh Gubernur Kalimantan Timur Isran Noor.']
         },
         {
-            title : 'Ekonomi Mandiri Ala Sungai Payang',
+            title : 'Ekonomi Mandiri ala Sungai Payang',
             belonging : 'Tata Kelola',
             sgd_symbol : ['01','08','10','11','17'],
             img_url : '/img/MMS/CSR/Content/content-5.jpg',

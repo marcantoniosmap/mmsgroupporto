@@ -14,7 +14,7 @@ function Corporate_value(props){
             imageUrl:'img/MMS/value/meaningful.svg',
             letterBold:'M',
             continutity:'eaningful',
-            caption: 'Seluruh hal yang di mulai, diterapkan, dan diproduksi menghasilkan dampak positif'
+            caption: 'Seluruh hal yang dimulai, diterapkan dan diproduksi menghasilkan dampak positif'
         },
         {
             imageUrl:'img/MMS/value/synergy.svg',
