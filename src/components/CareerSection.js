@@ -11,10 +11,10 @@ function CareerSection(props){
     }
 
     return(
-        <div class="container py-5 mt-3">
+        <div class="container container-xl-custom py-5 mt-3">
 
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-6">
                 <div class="overflow-hidden mb-2">
                     <h2 class="font-weight-normal text-7 mb-2" ><strong class="font-weight-extra-bold">{careerText.titleBold}</strong>{careerText.titleNormal}</h2>
                 </div>
@@ -23,11 +23,9 @@ function CareerSection(props){
                 </div>
                 <p class="text-color-light-3 mb-4">{careerText.paragraph2}</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="testimonial testimonial-primary">
-                    <blockquote>
-                        <p class="mb-0">{careerText.quote}</p>
-                    </blockquote>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5iElZgYyj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

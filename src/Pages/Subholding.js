@@ -50,20 +50,21 @@ function Subholding(props){
     }
 
     const LogoSlickSetting ={
+
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay:true,
         autoplaySpeed:4000,
-        responsive:[
-            {
-                breakpoint: 600,
-                settings: {
-                  slidesToShow: 3,
+        // responsive:[
+        //     {
+        //         breakpoint: 600,
+        //         settings: {
+        //           slidesToShow: 3,
 
-                }
-              },
-        ]
+        //         }
+        //       },
+        // ]
     }
     return(
         <>
@@ -71,13 +72,14 @@ function Subholding(props){
             subholdingContent &&
 
        <>
-        <HeaderSubholding
+        {/* <HeaderSubholding
             imageUrl={subholdingContent.header_image}
             comp = {<div>
                 <img className="" style={{width:'250px'}} src={`/img/MMS/logo/Subholding/${subholdingContent.id}.png`}/> 
             </div>}
-        />
-        <div class="container container-xl-custom py-5 my-5">
+        /> */}
+        <div style={{height:'100px'}}/>
+        <div class="container container-xl-custom py-5 ">
 			<div class="row text-center text-lg-start"  >
 				<div class="col-lg-6 pe-lg-5 order-lg-1 order-2">
 					<p class="font-weight-semibold mb-1 mt-2 text-uppercase">{subholdingContent.subheading}</p>
@@ -96,7 +98,16 @@ function Subholding(props){
                     </div>
 				</div>
 				<div class="col-lg-6 col-12 text-center mt-3 mt-lg-0 order-lg-2 order-1" style={{overflow:'hidden'}} >
-					<img src={subholdingContent.desc_image} style={{height:'100%', width:'auto'}} className="d-none d-lg-block " alt=""/>
+                    {
+                        subholdingContent.youtube_embed ?
+                        <div className='d-flex justify-content-start'>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/bZGTFJ8z7kQ" title="MHU company Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        // <iframe  src="https://www.youtube.com/embed/bZGTFJ8z7kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        :
+                        <img src={subholdingContent.desc_image} style={{height:'100%', width:'auto'}} className="d-non d-lg-block " alt=""/>
+
+                    }
 				</div>		
 			</div>
 

@@ -23,7 +23,7 @@ function Navbar(props){
 	
 
     return(
-        <header id="header" class="position-fixed" style={{width:'100vw'}}>
+        <header id="header" class="position-fixed active" style={{width:'100vw'}}>
 				<div class='header-body border-top-0 header-body-bottom-border'>
 					<div class="header-container container container-xl-custom">
 						<div class="header-row">

@@ -21,13 +21,13 @@ function About(){
     console.log('about')
     return(
         <>
-            <Header 
+            {/* <Header 
                 imageUrl="img/MMS/slider-2.png" 
                 textZero="Tentang" 
                 textOne="Kami" breadcrumb={[
                     {name :'Beranda',url:'/'}
-                ]}/>
-                {/* <div style={{height:'100px'}}/> */}
+                ]}/> */}
+                <div style={{height:'100px'}}/>
             <SambutanCEO/>
             <VissionMission/>
             {/* <NumberSection/> */}
@@ -36,7 +36,7 @@ function About(){
                     setmilestoneFunction={changeMilestoneshow}/>
                 {/* { milestoneshow && <MilestoneTab setmilestoneFunction={changeMilestoneshow}/>} */}
             <Corporate_value/>
-            <JajaranDireksi/>
+            {/* <JajaranDireksi/> */}
             <Awards/>
         </>
     )

@@ -32,7 +32,12 @@ function ResourcesSection(props){
                 ticks: {
                     // Include a dollar sign in the ticks
                     callback: function(value, index, values) {
-                        return  value%4===0 ? value + ' mio' : ''
+                        return  value%4===0 ? value + ' MT' : ''
+                    },
+                    font:{
+                        size:12,
+                        color: '#777',
+                        family : 'poppins'
                     }
                 }
             },
@@ -40,6 +45,12 @@ function ResourcesSection(props){
                 grid:{
 
                     display:false
+                }, ticks :{
+                    font:{
+                        size:12,
+                        color: '#777',
+                        family : 'poppins'
+                    }
                 }
             }
         },
@@ -54,11 +65,12 @@ function ResourcesSection(props){
           datalabels: {
             display: true,
             anchor : 'end',
-            align : 'top',
+            align : 'bottom',
+            color : '#FFFFFF',
             font: {
                 size: 14,
-                weight:400,
-                color : 'black'
+                family: 'poppins',
+                weight:600,
             },
             formatter: (ctx, data) => {
               return `${ctx} mio`;
@@ -72,8 +84,8 @@ function ResourcesSection(props){
     const data = {
         labels,
         datasets: [{
-            label: 'Sales',
-            data: [3.3,5.4,10.5,14.2,14.5],
+            label: 'Produksi',
+            data: [3.5,5.5,9.1,11.0,13.9],
             backgroundColor: '#953735',
         }],
     };
@@ -88,10 +100,8 @@ function ResourcesSection(props){
         <section class=" section-height-1 section-no-border my-5">
             <div className='container container-xl-custom pb-5'>
                <div className='row'>
-                   <div className='col-lg-6'>
-                       <div>
+                   <div className='col-lg-6 mb-3 mb-lg-0'>
                        <Bar options={options} data={data}  />
-                       </div>
                     </div>
 
                    <div className='col-lg-6'>

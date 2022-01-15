@@ -12,9 +12,13 @@ function CSR(){
     const sliderContent=[ 
         {imageUrl: '/img/MMS/CSR/slider-3.jpg',
         Textline2 : '',
-        Textline1 : <span className='text-2'>MMS Group Indonesia berkomitmen untuk menjalankan aktivitas bisnisnya dengan memperhatikan kepedulian terhadap <span className='font-weight-semibold'>lingkungan dan masyarakat</span> yang merupakan faktor penting dalam kelangsungan jangka panjang bisnis berbasis energi.</span>,
+        Textline1 : '',
         Paragraph : '',
         CTA : null,
+        additional :<div>
+            <img className='mb-3' style={{maxHeight:'150px'}} src='/img/MMS/logo/MMS/LAM.png'/>
+            <span className='text-6 text-lg-8 text-color-light'>MMS Group Indonesia berkomitmen untuk menjalankan aktivitas bisnisnya dengan memperhatikan kepedulian terhadap <span className='font-weight-semibold'>lingkungan dan masyarakat</span> yang merupakan faktor penting dalam kelangsungan jangka panjang bisnis berbasis energi.</span>,
+        </div>
         },
 
     ]

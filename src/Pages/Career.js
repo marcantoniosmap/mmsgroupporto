@@ -8,12 +8,7 @@ function Career(){
     console.log('about')
     return(
         <>
-            <Header 
-                imageUrl="img/MMS/Parallax3.jpg" 
-                textZero="Karir" 
-                textOne="" breadcrumb={[
-                    {name :'Beranda',url:'/'}
-                ]}/>
+           <div style={{height:'100px'}}/>
                 <CareerSection/>
                 <CareerAccordion/>
 

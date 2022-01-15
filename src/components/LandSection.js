@@ -19,13 +19,9 @@ function LandSection(props){
             judul:'Gedung Perkantoran dan Data Center',
             description :<>
             <p>
-                MMS Land memiliki 2 portofolio yang mengelola aset  berupa gedung perkantoran dan data center yang berlokasi di Jakarta.
-            </p>
+            MMS Land memiliki 2 portfolio berupa gedung perkantoran yang berlokasi di Jakarta, yaitu Gedung Commodity Square (d/h Berita Satu Plaza) yang terletak di Jalan Gatot Subroto serta Data Center yang berlokasi di area Kuningan Jakarta.</p>
             <p>
-            PT Mitra Griya Realti merupakan portofolio MMSGI yang mengelola gedung Commodity Square (d/h Berita Satu Plaza) yang terletak di area Gatot Subroto yang merupakan Central Business District utama di Jakarta. Commodity Square memiliki jumlah lantai mencapai 10 lantai yang mampu mengakomodasi [xxx] orang.
-            </p>
-            <p>
-            PT Mitra Informatika Gemilang merupakan portofolio MMSGI yang mengembangkan dan mengelola Downtown Data Tier 3+ Data Center dengan 99.99% uptime availability dan keamanan tinggi yang berlokasi di area Kuningan Jakarta. Data Center ini akan  menawarkan jasa kolokasi dan interkoneksi untuk mendukung akses data tanpa batas di Indonesia',
+            Gedung Commudity Square (CSQ) dikelola oleh PT Mitra Griya Realitindo sedangkan Data Center dikelola oleh PT Mitra Informatika Gemilang.
             </p>
             </>,
             
@@ -35,18 +31,13 @@ function LandSection(props){
             top:'70%',
         },
         {
-            id:'Samarinda',
-            judul:'Kota Mandiri Kalimantan Timur',
+            id:'Kutai Kartangera',
+            judul:'Perumahan Kalimantan Timur',
             description :<>
                 <p>
-                    MMS Land memiliki 2 portofolio di Kalimantan Timur yang berlokasi di Kutai Kartanegara.
-                </p>
+                Di wilayah Kutai Kartangera, Kalimantan Timur, MMS Land memili 2 portfolio di bidang perumahan. Perumahan Bukit Andara Jonggon serta Kota Harapan Sukses (KHS) di Tanjung Laong.</p>
                 <p>
-                    PT Mitra Pesona Harmoni mengembangkan perumahan Bukit Andara Jonggon, sebuah kawasan hunian hijau di Jonggon, Kutai Kartanegara. Perumahan Bukit Andara merupakan komplek residensial mandiriyang dilengkapi area komersial dan fasilitas umum yang memadai. Selain itu lokasi kawasan ini terletak pada jalan poros utama Tenggarong - Penajam Paser Utara (ibukota negara baru) sehingga memiliki nilai potensi investasi yang tinggi
-                </p>
-                <p>
-                    Kota Harapan Sukses merupakan kawasan yang akan dikembangkan oleh MMS Land di Samarinda dengan konsep minicity terintegrasi yang terletak di area Tanjung Laong, Kutai Kartanegara. Mini City KHS dikembangkan untuk menjadi hunian terbaik di Kutai Kartanegara diatas lahan seluas 300 Ha dengan fasilitas umum yang lengkap',
-                </p>
+                Perumahan Bukit Andara Jonggon dikembangkan oleh PT Mitra Persona Harmoni terletak pada jalan poros utama Tenggarong - Penajam Paser Utara (ibukota negara baru). Sedangkan, KHS memiliki konsep mini city yang dikembangkan diatas lahan seluas 300 Ha.</p>
             </>,
             left:'48%',
             top:'42%',
@@ -55,14 +46,30 @@ function LandSection(props){
         {
             id:'Legian Bali',
             judul:'Hotel Bintang 5 di Legian',
-            description :'MMS Land melalui anak usaha PT Mitra Asian Properti merupakan pemilik mayoritas dari Hotel Pullman Legian. Hotel ini merupakan hotel bintang 5 yang terdiri dari [xx] kamar yang terletak di kawasan wisata strategis di Bali. Hotel ini dikelola oleh Accor International, sebuah jaringan pengelola hotel premium internasional, untuk memberikan pengalaman premium bagi penghuni dan wisatawan. Hotel Pullman Legian dilengkapi dengan fasilitas lengkap seperti, gym, spa, restaurant dan kolam renang dengan standar internasional. PT Mitra Asian Properti berkomitmen untuk terus mendukung ekosistem pariwisata dan pelestarian budaya di Bali',
+            description :
+            <>
+                <p>
+                MMS Land melalui anak usaha PT Mitra Asian Properti merupakan pemilik mayoritas dari Hotel Pullman Legian. Hotel bintang 5 ini terdiri dari 351 kamar dan memiliki beragam fasilitas, seperti gym, spa, restaurant, dan kolam renang standar internasional.
+                </p>
+                <p>
+                    Pengelolaan Hotel Pullman Legian dipegang langsung oleh Accor Internasional, sebuah jaringan pengelola hotel premium internasional.
+                </p>
+            </>,
             left:'45%',
             top:'82%',
         },
 		{
             id:'Labuan Bajo',
-            judul:'Hotel Labuan Bajo',
-            description :'MMS Land melalui anak usaha PT Mitra Properti Sentosa akan mengembangkan sebuah hotel bintang 4 dengan konsep business hotel untuk mendukung ekosistem pariwisata segmen MICE (Meeting, Incentive, Conference dan Exhibition)  bertaraf internasional di Labuan Bajo. Hotel ini memiliki lokasi strategis dekat Bandara Internasional Komodo yang akan dikelola oleh jaringan hotel internasional dan dilengkapi dengan fasilitas dan pelayanan berstandar internasional. ',
+            judul:'Business Hotel Bintang 4 di Labuan Bajo',
+            description :
+            <>
+            <p>
+                MMS Land melalui PT Mitra Properti Sentorsa berencana mengembangkan hotel bintang 4 dengan konsep bisnis hotel untuk mendukung ekosistem pariwisata segmen MICE (Meeting, Incentive, Conference, and Exhibition) bertaraf Internasional di Labuan Bajo.
+            </p>
+            <p>
+                Hotel ini rencananya akan dikelola oleh jaringan hotel internasional dan dilengkapi dengan fasilitas dan pelayanan berstandar internasional.
+            </p>
+            </>,
             left:'55%',
             top:'82%',
         },
@@ -88,8 +95,8 @@ function LandSection(props){
         <section class=" section-height-1 section-no-border my-5">
             <div className='container container-xl-custom pb-5'>
                <div className='row'>
-                   <div className='col-lg-7 pe-lg-4'>
-                        <div class="image-hotspots">
+                   <div className='col-lg-7 pe-lg-5 '>
+                        <div class="image-hotspots ">
                              <img alt='Indonesian Map' src="/img/MMS/Map-Indonesia.png" class="img-fluid" />
                              {pinpoint.map((points,index)=>(
                                 <div key={index} style={{left: points.left, top: points.top}} class={`image-hotspot ${chosenState===points.id ? 'image-hotspot-primary' :'image-hotspot-dark' }`}>
@@ -106,7 +113,7 @@ function LandSection(props){
                         </div>
                    </div>
 
-                   <div className='col-lg-5'>
+                   <div className='col-lg-5 '>
                        <Slider ref={sliderRef} {...settings}>
                            {pinpoint.map((points,index)=>
                             <div className='px-3' key={index}>

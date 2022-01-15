@@ -14,13 +14,13 @@ function  OverviewSubsidiaries(props){
         imgUrl:'img/MMS/logo/Subholding/land.png',
         title :'MMS Land',
         caption_en : 'was established in 2018 as the sub-holding of property and hospitality assets',
-        caption : 'Didirikan pada tahun 2018 sebagai sub-holding dari usaha properti',
+        caption : 'Didirikan pada tahun 2018 sebagai sub-holding dari usaha properti dan keramahan',
         url:'business/land'
     },{
         imgUrl:'img/MMS/logo/Subholding/solution.png',
         title :'MMS Solution',
         caption_en : 'was established in 2020 as the sub-holding for all sustainable initiatives',
-        caption : 'Didirikan pada tahun 2020 sebagai sub-holding dari usaha berkelanjutan',
+        caption : 'Didirikan pada tahun 2020 sebagai sub-holding dari usaha berkelanjutan untuk masa depan',
         url:'business/solution'
     }
     ]
@@ -60,7 +60,7 @@ function  OverviewSubsidiaries(props){
                         </div>
                         <div class="process-step-content pt-0">
                             {/* <h4 class="mb-1 text-5 font-weight-bold"><Link className="text-dark btn-flat" to={item.url}>{item.title}</Link></h4> */}
-                            <p class="text-center mb-0 px-3">{item.caption}</p>
+                            <p class="text-center mb-0 px-W">{item.caption}</p>
                         </div>
                     </div>
                     ))}
