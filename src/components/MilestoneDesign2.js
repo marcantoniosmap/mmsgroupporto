@@ -121,7 +121,7 @@ function MilestoneTab(props){
                 <div class="col">
                     <p class="font-weight-bold text-primary text-uppercase mb-4 text-4">Tonggak Perjalanan</p>
                     <div class="tabs ">
-						<ul class="nav nav-tabs nav-justified flex-colu flex-md-row">
+						<ul class="nav nav-tabs nav-justified flex-row">
                         {milestoneContent.map((milestone,index)=>
                             <li class="nav-item">
                                      <a className={`nav-link text-3 ${selectedYear===index ? 'active' : ''}`} style={{cursor:'pointer'}} onClick={()=>accordionTab(index)}>{milestone.year}</a>

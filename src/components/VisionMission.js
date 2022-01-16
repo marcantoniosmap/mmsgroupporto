@@ -31,7 +31,7 @@ function VissionMission(props){
     return(
         <section class="section section-primary border-0 mb-0">
             <div class="container container-xl-custom">
-                <div class="row mt-3 mb-5">
+                <div class="row my-3">
                     <div class="col-md-6 pe-5 mb-3 mb-lg-0">
                         <div className=' pe-lg-5'>
                         <h3 class="font-weight-bold text-8 mb-2">Visi</h3>

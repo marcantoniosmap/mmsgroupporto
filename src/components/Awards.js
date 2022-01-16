@@ -45,7 +45,7 @@ function Awards(){
             title :'Penghargaan Kecelakaan Nihil',
             content:'> 27 Juta Jam Kerja tanpa LTI kepada PT Multi Harapan Utama'
         },{
-            title :'Penghargaan Program P2-HIV & AIDS di Tempat Kerja',
+            title :'Penghargaan Program P2-HIV & AIDS',
             content:'Pelaksanaan Program Pencegahan dan Penanggulangan HIV & AIDS di Tempat Kerja dengan kategori Platinum'
         },{
             title :'Indonesian Mining Award 2019',
@@ -72,7 +72,7 @@ function Awards(){
         <div class="row justify-content-center ">
             <div className='pb-5'>
 
-            <Slider asNavFor={nav2} ref={slider => (slider1.current = slider)} {...settings}>
+            <Slider asNavFor={nav2} ref={slider => (slider1.current = slider)} >
                 {awardList.map((awards,index)=>
                 <div key={index} className="px-2 d-flex justify-content-center" style={{ height:'100px'}}>
                     <div>
