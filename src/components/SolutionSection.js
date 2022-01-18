@@ -16,7 +16,7 @@ function SolutionSection(props){
         },
         {
             imgUrl:'corn.jpg',
-            title :'Pertanian Jagung',
+            title :'Perkebunan Jagung',
             description:'MMS Solution melalui PT Bramasta Sakti mengelola pertanian jagung skala bersar berteknologi tinggi yang menjadi pionir precision farming di Indonesia. Pertanian jagung Bramasta terletak di Kutai Kartanegara, Kalimantan Timur',
         },
         {
@@ -63,8 +63,8 @@ function SolutionSection(props){
                 <div class="row">
                 <div className="col text-center mb-4">
                     {/* <h3 class="font-weight-bold text-color-primary text-4-5 ls-0 mb-2">Projek</h3> */}
-                    <h2 class="font-weight-bold text-color-dark text-11 line-height-3 line-height-md-1 mb-3 ">Projek Kami</h2>
-                    <p class="mb-4 text-center text-4">Kami berencana untuk mengoperasikan semua inisiatif secara komersial pada <span className='text-primary'>skala industri</span></p>
+                    <h2 class="font-weight-bold text-color-dark text-lg-10 text-8 line-height-3 line-height-md-1 mb-2 ">Projek MMS Solution</h2>
+                    <p class="mb-4 text-center text-4">MMS Solution berencana untuk mengoperasikan semua inisiatif secara komersial pada <span className='text-primary'>skala industri</span></p>
                 </div>
             </div>
                 <Slider {...settings}>

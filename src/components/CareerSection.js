@@ -11,24 +11,30 @@ function CareerSection(props){
     }
 
     return(
-        <div class="container container-xl-custom py-5 mt-3">
+        <div class="container container-xl-custom pt-5 mt-3">
 
         <div class="row">
-            <div class="col-lg-6">
-                <div class="overflow-hidden mb-2">
-                    <h2 class="font-weight-normal text-7 mb-2" ><strong class="font-weight-extra-bold">{careerText.titleBold}</strong>{careerText.titleNormal}</h2>
+            <div class="col-lg-7 pe-lg-5 order-2 order-lg-1">
+                <div className="d-flex align-items-center h-100">
+                    <div>
+                    <div class="overflow-hidden mb-2">
+                        <h2 class="font-weight-normal text-lg-9 text-7 mb-2" ><strong class="font-weight-extra-bold">{careerText.titleBold}</strong>{careerText.titleNormal}</h2>
+                    </div>
+                    <div class="overflow-hidden mb-4">
+                        <p class="lead mb-0">{careerText.paragraph1}</p>
+                    </div>
+                        <p class="text-color-light-3 mb-4">{careerText.paragraph2}</p>
+                    </div>
+
                 </div>
-                <div class="overflow-hidden mb-4">
-                    <p class="lead mb-0">{careerText.paragraph1}</p>
-                </div>
-                <p class="text-color-light-3 mb-4">{careerText.paragraph2}</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5 order-1 order-lg-2">
                 <div class="testimonial testimonial-primary">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5iElZgYyj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="auto" style={{minHeight:'300px'}} src="https://www.youtube.com/embed/Z5iElZgYyj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
+        <hr/>
 
     </div>
     )

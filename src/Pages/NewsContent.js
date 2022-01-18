@@ -8,12 +8,13 @@ function NewsContent(){
     const recentpost=content.slice(0, 4);
     return(
         <>
-            <Header 
+            {/* <Header 
                 imageUrl="/img/MMS/Parallax4.jpg" 
                 textZero="News" 
                 textOne="" breadcrumb={[
                     {name :'home',url:'/'}
-                ]}/>
+                ]}/> */}
+                <div style={{height:'100px'}}/>
 
 <div class="container py-4 mb-4">
 

@@ -92,12 +92,15 @@ function Awards(){
             <Slider
                 className='d-none d-md-block'
                 asNavFor={nav1}
-                arrows={false}
+                
+                arrows={true}
                 slidesToShow={5}
                 ref={slider => (slider2.current = slider)}
                 swipeToSlide={true}
                 focusOnSelect={true}
                 centerMode={true}
+                nextArrow={<NextButton/>}
+                prevArrow={<NextButton/>}
                 >
             {awardList.map((awards,index)=>
             <div key={index} className="px-2">

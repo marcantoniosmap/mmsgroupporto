@@ -11,7 +11,7 @@ function Footer(props){
         <footer id="footer" className="mt-0">
         <div class="container container-xl-custom">
         <div class="row py-4 my-5">
-            <div class="col-md-6 col-lg-5 pe-lg-5">
+            <div class="col-md-6 col-lg-4 pe-lg-5">
 				<h5 class="text-4 text-color-light mb-3">Tentang Kami</h5>
 				<p class="mb-2">{footerAboutUsText}</p>
                 <p><Link to="/aboutus" class="btn-flat btn-xs text-color-light"><strong class="text-2">LIHAT LEBIH</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></Link></p>
@@ -39,11 +39,14 @@ function Footer(props){
             <li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCBQDNVsotBmIeT62v4clBQQ" target="_blank" title="Youtube"><i class="fab fa-youtube text-2"></i></a></li>
 				</ul>
 			</div>
-			<div class="col-md-6 col-lg-1 mb-5 mb-lg-0">
+			<div class="col-md-6 col-lg-2 mb-5 mb-lg-0">
 				<h5 class="text-4 text-color-light mb-3">TAUTAN</h5>
 				<ul class="list list-unstyled mb-0">
 					<li class="mb-0"><Link to='/'>Beranda</Link></li>
 					<li class="mb-0"><Link to='/aboutus'>Tentang Kami</Link></li>
+					<li class="mb-0"><Link to='/business/resources'>MMS Resources</Link></li>
+					<li class="mb-0"><Link to='/business/land'>MMS Land</Link></li>
+					<li class="mb-0"><Link to='/business/solution'>MMS Solution</Link></li>
 					<li class="mb-0"><Link to='/csr'>CSR</Link></li>
 					<li class="mb-0"><Link to='/news'>Karir</Link></li>
 					<li class="mb-0"><Link to='/career'>Berita</Link></li>

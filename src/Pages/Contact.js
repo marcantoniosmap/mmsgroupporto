@@ -28,6 +28,17 @@ function Contact(props){
 		<p class="text-4 text-center">Jangan ragu untuk bertanya, jangan simpan pertanyaan apa pun!</p>
 
 					<div class="row">
+						<div class="col-lg-4"> 
+							<div class="">
+								<h4 class="">Social <strong>Media</strong></h4>
+								<ul class="list list-icons list-icons-style-2 mt-2">
+										<li><i class="fab fa-instagram top-6"></i> <strong class="text-dark">Instagram:</strong> <a href="https://www.instagram.com/mmsgroupindonesia/">mmsgroupindonesia</a></li>
+										<li><i class="fab fa-facebook-f top-6"></i> <strong class="text-dark">Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100070979171968">MMS Group Indonesia</a></li>
+										<li><i class="fab fa-linkedin-in top-6"></i> <strong class="text-dark">LinkedIn:</strong> <a href="https://www.linkedin.com/company/mms-group-indonesia">MMS GROUP INDONESIA</a></li>
+										<li><i class="fab fa-youtube text-2"></i> <strong className='text-dark'>Youtube:</strong><a href="https://www.youtube.com/channel/UCBQDNVsotBmIeT62v4clBQQ" target="_blank" title="Youtube"> MMS Group Indonesia</a></li>
+								</ul>
+							</div>
+						</div>
 						<div class="col-lg-4 ">
 							<div class="">
 								<h4 class="mt-2 mb-1">Our <strong>Office</strong></h4>
@@ -38,16 +49,7 @@ function Contact(props){
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-4"> 
-							<div class="">
-								<h4 class="">Social <strong>Media</strong></h4>
-								<ul class="list list-icons list-icons-style-2 mt-2">
-										<li><i class="fab fa-instagram top-6"></i> <strong class="text-dark">Instagram:</strong> <a href="https://www.instagram.com/mmsgroupindonesia/">mmsgroupindonesia</a></li>
-										<li><i class="fab fa-facebook-f top-6"></i> <strong class="text-dark">Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100070979171968">MMS Group Indonesia</a></li>
-										<li><i class="fab fa-linkedin-in top-6"></i> <strong class="text-dark">LinkedIn:</strong> <a href="https://www.linkedin.com/company/mms-group-indonesia">MMS GROUP INDONESIA</a></li>
-								</ul>
-							</div>
-						</div>
+					
 						<div class="col-lg-4">
 							<div class="">
 								<h4 class="">Jam <strong>Operasional</strong></h4>

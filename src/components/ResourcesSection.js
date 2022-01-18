@@ -73,7 +73,7 @@ function ResourcesSection(props){
                 weight:600,
             },
             formatter: (ctx, data) => {
-              return `${ctx} mio`;
+              return `${ctx} jt Ton`;
             }},
             
         },

@@ -5,7 +5,7 @@ import HomeSliderSlick from '../components/HomeSliderSlick';
 import NextButton from '../components/NextButton';
 
 function CSR(){
-    const [activeState,setActiveState]=useState('Lingkungan')
+    const [activeState,setActiveState]=useState('Environment')
     const [activeSlide,setActiveSlide]=useState(0)
     const sliderRef=useRef();
 
@@ -26,7 +26,7 @@ function CSR(){
     const containerSegment=[
         {
             title : 'Berkah yang Mengalir dari Kolam Pascatambang',
-            belonging : 'Lingkungan',
+            belonging : 'Environment',
             img_url : '/img/MMS/CSR/Content/content-1.jpg',
             sgd_symbol : ['03','06','17'],
             paragraph : ['Sebagai perusahaan yang menerapkan kaidah teknik pertambangan yang baik dna benar atau good mining practices, MMSGI melalui anak perusahaannya PT MHU, melakukan pemanfaatan kembali air di kolam pascatambang atau void untuk memberikan keberkahan air bersih bagi petani dan masyarakat sekitar Desa Margahayu dan Desa Jonggon Jaya, Kutai Kertanegara, Kalimantan Timur dengan membangun water treatment plant.',
@@ -34,7 +34,7 @@ function CSR(){
         },
         {
             title : 'Habis Tambang Terbit Ladang Gembala',
-            belonging : 'Lingkungan',
+            belonging : 'Environment',
             sgd_symbol : ['01','02','03','08','17'],
             img_url : '/img/MMS/CSR/Content/content-2.jpg',
             paragraph : ['Pemanfaatan kembali lahan pascatambang milik PT Multi Harapan Utama yang berlokasi di Blok Busang Jonggon Operation dan Desa Jonggon B (Kutai Kartanegara, Kalimantan Timur) untuk menjadi pusat peternakan. Melalui kerjasama dengan masyarakat di sekitar wilayah operasi PT MHU, peternakan ini ditarget mampu menampung hingga 1000 ekor sapi.',
@@ -42,7 +42,7 @@ function CSR(){
         },
         {
             title : 'Kejar Paket Kejar Impian',
-            belonging : 'Sosial',
+            belonging : 'Social',
             sgd_symbol : ['04','05','17'],
             img_url : '/img/MMS/CSR/Content/content-3.jpg',
             paragraph : ['Berdasarkan hasil analisis tim PT MHU mendapatkan bahwa terdapat dua desa di Kecamatan Loa Kulu, Kutai Kertanegara yang tingkat pendidikannya masih rendah, yaitu Desa Jembayan dan Jembayan Tengah.',
@@ -50,7 +50,7 @@ function CSR(){
         },
         {
             title : 'Cepat Tanggap Hadapi Covid-19',
-            belonging : 'Sosial',
+            belonging : 'Social',
             sgd_symbol : ['03','17'],
             img_url : '/img/MMS/CSR/Content/content-4.jpg',
             paragraph : ['Kondisi Indonesia saat awal menghadapi badai pandemi Covid-19 cukup mengkhawatirkan. Kurangnya peralatan medis di fasiltas-fasilitas kesehatan hingga terganggunya kegiatan perekonomian menyebabkan tidak hanya isu kesehatan namun juga isu sosial dan ekonomi di masyarakat.',
@@ -58,7 +58,7 @@ function CSR(){
         },
         {
             title : 'Ekonomi Mandiri ala Sungai Payang',
-            belonging : 'Tata Kelola',
+            belonging : 'Governance',
             sgd_symbol : ['01','08','10','11','17'],
             img_url : '/img/MMS/CSR/Content/content-5.jpg',
             paragraph : ['Masyarakat Desa Sungai Panyang memiliki unit usaha dengan laba bersih mencapai Rp 600 juta. Unit usaha ini memiliki 6 lini bisnis utama, mulai dari pengangkutan tandan bauh sawit dan batubara, jasa perantara pengelolaan bahan bakar minyak, jasa pengelolaan cabang perbankan, dll.',
@@ -67,7 +67,7 @@ function CSR(){
         },
         {
             title : 'Bertukang di Lingkar Tambang',
-            belonging : 'Tata Kelola',
+            belonging : 'Governance',
             sgd_symbol : ['01','04','08','10','17'],
             img_url : '/img/MMS/CSR/Content/content-6.jpg',
             paragraph : ['Mengoptimalksan potensi dan kearifan lokal di Desa Loa Kulu Kota, PT MHU melakukan pembinaan kepada kelompok masyarakat yang berdekatan dengan wilayah operasi perusahaan dengan tujuan untuk menumbuhkan mata pencaharian yang berkelanjutan di lingkar tambang.',
@@ -75,7 +75,7 @@ function CSR(){
         }
     ]
 
-    const segments=['Lingkungan','Sosial','Tata Kelola']
+    const segments=['Environment','Social','Governance']
       
     const settings={
         infinite: false,
