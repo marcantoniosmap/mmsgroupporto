@@ -258,7 +258,7 @@ var content=[
         newsUrl:'/',
         newsContent:`Labuan Bajo dikenal sebagai daerah destinasi wisata populer di Indonesia karena keindahan pulau-pulaunya dan satwa Komodo yang langka. Selain pariwisata, Labuan Bajo juga menjadi venue penyelenggara kegiatan konferensi pada level nasional maupun internasional. Hal ini menjadi daya tarik bagi wisatawan lokal maupun mancanegara untuk berkunjung ke Labuan Bajo.
         
-        PT Mitra Properti Sentosa (MPS), anak usaha MMS Land, meilhat kesempatan tersebut mempunyai keyakinan tinggi terhadap potensi sektor hotel di Labuan Bajo untuk sektor pariwisata, terutama untuk segmen MICE (Meetings, Incentive, Convention and Exhibition) yang belum banyak dilirik. Hal ini selaras dengan Pemerintah Indonesia yang menjadikan Labuan Bajo sebagai salah satu dari 5 Destinasi Super Prioritas Indonesia.
+        PT Mitra Properti Sentosa (MPS), anak usaha MMS Land, melihat kesempatan tersebut mempunyai keyakinan tinggi terhadap potensi sektor hotel di Labuan Bajo untuk sektor pariwisata, terutama untuk segmen MICE (Meetings, Incentive, Convention and Exhibition) yang belum banyak dilirik. Hal ini selaras dengan Pemerintah Indonesia yang menjadikan Labuan Bajo sebagai salah satu dari 5 Destinasi Super Prioritas Indonesia.
         
         Sebagai bentuk nyata dari keyakinan tersebut, MPS berencana melakukan pembangunan hotel bintang 4 dengan konsep business hotel. MPS telah mengadakan seremoni peletakan batu pertama di rencana lokasi hotel yang berjarak ±1-km dari Bandar Udara Internasional Komodo pada 27 November 2021.
         
