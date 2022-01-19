@@ -207,7 +207,7 @@ var content=[
         
         Dalam kesempatannya, Pembina YLAM Andrew Hidayat, menyampaikan, kontribusi ini diberikan sebagai bentuk komitmen dan visi untuk membawa dampak positif kepada masyarakat di sekitar area pertambangan. 
         
-        "Kami donasikan ke Pemkot Balikpapan sebanyak 1000 oxymeter. Nanti juga rencananya kami salurkan di Samarinda sekitar 1000 (alat)," kata dia. 
+        "Kami donasikan ke Pemkot Balikpapan sebanyak 1000 oxymeter. Nanti juga rencananya kami salurkan di Samarinda sekitar 1000 (alat)," kata beliau. 
         
         Dirinya mengungkapkan, oxymeter dipilih menjadi barang yang disumbangkan berdasarkan apa yang pernah mereka lihat di Jakarta. Yaitu saat pihaknya melakukan donasi. 
         
@@ -235,7 +235,7 @@ var content=[
         
         Kabupaten Kukar memiliki populasi penduduk terpadat kedua di provinsi Kaltim, namun tingkat vaksinasi dosis 1 (57%) dan dosis 2 (41%) masih lebih rendah dibawah rata-rata dosis 1 (67%) dan dosis 2 (46%) di Propinsi Kaltim dan Nasional.
         
-        Andrew Hidayat, selaku Pembina Yayasan Life After Mine menyampaikan, hasil analisa tim kami menunjukan tingkat vaksinasi masyarakat di area kerja MHU masih dapat ditingkatkan. Oleh karena itu, kami merasa perlu adanya inisiatif kerjasama yang melibatkan MHU dan pemerintah daerah dalam mendorong penetrasi vaksinasi untuk menekan angka penularan COVID-19.
+        Andrew Hidayat, selaku Pembina Yayasan Life After Mine menyampaikan, "Hasil analisa tim kami menunjukan tingkat vaksinasi masyarakat di area kerja MHU masih dapat ditingkatkan. Oleh karena itu, kami merasa perlu adanya inisiatif kerjasama yang melibatkan MHU dan pemerintah daerah dalam mendorong penetrasi vaksinasi untuk menekan angka penularan COVID-19".
         
         Andrew percaya vaksinasi dan social distancing adalah satu – satunya cara untuk menahan resiko penyebaran kasus baru COVID-19 yang nantinya dapat mendukung kemajuan ekonomi dan pembangunan di setiap daerah.
         
