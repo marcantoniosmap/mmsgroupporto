@@ -49,7 +49,7 @@ function LandSection(props){
             description :
             <>
                 <p>
-                MMS Land melalui anak usaha PT Mitra Asian Properti merupakan pemilik mayoritas dari Hotel Pullman Legian. Hotel bintang 5 ini terdiri dari 351 kamar dan memiliki beragam fasilitas, seperti gym, spa, restaurant, dan kolam renang standar internasional.
+                    MMS Land melalui anak usaha PT Mitra Asian Properti merupakan pemilik mayoritas dari Hotel Pullman Legian. Hotel bintang 5 ini terdiri dari 351 kamar dan memiliki beragam fasilitas, seperti gym, spa, restaurant, dan kolam renang standar internasional.
                 </p>
                 <p>
                     Pengelolaan Hotel Pullman Legian dipegang langsung oleh Accor Internasional, sebuah jaringan pengelola hotel premium internasional.

@@ -30,7 +30,7 @@ function Contact(props){
 					<div class="row">
 						<div class="col-lg-4"> 
 							<div class="">
-								<h4 class="">Social <strong>Media</strong></h4>
+								<h4 class="">Media <strong>Sosial</strong></h4>
 								<ul class="list list-icons list-icons-style-2 mt-2">
 										<li><i class="fab fa-instagram top-6"></i> <strong class="text-dark">Instagram:</strong> <a href="https://www.instagram.com/mmsgroupindonesia/">mmsgroupindonesia</a></li>
 										<li><i class="fab fa-facebook-f top-6"></i> <strong class="text-dark">Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100070979171968">MMS Group Indonesia</a></li>
@@ -41,7 +41,7 @@ function Contact(props){
 						</div>
 						<div class="col-lg-4 ">
 							<div class="">
-								<h4 class="mt-2 mb-1">Our <strong>Office</strong></h4>
+								<h4 class="mt-2 mb-1">Kantor<strong>Kami</strong></h4>
 								<ul class="list list-icons list-icons-style-2 mt-2">
 									<li><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email:</strong> <a href="mailto:info@mmsgroup.co.id">info@mmsgroup.co.id</a></li>
 									<li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong> (62-21) 29529473</li>

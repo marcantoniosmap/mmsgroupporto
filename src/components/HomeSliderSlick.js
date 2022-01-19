@@ -9,11 +9,11 @@ function HomeSliderSlick({sliderContent}){
         appendDots: dots => (
             <div
               style={{
-                bottom: '20px',
-                color : 'white'
+                bottom: '30px',
+                color : '#fff !important'
               }}
             >
-              {dots}
+                {dots}
             </div>
           ),
         infinite: true,
@@ -22,6 +22,7 @@ function HomeSliderSlick({sliderContent}){
         dots:true,
         slidesToScroll: 1,
         autoplay:true,
+        dotsClass: 'slick-dots button__bar',
         speed:2000,
         autoplaySpeed:8000,
         adaptiveHeight: true

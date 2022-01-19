@@ -13,9 +13,10 @@ function News(props){
                     {name :'Beranda',url:'/'}
                 ]}/> */}
             <div style={{height:'100px'}}/>
+
             <NewsContainer 
                 showPagination={true}
-                maxNews={9}
+                maxNews={6}
                 status = {'news'}
                 {...props}
                 />

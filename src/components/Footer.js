@@ -14,7 +14,7 @@ function Footer(props){
             <div class="col-md-6 col-lg-4 pe-lg-5">
 				<h5 class="text-4 text-color-light mb-3">Tentang Kami</h5>
 				<p class="mb-2">{footerAboutUsText}</p>
-                <p><Link to="/aboutus" class="btn-flat btn-xs text-color-light"><strong class="text-2">LIHAT LEBIH</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></Link></p>
+                <p><Link to="/about" class="btn-flat btn-xs text-color-light"><strong class="text-2">LIHAT LEBIH</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></Link></p>
 			</div>
 			<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
 				<h5 class="text-4 text-color-light mb-3">Kontak Kami</h5>
