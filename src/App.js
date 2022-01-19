@@ -20,7 +20,6 @@ import { useState } from "react";
 
 function App() {
 
-  const [randomState,setRandomState]=useState(0)
 
   return (
     <>
@@ -60,7 +59,6 @@ function App() {
             path="/business/:id"
             component={(props) =>
               <Subholding
-                randomState={randomState}
                 {...props}
 
               />
@@ -79,11 +77,18 @@ function App() {
 
           <Route 
             exact
-            path='/news'
+            path='/newspage/:pagenum'
             component={(props) =>
                   <News 
                     {...props}
                   />}
+            />
+
+          <Route 
+            path='/newspage'
+            component={(props) =>
+                  <Redirect to='/news/1'/>
+            }
             />
 
           <Route 

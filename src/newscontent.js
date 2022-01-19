@@ -196,9 +196,9 @@ var content=[
         Kami menyadari, bangkit dari pandemi ini perlu peran serta gotong royong pada setiap elemen masyarakat. Melalui inisiatif YLAM, MMSGI ingin bekontribusi atas bantuan yang di harapkan akan berguna dalam percepatan penanganan pasien COVID-19.`
     },
     {
-        id:'1029fwfnd847',
+        id:'102fnd847',
         title:'Kontribusi Tangani Pandemi, PT MMP Salurkan 1.000 Oxymeter Bantu Nakes di Balikpapan',
-        imageUrl:'News - 12',
+        imageUrl:'News - 13',
         date:"2021-09-01",
         newsUrl:'/',
         newsContent:`Sebanyak 1.000 alat oxymeter bantuan dari PT Mitra Murni Perkasa (MMP) melalui Yayasan Life After Mine (YLAM) disalurkan kepada Pemerintah Kota Balikpapan. Bantuan ini sebagai wujud kontribusi dari mereka dalam membantu menangani pandemi Covid-19. 
@@ -222,9 +222,9 @@ var content=[
         Lanjutnya, dengan adanya bantuan ini artinya masyarakat Kota Balikpapan harus berani untuk memutus mata rantai penyebaran Covid-19.`        
     },
     {
-        id:'1029fwfnd847',
+        id:'1029fscfnd847',
         title:'Yayasan Life After Mine Gandeng PT Multi Harapan Utama Gelar Vaksin Gotong Royong',
-        imageUrl:'News - 12',
+        imageUrl:'News - 14',
         date:"2021-12-02",
         newsUrl:'/',
         newsContent:`Yayasan Life After Mine (YLAM) melanjutkan rangkaian inisiatif untuk mendukung kesejahteraan masyarakat di sekitar lahan paska tambang.
@@ -251,13 +251,12 @@ var content=[
     },
 
     {
-        id:'1029fwfnd847',
+        id:'1029fwfngk47',
         title:'PT Mitra Properti Sentosa, Anak Usaha MMS Land, Menyasar Segmen Pasar Berbeda di Labuan Bajo',
-        imageUrl:'News - 12',
+        imageUrl:'News - 15',
         date:"2021-12-27",
         newsUrl:'/',
-        newsContent:`
-        Labuan Bajo dikenal sebagai daerah destinasi wisata populer di Indonesia karena keindahan pulau-pulaunya dan satwa Komodo yang langka. Selain pariwisata, Labuan Bajo juga menjadi venue penyelenggara kegiatan konferensi pada level nasional maupun internasional. Hal ini menjadi daya tarik bagi wisatawan lokal maupun mancanegara untuk berkunjung ke Labuan Bajo.
+        newsContent:`Labuan Bajo dikenal sebagai daerah destinasi wisata populer di Indonesia karena keindahan pulau-pulaunya dan satwa Komodo yang langka. Selain pariwisata, Labuan Bajo juga menjadi venue penyelenggara kegiatan konferensi pada level nasional maupun internasional. Hal ini menjadi daya tarik bagi wisatawan lokal maupun mancanegara untuk berkunjung ke Labuan Bajo.
         
         PT Mitra Properti Sentosa (MPS), anak usaha MMS Land, meilhat kesempatan tersebut mempunyai keyakinan tinggi terhadap potensi sektor hotel di Labuan Bajo untuk sektor pariwisata, terutama untuk segmen MICE (Meetings, Incentive, Convention and Exhibition) yang belum banyak dilirik. Hal ini selaras dengan Pemerintah Indonesia yang menjadikan Labuan Bajo sebagai salah satu dari 5 Destinasi Super Prioritas Indonesia.
         
