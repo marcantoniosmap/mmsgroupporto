@@ -5,7 +5,7 @@ import $ from 'jquery'
 function ScrollToTop({ history, children }) {
   useEffect(() => {
     const unlisten = history.listen(() => {
-      window.scrollTo(0, 0);
+      $('html, body').animate({scrollTop:0},'50');
       const button=$('.header-btn-collapse-nav')
       if (button.attr('aria-expanded')==='true'){
         button.click()

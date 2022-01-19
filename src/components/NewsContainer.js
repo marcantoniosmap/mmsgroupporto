@@ -8,28 +8,22 @@ function NewsContainer(props){
 	content.sort(function(a,b){
 		return new Date(b.date) - new Date(a.date);
 	  });
-	const [pageNum,setPageNum]=useState(parseInt(props.match.params.pagenum))
+	const {pagenum}=props.match.params
 	const [pagination,setPagination]=useState(1)
 	const [slicedArray,setSliceArray]=useState([])
 
 	useEffect(() => {
-		setPageNum(parseInt(props.match.params.pagenum))
 		var temp=Math.floor(content.length/6)
 		if (content.length%6 !==0){
 			temp=temp+1}
 		setPagination(temp)
 	
 		if(props.status==='home'){
-			console.log('heyhyehye')
 			setSliceArray(content.slice(0,props.maxNews))
 		}else{
-			setSliceArray(content.slice((pageNum-1)*6,((pageNum-1)*6)+6))
+			setSliceArray(content.slice((pagenum-1)*6,((pagenum-1)*6)+6))
 		}
-	console.log((pageNum-1)*6,((pageNum-1)*6)+6,slicedArray)
-
-
-
-	},[props.match.params.pagenum,pageNum,props.maxNews,props.status,slicedArray] )
+	},[pagenum] )
 
 
 
@@ -61,13 +55,13 @@ function NewsContainer(props){
 						<div class="row">
 							<div class="col d-flex justify-content-center">
 								<ul class="pagination float">
-									<li class={`page-item ${pageNum===1 && 'disabled'}`}><Link class="page-link" to={`/newspage/${pageNum-1}`}><i class="fas fa-angle-left"></i></Link></li>
+									<li class={`page-item ${pagenum==='1' && 'disabled'}`}><Link class="page-link" to={`/newspage/${parseInt(pagenum)-1}`}><i class="fas fa-angle-left"></i></Link></li>
 									{
-										Array.from(Array(pagination).keys()).map((pagenum,index)=>
-											<li class={`page-item ${pagenum+1===pageNum && 'active'} ${console.log(pagenum,pageNum)}`}><Link class="page-link" to={`/newspage/${pagenum+1}`}>{pagenum+1}</Link></li>
+										Array.from(Array(pagination).keys()).map((page,index)=>
+											<li class={`page-item ${parseInt(pagenum)===page+1 && 'active'}`}><Link class="page-link" to={`/newspage/${page+1}`}>{page+1}</Link></li>
 										)
 									}
-									<li class={`page-item ${pageNum===pagination && 'disabled'}`}><Link class="page-link" to={`/newspage/${pageNum+1}`}><i class="fas fa-angle-right"></i></Link></li>
+									<li class={`page-item ${parseInt(pagenum)===pagination && 'disabled'}`}><Link class="page-link" to={`/newspage/${parseInt(pagenum)+1}`}><i class="fas fa-angle-right"></i></Link></li>
 								</ul>
 							</div>
 						</div>

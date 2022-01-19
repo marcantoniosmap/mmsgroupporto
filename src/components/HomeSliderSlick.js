@@ -6,13 +6,24 @@ import { fadeIn } from 'react-animations'
 function HomeSliderSlick({sliderContent}){
     const setting ={
         className:'h-100',
+        appendDots: dots => (
+            <div
+              style={{
+                bottom: '20px',
+                color : 'white'
+              }}
+            >
+              {dots}
+            </div>
+          ),
         infinite: true,
         slidesToShow: 1,
         arrows:false,
+        dots:true,
         slidesToScroll: 1,
         autoplay:true,
-        speed:1000,
-        autoplaySpeed:6000,
+        speed:2000,
+        autoplaySpeed:8000,
         adaptiveHeight: true
     }
     return(

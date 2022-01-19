@@ -43,7 +43,7 @@ function Footer(props){
 				<h5 class="text-4 text-color-light mb-3">TAUTAN</h5>
 				<ul class="list list-unstyled mb-0">
 					<li class="mb-0"><Link to='/'>Beranda</Link></li>
-					<li class="mb-0"><Link to='/aboutus'>Tentang Kami</Link></li>
+					<li class="mb-0"><Link to='/about'>Tentang Kami</Link></li>
 					<li class="mb-0"><Link to='/business/resources'>MMS Resources</Link></li>
 					<li class="mb-0"><Link to='/business/land'>MMS Land</Link></li>
 					<li class="mb-0"><Link to='/business/solution'>MMS Solution</Link></li>
