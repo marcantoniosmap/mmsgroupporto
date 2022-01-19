@@ -27,7 +27,7 @@ function Corporate_value(props){
             imageUrl:'img/MMS/value/goaloriented.svg',
             letterBold:'G',
             continutity:'oal Oriented',
-            caption: 'Fokus mencapai tujuan dengan mengedepankan good corporate governance'
+            caption: <>Fokus mencapai tujuan dengan mengedepankan <i>good corporate governance</i></>
         },
         {
             imageUrl:'img/MMS/value/integrity.svg',
@@ -55,7 +55,7 @@ function Corporate_value(props){
                             <img className='h-100' style={{minHeight:'100px'}}src={item.imageUrl}/>
                         </div>
                         <div class="feature-box-info">
-                            <h4 class="mb-2 text-center"><span className=" font-weight-bold">{item.letterBold}</span>{item.continutity}</h4>
+                            <h4 class="mb-2 text-center"><span style={{fontWeight:900}}>{item.letterBold}</span>{item.continutity}</h4>
                             <p className=' px-lg-4 px-0 text-center'>{item.caption}</p>
                         </div>
                     </div>

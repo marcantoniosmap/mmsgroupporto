@@ -4,7 +4,9 @@ import content from "../newscontent";
 
 function NewsContainer(props){
 
-	const slicedArray = content.slice(0, props.maxNews);
+	content.reverse()
+	const slicedArray = content.slice(0,props.maxNews)
+	console.log(slicedArray)
 
     return(
         <div class="container py-4">

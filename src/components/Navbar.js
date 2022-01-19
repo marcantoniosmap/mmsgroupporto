@@ -31,7 +31,7 @@ function Navbar(props){
 								<div class="header-row">
 									<div class="header-logo">
 										<Link to="/">
-											<img alt="MMSGI Logo" className="my-2" height={isScrolled?'60':'50'}  src="/img/MMS/logo/MMS/MMSGI Horizontal.png"/>
+											<img alt="MMSGI Logo" className="my-2" height={isScrolled?'50':'45'}  src="/img/MMS/logo/MMS/MMSGI Horizontal.png"/>
 										</Link>
 									</div>
 								</div>

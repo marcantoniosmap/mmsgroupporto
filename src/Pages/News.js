@@ -16,7 +16,7 @@ function News(){
             <div style={{height:'100px'}}/>
             <NewsContainer 
                 showPagination={true}
-                maxNews={7}/>
+                maxNews={9}/>
 
         </>
     )

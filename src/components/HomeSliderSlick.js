@@ -8,7 +8,7 @@ function HomeSliderSlick({sliderContent}){
         className:'h-100',
         infinite: true,
         slidesToShow: 1,
-        arrow:false,
+        arrows:false,
         slidesToScroll: 1,
         autoplay:true,
         speed:1000,

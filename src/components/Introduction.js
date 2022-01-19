@@ -15,7 +15,7 @@ function Introduction(props){
                 <div class="col-lg-7 pe-lg-5 mb-5 mb-lg-0 d-flex align-items-center" >
                     <div>
 
-						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">The <span className="text-primary">Unicron </span>of Indonesia's natural resources</h2>
+						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">The <span className="text-primary">Unicorn </span>of Indonesia's natural resources</h2>
     
                         {/* <Typewriter
                             options={{
@@ -27,7 +27,7 @@ function Introduction(props){
 					<div class="custom-divider divider divider-primary divider-small my-3">
 						<hr class="my-0"/>
 					</div>
-					<p class=" mb-4" >{introText[0]}</p>
+					<p class="text-4 mb-4" >{introText[0]}</p>
 					{/* <p class="pb-1 mb-4">{introText[1]}</p> */}
 					<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
 						<Link to='/about' class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 ">Tentang Kami</Link>

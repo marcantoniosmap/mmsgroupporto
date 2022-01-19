@@ -120,7 +120,7 @@ function MilestoneTab(props){
             <div class="row">
                 <div class="col">
                     <p class="font-weight-bold text-primary text-uppercase mb-4 text-4">Tonggak Perjalanan</p>
-                    <div class="tabs ">
+                    <div class="tabs tabs-simple tabs-bottom mb-0">
 						<ul class="nav nav-tabs nav-justified flex-row">
                         {milestoneContent.map((milestone,index)=>
                             <li class="nav-item">
@@ -128,7 +128,7 @@ function MilestoneTab(props){
                                  </li>
                              )}
 						</ul>
-						<div class="tab-content p-4" style={{minHeight:'300px'}}>
+						<div class="tab-content" style={{minHeight:'300px'}}>
                         {milestoneContent.map((milestone,index)=>
                                 <div className={`tab-pane tab-pane-navigation ${selectedYear===index ? 'active' : ''}`} id={`#tabsNavigationVertSimple${index}`}>
                                     <div className="row">
@@ -144,7 +144,7 @@ function MilestoneTab(props){
                                         <p className="">
                                             <ul className="ps-3">
                                                 {milestone.content.map((content,index)=>
-                                                <li className="py-2" key={index}>
+                                                 <li className="py-2" key={index}>
                                                     {content}
                                                 </li>)}
                                                 </ul></p>

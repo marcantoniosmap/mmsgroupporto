@@ -32,7 +32,7 @@ function VissionMission(props){
         <section class="section section-primary border-0 mb-0">
             <div class="container container-xl-custom">
                 <div class="row my-3">
-                    <div class="col-md-6 pe-5 mb-3 mb-lg-0">
+                    <div class="col-lg-6 pe-5 mb-5 mb-lg-3 mb-lg-0">
                         <div className=' pe-lg-5'>
                         <h3 class="font-weight-bold text-8 mb-2">Visi</h3>
                         <div class="custom-divider divider divider-light divider-small my-3">
@@ -42,7 +42,7 @@ function VissionMission(props){
 
                         </div>
                     </div>
-                    <div class="col-md-6 pe-5" >
+                    <div class="col-lg-6 pe-5" >
                         <h3 class="font-weight-bold text-8 mb-2">Misi</h3>
                         <div class="custom-divider divider divider-light divider-small my-3">
                             <hr class="my-0"/>
