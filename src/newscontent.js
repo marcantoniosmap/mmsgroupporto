@@ -96,7 +96,7 @@ var content=[
     },
     {
         id:'635ff3sfcb',
-        title:'Bantuan Dana Akhir Tahun Untuk Karyawan PULLMAN BALI LEGIAN BEACH',
+        title:'Bantuan Dana Akhir Tahun Untuk Karyawan Pullman Bali Legian Beach',
         imageUrl:'News - 9',
         date:"2021-01-08",
         newsUrl:'/',

@@ -37,6 +37,13 @@ function NewsContainer(props){
     return(
         <div class="container container-xl-custom py-4">
 			<div class="row">
+				{
+					props.showPagination &&
+					<div class="text-center pt-4">
+						<h3 class="font-weight-bold text-color-primary text-4-5 ls-0 mb-2">MMS GROUP INDONESIA</h3>
+						<h2 class="font-weight-bold text-color-dark text-lg-11 text-9 line-height-3 line-height-md-1 mb-5">Berita dan Acara</h2>
+					</div>
+				}
 				<div class="col">
 					<div class="blog-posts">
 						<div class="row">

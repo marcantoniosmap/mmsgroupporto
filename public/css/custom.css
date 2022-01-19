@@ -6928,3 +6928,17 @@ p {
 		width : 100px;
 	}
 }
+
+.image-greyscale{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	width:180px
+}
+.subHolding-default{
+	width:200px
+}
+@media (max-width: 992px) {
+	.subHolding-default{
+		width: 150px !important
+	}
+}

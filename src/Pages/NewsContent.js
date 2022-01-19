@@ -80,7 +80,7 @@ function NewsContent(props){
 
                                     <div class="post-content ms-0">
                                         <h2 class="font-weight-semi-bold text-lg-8 text-6 text-primary">{newsContent.title}</h2>
-                                        <p className='text-4' style={{whiteSpace:'pre-line'}}>{newsContent.newsContent}</p>
+                                        <p className='text-4 text-left' style={{whiteSpace:'pre-line'}}>{newsContent.newsContent}</p>
 
                                     </div>
                                 </article>

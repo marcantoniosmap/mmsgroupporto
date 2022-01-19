@@ -12,7 +12,7 @@ function Introduction(props){
     return(
         <div class="container container-xl-custom py-4">
             <div class="row py-lg-5 mt-5">  
-                <div class="col-lg-7 pe-lg-5 mb-5 mb-lg-0 d-flex align-items-center" >
+                <div class="col-lg-7 pe-lg-5 mb-3 mb-lg-0 d-flex align-items-center" >
                     <div>
 
 						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">The <span className="text-primary">Unicorn </span>of Indonesia's Natural Resources Sector</h2>
@@ -31,7 +31,7 @@ function Introduction(props){
 					{/* <p class="pb-1 mb-4">{introText[1]}</p> */}
 					<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
 						<Link to='/about' class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 ">Tentang Kami</Link>
-						<Link to='/contact' class="btn btn-outline btn-dark custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 ">Kontak Kami</Link>
+						<Link to='/contact' class="btn btn-outline btn-dark custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 d-md-block d-none ">Kontak Kami</Link>
 					</div>
                     </div>
 

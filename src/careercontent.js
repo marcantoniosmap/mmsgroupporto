@@ -25,7 +25,7 @@ var content=[
             'Memiliki pengalaman dalam mengurus dan mengatur rencana perjalanan dan perjalanan dinas atasan seperti booking tiket, transportasi, hotel dan lain lain',
             'Melakukan atau menyiapkan berkas berkas yang diperlukan atasan untuk suatu pertemuan',
             'Memiliki kemampuan mengatur dan menyusun agenda kerja dan kegiatan atasan baik dengan pihak internal organisasi maupun external',
-            'Mampu menjaga kerahasiaan atasanu',
+            'Mampu menjaga kerahasiaan atasan',
             'Memiliki kemampuan filling dokumen yang sistematis',
         ],
         qualification:[

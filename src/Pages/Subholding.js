@@ -72,13 +72,11 @@ function Subholding(props){
             subholdingContent &&
 
        <>
-        {/* <HeaderSubholding
+        <HeaderSubholding
             imageUrl={subholdingContent.header_image}
-            comp = {<div>
-                <img className="" style={{width:'250px'}} src={`/img/MMS/logo/Subholding/${subholdingContent.id}.png`}/> 
-            </div>}
-        /> */}
-        <div style={{height:'100px'}}/>
+            id={subholdingContent.id}
+        />
+        {/* <div style={{height:'100px'}}/> */}
         <div class="container container-xl-custom py-5 ">
 			<div class="row text-center text-lg-start"  >
 				<div class="col-lg-6 pe-lg-5 order-lg-1 order-2">

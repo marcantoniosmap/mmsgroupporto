@@ -30,12 +30,12 @@ function HomeSliderSlick({sliderContent}){
                                         content.additional ?
                                          content.additional :
                                          <>
-                                        <h1 class=" text-color-light text-10 text-lg-12 line-height-2 mb-2">
+                                        <h1 class=" text-color-light text-8 text-lg-12 line-height-2 mb-2">
                                             <span>{content.Textline1}<br/> 
                                                 <span style={{fontWeight:600}}>{content.Textline2}</span>
                                             </span>
                                         </h1>
-								        <p class="text-5 text-lg-4-5 text-color-light font-weight-light opacity-9 mb-4  " style={{maxWidth:'700px'}} >{content.Paragraph}</p>
+								        <p class="text-4 text-lg-4-5 text-color-light font-weight-light opacity-9 mb-4  " style={{maxWidth:'700px'}} >{content.Paragraph}</p>
                                     {   
                                          content.CTA &&<Link to={content.CTAlink} class="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5 mt-2">{content.CTA}<i class="fas fa-arrow-right ms-2"></i></Link>
                                     }

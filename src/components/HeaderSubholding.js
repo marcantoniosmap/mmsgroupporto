@@ -4,7 +4,7 @@ import {Parallax} from 'react-parallax';
 
 function HeaderSubholding(props){
     
-
+    const subholdingArray=['resources','land','solution']
     return(
         <>
         <div style={{height:'100px'}}></div>
@@ -17,8 +17,21 @@ function HeaderSubholding(props){
         <div class="container">
             <div class="row">
             <div class="col-md-12 align-self-center p-static order-2 text-center">
-                   {props.comp}
+                <div className='row'>
+                    {
+                        subholdingArray.map((sub,index)=>
+                            <div className='col-lg-4'>
+                                <Link to={`/business/${sub}`}>
+                                    <img alt={'MMS' + sub} className={`${ sub!==props.id &&'image-greyscale'} subHolding-default pb-4 pb-lg-0`} src={`/img/MMS/logo/Subholding/${sub}.png`}/> 
+                                </Link>
+                            </div>
+                        
+                        )
+                    }
+                   
                 </div>
+
+            </div>
                 {/* <div class="col-md-12 align-self-center order-1">
                     <ul class="breadcrumb breadcrumb-dark d-block text-center">
                     {props.breadcrumb.map((item,index)=>

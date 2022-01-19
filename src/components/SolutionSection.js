@@ -74,7 +74,7 @@ function SolutionSection(props){
                                 <img src={`/img/MMS/subholding/Solution/${project.imgUrl}`} />
                                 <div className="info">
                                     <div className='text-6 font-weight-bold'>{project.title}</div>
-                                    <div className='text-white text-3' style={{lineHeight:'21px'}}>{project.description}</div>
+                                    <div className='text-white text-justify text-3' style={{lineHeight:'21px'}}>{project.description}</div>
                                 </div>
                             </div>
 
