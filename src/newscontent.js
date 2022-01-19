@@ -221,6 +221,56 @@ var content=[
 
         Lanjutnya, dengan adanya bantuan ini artinya masyarakat Kota Balikpapan harus berani untuk memutus mata rantai penyebaran Covid-19.`        
     },
+    {
+        id:'1029fwfnd847',
+        title:'Yayasan Life After Mine Gandeng PT Multi Harapan Utama Gelar Vaksin Gotong Royong',
+        imageUrl:'News - 12',
+        date:"2021-12-02",
+        newsUrl:'/',
+        newsContent:`Yayasan Life After Mine (YLAM) melanjutkan rangkaian inisiatif untuk mendukung kesejahteraan masyarakat di sekitar lahan paska tambang.
+
+        YLAM kali ini memfasilitasi bantuan berupa program Vaksin Gotong Royong bagi 1,000 warga beserta pembagian sembako di Kabupaten Kutai Kertanegara (Kukar), Kalimantan Timur (Kaltim). Inisiatif tersebut dilakukan oleh YLAM bersama salah satu mitranya PT Multi Harapan Utama (MHU). 
+        
+        Program Vaksin Gotong Royong tersebut menggunakan vaksin jenis Sinopharm yang dilaksanakan di Gedung Beladiri Stadion Aji Imbut, Tenggarong, Kukar pada tanggal 22-24 November 2021. Program ini didukung oleh Dinas Kesehatan Kukar beserta instansi lainnya yang turut mendukung berlangsungnya acara.
+        
+        Kabupaten Kukar memiliki populasi penduduk terpadat kedua di provinsi Kaltim, namun tingkat vaksinasi dosis 1 (57%) dan dosis 2 (41%) masih lebih rendah dibawah rata-rata dosis 1 (67%) dan dosis 2 (46%) di Propinsi Kaltim dan Nasional.
+        
+        Andrew Hidayat, selaku Pembina Yayasan Life After Mine menyampaikan, hasil analisa tim kami menunjukan tingkat vaksinasi masyarakat di area kerja MHU masih dapat ditingkatkan. Oleh karena itu, kami merasa perlu adanya inisiatif kerjasama yang melibatkan MHU dan pemerintah daerah dalam mendorong penetrasi vaksinasi untuk menekan angka penularan COVID-19.
+        
+        Andrew percaya vaksinasi dan social distancing adalah satu – satunya cara untuk menahan resiko penyebaran kasus baru COVID-19 yang nantinya dapat mendukung kemajuan ekonomi dan pembangunan di setiap daerah.
+        
+        Terdapat tiga kecamatan di Kabupaten Kukar yang merupakan area kerja MHU dengan jumlah penduduk terpadat yaitu Tenggarong, Loa Janan dan Loa Kulu yang mencatatkan tingkat vaksinasi yang cukup tinggi namun masih dapat terus dioptimalkan untuk mencapai herd immunity.
+        
+        “Hari ini, kami memulai dengan 1,000 dosis vaksin untuk warga Kukar. Melihat antusiasme yang ditunjukkan masyarakat atas program, kita mungkin akan melakukan program lanjutan. Kami menyadari untuk meningkatkan capaian tingkat vaksin dari 57% ke 70% memerlukan pendekatan yang khusus kepada masyarakat, ” ungkap Adri Martowardojo, Pengurus Yayasan Life After Mine.
+        
+        COO MHU, Faiz Firdaus menyampaikan, program vaksin kali ini berhasil menjangkau masyarakat yang lebih luas walaupun tingkat vaksinasi Kukar saat ini sudah mempunyai capaian yang baik. Pembagian sembako yang kita adakan bersamaan dengan vaksin dilakukan untuk dapat memastikan kecukupan gizi masyarakat terutama pada periode paska vaksin.
+        
+        Sekertaris Daerah Kabupaten Kutai Kartanegara, Drs. H. Sunggono, MM. juga menyampaikan, menyambut baik bantuan vaksin dan sembako yang diusung oleh Yayasan Life After Mine bersama MHU.
+        
+        Pihaknya berharap dengan bantuan ini dapat membantu pencegahan penyebaran COVID-19 secara menyeluruh, guna mengembalikan kembali perkembangan ekonomi di daerah.`        
+    },
+
+    {
+        id:'1029fwfnd847',
+        title:'PT Mitra Properti Sentosa, Anak Usaha MMS Land, Menyasar Segmen Pasar Berbeda di Labuan Bajo',
+        imageUrl:'News - 12',
+        date:"2021-12-27",
+        newsUrl:'/',
+        newsContent:`
+        Labuan Bajo dikenal sebagai daerah destinasi wisata populer di Indonesia karena keindahan pulau-pulaunya dan satwa Komodo yang langka. Selain pariwisata, Labuan Bajo juga menjadi venue penyelenggara kegiatan konferensi pada level nasional maupun internasional. Hal ini menjadi daya tarik bagi wisatawan lokal maupun mancanegara untuk berkunjung ke Labuan Bajo.
+        
+        PT Mitra Properti Sentosa (MPS), anak usaha MMS Land, meilhat kesempatan tersebut mempunyai keyakinan tinggi terhadap potensi sektor hotel di Labuan Bajo untuk sektor pariwisata, terutama untuk segmen MICE (Meetings, Incentive, Convention and Exhibition) yang belum banyak dilirik. Hal ini selaras dengan Pemerintah Indonesia yang menjadikan Labuan Bajo sebagai salah satu dari 5 Destinasi Super Prioritas Indonesia.
+        
+        Sebagai bentuk nyata dari keyakinan tersebut, MPS berencana melakukan pembangunan hotel bintang 4 dengan konsep business hotel. MPS telah mengadakan seremoni peletakan batu pertama di rencana lokasi hotel yang berjarak ±1-km dari Bandar Udara Internasional Komodo pada 27 November 2021.
+        
+        Pembangunan hotel ini akan memperkuat ekosistem pariwisata di Labuan Bajo dan mendorong pertumbuhan ekonomi lokal. Selain itu, terdapat potensi terjadi spillover knowledge kepada masyarakat sekitar untuk meningkatkan learning curve masyarakat lokal.
+        
+        Hotel ini rencananya akan memiliki 5 lantai dengan lebih dari 100 kamar yang dilengkapi fasilitas-fasilitas utama seperti meeting room dan ballroom, dining bar, rooftop bar serta pusat kebugaran lengkap untuk mendukung kebutuhan wisatawan.
+        
+        Andre Biantoro, selaku COO MMS Land menyampaikan “Kami sangat yakin dengan potensi wisata pada segmen MICE yang ada di Labuan Bajo. Kami berencana membangun sebuah hotel bintang 4 dengan konsep business hotel dan bekerja sama dengan operator hotel internasional untuk memberikan pelayanan dan akomodasi dengan standar internasional”.
+        
+        Bupati Manggarai Barat, Edistasius Endi menyampaikan, “Dengan banyaknya konferensi yang akan dilaksanakan di Labuan Bajo seperti side event KTT G20 yang akan diselenggarakan tahun 2022 nanti, Labuan Bajo membutuhkan lebih banyak lagi hotel bertaraf internasional. Kami sangat mendukung rencana MPS untuk mendirikan hotel ini untuk kemajuan daerah. Kami himbau MPS untuk dapat segera menyelesaikan pembangunan hotel”.`        
+    },
     
     
     

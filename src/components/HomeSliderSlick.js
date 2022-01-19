@@ -22,7 +22,7 @@ function HomeSliderSlick({sliderContent}){
             <Slider {...setting}>
             {sliderContent.map((content)=>
             <>
-                    <div class="overlay overlay-show overlay-op-6 pt-5" style={{backgroundImage:`url(${content.imageUrl})`,backgroundSize:'cover',backgroundPosition:'center',height:'calc(100vh - 100px', boxSizing:'border-box'}} key={content.Textline1}>
+                    <div class="overlay overlay-show overlay-op-7 pt-5" style={{backgroundImage:`url(${content.imageUrl})`,backgroundSize:'cover',backgroundPosition:'center',height:'calc(100vh - 100px', boxSizing:'border-box'}} key={content.Textline1}>
                         <div class="container container-xl-custom pt-5 h-100">
 						    <div class="row align-items-center pt-5 h-100">
 							    <div class="col">

@@ -16,7 +16,7 @@ function NewsCard(props){
 
             <div class="post-content">
 
-                <h2 class="font-weight-semibold text-4 line-height-6 mt-3 mb-1"><Link to={`/news/${props.id}`}>{props.title.substring(0,65)}{props.title.length>60 && '...'}</Link></h2>
+                <h2 class="font-weight-semibold text-4 line-height-6 mt-3 mb-1"><Link to={`/news/${props.id}`}>{props.title.substring(0,70)}{props.title.length>70 && '...'}</Link></h2>
                 <p className="">{props.newsContent.substring(0,180)}...</p>
 
                 {/* <div class="post-meta">
