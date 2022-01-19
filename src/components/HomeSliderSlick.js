@@ -30,7 +30,7 @@ function HomeSliderSlick({sliderContent}){
                                         content.additional ?
                                          content.additional :
                                          <>
-                                        <h1 class=" text-color-light text-12 text-lg-12 line-height-2 mb-2">
+                                        <h1 class=" text-color-light text-10 text-lg-12 line-height-2 mb-2">
                                             <span>{content.Textline1}<br/> 
                                                 <span style={{fontWeight:600}}>{content.Textline2}</span>
                                             </span>

@@ -122,9 +122,7 @@ var content=[
         Tim Sigap MMSGI yang dibentuk tahun lalu segera bergerak, dimulai dengan melakukan pendataan karyawan yang rumahnya terkena banjir dilanjutkan dengan pengiriman kebutuhan utama yang sangat diperlukan yaitu makanan dan minuman. Sejumlah Mie instant dan air mineral telah dikirimkan langsung oleh bagian ekspedisi Tim Sigap ke rumah karyawan yang dapat dijangkau. Semoga bantuan darurat ini, dapat bermanfaat bagi penerimanya.
         
         Mari kita doakan agar saudara-saudara kita yang terkena musibah ini selalu di beri ketabahan, dan banjir ini tidak terulang lagi sehingga karyawan dapat beraktivitas normal kembali.`
-    },
-
-    
+    }, 
     {
         id:'efvdd4262',
         title:'Program Yayasan Life After Mine Berhasil Lahirkan 4 Anak Sapi (Pedet)',
@@ -147,7 +145,6 @@ var content=[
         
         “Terima kasih kepada Yayasan Life After Mine yang sudah berinisiatif dalam pembentukan Mini Ranch Jayatama, sehingga dapat memfasilitasi peternak sapi sampai lahirnya anak sapi ini. Khususnya untuk Pak Andrew Hidayat sebagai pembina yayasan yang sangat memahami masalah di lapangan sehingga dapat menghadirkan solusi yang konkrit untuk masyarakat,” ujar Mang Entis, warga pemilik ternak.`
     },
-
     {
         id:'102938s549',
         title:'Bantu Tenaga Medis dan Guru Hadapi Pandemi, MHU dan Bramasta mendukung Yayasan Life After Mine Membangun Rumah Layak Huni di Desa Jembayan Kalimantan Timur',
@@ -170,7 +167,6 @@ var content=[
         
         “Kami menyambut baik inisiatif Yayasan Life After Mine untuk mempersiapkan transit mess  untuk mendukung Dinas Sosial, Dinas Kesehatan dan Dinas Pendidikan Kabupaten Kutai Kartanegara serta Kantor Pemerintahan Kecamatan dan Desa, kami yakin manfaatnya akan dapat dirasakan langsung oleh masyarakat dan institusi di daerah tersebut” ucap Edi Damansyah, Bupati Kabupaten Kutai Kartanegara.`
     },
-
     {
         id:'102938544',
         title:'Indahnya Berbagi di Bulan Penuh Berkah',
@@ -185,9 +181,6 @@ var content=[
         
         MMSGI berharap bantuan ini dapat bermanfaat bagi yayasan yatim piatu yang telah menerima bantuan, dan MMSGI selalu berupaya terus melakukan kegiatan-kegiatan positif yang bermanfaat bagi sesama.`
     },
-    
-
-
     {
         id:'1029fwfd547',
         title:'Bantuan Fasilitas Tempat Tidur - MMSGI Dukung Percepatan Penanganan Covid-19',
@@ -202,7 +195,32 @@ var content=[
         
         Kami menyadari, bangkit dari pandemi ini perlu peran serta gotong royong pada setiap elemen masyarakat. Melalui inisiatif YLAM, MMSGI ingin bekontribusi atas bantuan yang di harapkan akan berguna dalam percepatan penanganan pasien COVID-19.`
     },
-   
+    {
+        id:'1029fwfnd847',
+        title:'Kontribusi Tangani Pandemi, PT MMP Salurkan 1.000 Oxymeter Bantu Nakes di Balikpapan',
+        imageUrl:'News - 12',
+        date:"2021-09-01",
+        newsUrl:'/',
+        newsContent:`Sebanyak 1.000 alat oxymeter bantuan dari PT Mitra Murni Perkasa (MMP) melalui Yayasan Life After Mine (YLAM) disalurkan kepada Pemerintah Kota Balikpapan. Bantuan ini sebagai wujud kontribusi dari mereka dalam membantu menangani pandemi Covid-19. 
+
+        Pemberian bantuan ini diterima langsung oleh Wali Kota Balikpapan Rahmad Mas'ud, Asisten 1 Bidang Pemerintahan Syaiful Bahri, Kepala Dinas Kesehatan Kota Balikpapan Andi Sri Juliarty, dan Kepala Satpol PP Zulkifli, pada Rabu (1/9). 
+        
+        Dalam kesempatannya, Pembina YLAM Andrew Hidayat, menyampaikan, kontribusi ini diberikan sebagai bentuk komitmen dan visi untuk membawa dampak positif kepada masyarakat di sekitar area pertambangan. 
+        
+        "Kami donasikan ke Pemkot Balikpapan sebanyak 1000 oxymeter. Nanti juga rencananya kami salurkan di Samarinda sekitar 1000 (alat)," kata dia. 
+        
+        Dirinya mengungkapkan, oxymeter dipilih menjadi barang yang disumbangkan berdasarkan apa yang pernah mereka lihat di Jakarta. Yaitu saat pihaknya melakukan donasi. 
+        
+        Rupanya, alat ini menjadi kebutuhkan untuk mendeteksi seberapa efisien kadar oksigen dalam darah seseorang. 
+        
+        "Sangat berguna bagi nakes, agar membantu mereka dalam menentukan pasien yang perlu mendapatkan perawatan di rumah sakit atau dapat melakukan isolasi mandiri," terangnya. 
+        
+        Wali Kota Balikpapan Rahmad Mas'ud yang menerima langsung bantuan 1.000 oxymeter ini mengapresiasi apa yang sudah dilakukan oleh YLAM. 
+
+        "Luar biasa kontribusi YLAM perhatian terhadap Kota Balikpapan, kami tidak lihat berapa nilainya, tapi bentuk kepedulian itu yang kami apresiasi," ucap Rahmad. 
+
+        Lanjutnya, dengan adanya bantuan ini artinya masyarakat Kota Balikpapan harus berani untuk memutus mata rantai penyebaran Covid-19.`        
+    },
     
     
     
