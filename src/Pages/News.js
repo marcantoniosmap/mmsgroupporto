@@ -3,8 +3,7 @@ import Header from '../components/Header';
 import NewsContainer from '../components/NewsContainer';
 
 
-function News(){
-    console.log('about')
+function News(props){
     return(
         <>
             {/* <Header 
@@ -16,7 +15,10 @@ function News(){
             <div style={{height:'100px'}}/>
             <NewsContainer 
                 showPagination={true}
-                maxNews={9}/>
+                maxNews={9}
+                status = {'news'}
+                {...props}
+                />
 
         </>
     )

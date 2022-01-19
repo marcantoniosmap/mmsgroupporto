@@ -85,7 +85,7 @@ function Navbar(props){
 
                                                        {/* NEWS */}
 													   <li class="dropdown">
-                                                    <Link class={`${page=='news'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/newspage/1">
+                                                    <Link class={`${(page==='newspage'|| page==='news') &&'active '}dropdown-item text-3 dropdown-toggle`} to="/newspage/1">
                                                             Berita
                                                         </Link>
 													</li>

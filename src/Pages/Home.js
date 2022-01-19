@@ -13,8 +13,8 @@ function Home(props){
 	const sliderContent=[
 
         {imageUrl: '/img/MMS/slider-1.png',
-        Textline1 : 'Berbekal visi misi yang kuat',
-        Textline2 : 'Kami berkembang dengan Pasti',
+        Textline1 : 'Berbekal Visi Misi yang Kuat',
+        Textline2 : 'Kami Berkembang Dengan Pasti',
         Paragraph : 'Melalui visi misi yang kuat, perusahaan kami berkembang dan bertumbuh secara berkelanjutan untuk kemajuan Indonesia',
         CTA : 'Tentang Kami',
         CTAlink : '/about',
@@ -45,7 +45,7 @@ return(
 		<OverviewSubsidiaries/>
 		{/* <IndonesiaMap/> */}
 		<ESGSection/>
-		<NewsonHome/>
+		<NewsonHome {...props}/>
 
 		{/* <BusinessDevelopment/> */}
 		{/* <ImageSlide 
