@@ -25,7 +25,7 @@ function Home(props){
         Textline2 : 'Kami Mengabdi Kepada Negeri',
         Paragraph : 'Bermula dari usaha batubara, MMSGI mewujudkan bakti pada negeri melalui 3 pilar usaha: MMS Resources, MMS Land, dan MMS Solution',
         CTA : 'Bisnis Kami',
-        CTAlink : '/business',
+        CTAlink : '/business/resources',
         },
 
         {imageUrl: '/img/MMS/slider-3.png',

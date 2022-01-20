@@ -92,7 +92,6 @@ function Awards(){
             <Slider
                 className='d-none d-md-block'
                 asNavFor={nav1}
-                
                 arrows={true}
                 slidesToShow={5}
                 ref={slider => (slider2.current = slider)}

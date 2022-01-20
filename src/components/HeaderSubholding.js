@@ -12,7 +12,7 @@ function HeaderSubholding(props){
         bgImage={props.imageUrl}
         bgImageStyle={{top:'9%', minHeight:'100%'}}
         strength={300}
-        className="page-header page-header-modern page-header-background page-header-background-md parallax overlay overlay-color-light overlay-show overlay-op-8 mt-0" style={{padding:'120px 0'}} >
+        className="page-header page-header-modern page-header-background page-header-background-md parallax overlay overlay-color-light overlay-show overlay-op-8 mt-0" style={{padding:'90px 0'}} >
         
         <div class="container">
             <div class="row">

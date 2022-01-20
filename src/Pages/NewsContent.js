@@ -8,7 +8,10 @@ function NewsContent(props){
     const [newsContent,setNewsContent]=useState(null)
     const [textArray,setTextArray]=useState([])
     const [recentPost,setRecentPost]=useState([])
-    content.reverse()
+
+    content.sort(function(a,b){
+		return new Date(b.date) - new Date(a.date);
+	  });
 
     useEffect(() => {
         var i = 0
@@ -16,9 +19,6 @@ function NewsContent(props){
         for (let x of content) {
             if (x.id === props.match.params.id) {
                 setNewsContent(x)
-                const [...others]=x.newsContent.split('/n')
-                setTextArray()
-                console.log(others)
             }else {
                 if(i<3){
                     recentArray.push(x)
@@ -46,14 +46,23 @@ function NewsContent(props){
                                             {
                                             recentPost.map((post,index)=>(
                                                 <li>
-                                                    <div class="post-image">
-                                                        {/* <div class="img-thumbnail img-thumbnail-no-borders d-block">
+                                                    <div class="post-iage">
+                                                        {/* <div class="img-thumbnail img-thumbnail-no-borders d-block"> */}
                                                             <Link to={`/news/${post.id}`}>
-                                                                <img src="/img/blog/square/blog-11.jpg" width="50" height="50" alt=""/>
+                                                                <div className='onHoverFull' style={{
+                                                                    backgroundImage:`url('/img/MMS/News/${post.imageUrl}.jpg')`,
+                                                                    backgroundSize:'cover',
+                                                                    backgroundPosition:'center',
+                                                                    boxSizing:'border-box',
+                                                                    height:'150px',
+                                                                    width:'100%',
+                                                                }}>
+                                                                </div>
+                                                                {/* <img src={`/img/MMS/News/${post.imageUrl}.jpg`} width="100%" height="auto" alt=""/> */}
                                                             </Link>
-                                                        </div> */}
+                                                        {/* </div> */}
                                                     </div>
-                                                    <div class="post-info">
+                                                    <div class="post-info mt-2">
                                                         <Link to={`/news/${post.id}`}>{post.title.substring(0,80)}{post.title.length>80 && '...'}</Link>
                                                         <div class="post-meta">
                                                             {new Date(post.date).toLocaleDateString('en-US',options)}
@@ -66,7 +75,7 @@ function NewsContent(props){
                                     </aside>
                             </div>
                         </div>
-                        <div class="col-lg-9 order-lg-1 pe-4">
+                        <div class="col-lg-9 order-lg-1 pe-5">
                             <div class="blog-posts single-post">
                                 <article class="post post-large blog-single-post border-0 m-0 p-0">
                                     <div class="post-image ms-0">

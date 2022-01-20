@@ -8,25 +8,25 @@ function  OverviewSubsidiaries(props){
         imgUrl:'img/MMS/logo/Subholding/resources.png',
         title :'MMS Resources',
         caption_en :'was established in 2005 as the sub-holding company of all coal and other mineral mining and trading',
-        caption :'Didirikan pada tahun 2012 sebagai sub-holding dari usaha pertambangan dan perdagangan mineral',
+        caption :'Didirikan pada tahun 2012 sebagai sub-holding usaha pertambangan dan perdagangan mineral',
         url:'business/resources'
     },{
         imgUrl:'img/MMS/logo/Subholding/land.png',
         title :'MMS Land',
         caption_en : 'was established in 2018 as the sub-holding of property and hospitality assets',
-        caption : 'Didirikan pada tahun 2018 sebagai sub-holding dari usaha properti dan keramahan',
+        caption : 'Didirikan pada tahun 2018 sebagai sub-holding usaha properti dan real estat',
         url:'business/land'
     },{
         imgUrl:'img/MMS/logo/Subholding/solution.png',
         title :'MMS Solution',
         caption_en : 'was established in 2020 as the sub-holding for all sustainable initiatives',
-        caption : 'Didirikan pada tahun 2020 sebagai sub-holding dari usaha berkelanjutan untuk masa depan',
+        caption : 'Didirikan pada tahun 2020 sebagai sub-holding usaha berkelanjutan untuk masa depan',
         url:'business/solution'
     }
     ]
 
     // const mmsCaption='was established in 2005 as coal trading company, as business grow the function transformed into a holding company for three main business pillars'
-    const mmsCaption='Berawal di tahun 2005 sebagai perusahaan perdagangan batubara, dalam perjalannnya MMSGI tumbuh menjadi perusahaan induk dengan tiga pilar usaha utama'
+    const mmsCaption='Berawal pada tahun 2005 sebagai perusahaan perdagangan batubara, dalam perjalannnya MMSGI tumbuh menjadi perusahaan induk dengan tiga pilar usaha utama'
 
     return(
     

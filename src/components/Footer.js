@@ -10,7 +10,7 @@ function Footer(props){
     return(
         <footer id="footer" className="mt-0">
         <div class="container container-xl-custom">
-        <div class="row py-4 my-5">
+        <div class="row py-lg-4 py-3 my-lg-5">
             <div class="col-md-6 col-lg-4 pe-lg-5">
 				<h5 class="text-4 text-color-light mb-3">Tentang Kami</h5>
 				<p class="mb-2">{footerAboutUsText}</p>

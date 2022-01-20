@@ -17,7 +17,7 @@ function CSR(){
         CTA : null,
         additional :<div>
             <img className='mb-3' style={{maxHeight:'120px'}} src='/img/MMS/logo/MMS/LAM.png'/>
-            <span className='text-5 text-lg-8 text-color-light'>MMS Group Indonesia berkomitmen untuk menjalankan aktivitas bisnisnya dengan memperhatikan kepedulian terhadap <span className='font-weight-semibold'>lingkungan dan masyarakat</span> yang merupakan faktor penting dalam kelangsungan jangka panjang bisnis berbasis energi.</span>,
+            <span className='text-5 text-lg-8 text-color-light'>MMSGI mendirikan Yayasan Life After Mine untuk merealisasikan komitmennya dalam aspek <span className='font-weight-semibold'>Environment, Social and Governance </span>untuk mendukung peningkatan kesejahteraan masyarakat dan lingkungan yang sesuai dengan prinsip SDG di Indonesia</span>,
         </div>
         },
 
@@ -25,13 +25,13 @@ function CSR(){
 
     const containerSegment=[
         {
-            title : 'Berkah yang Mengalir dari Kolam Pascatambang',
+            title : 'Berkah yang Mengalir dari Kolam Pasca Tambang',
             belonging : 'Environment',
             img_url : '/img/MMS/CSR/Content/content-1.jpg',
             sgd_symbol : ['03','06','17'],
-            paragraph : `Sebagai perusahaan yang menerapkan kaidah teknik pertambangan yang baik dna benar atau good mining practices, MMSGI melalui anak perusahaannya PT MHU, melakukan pemanfaatan kembali air di kolam pascatambang atau void untuk memberikan keberkahan air bersih bagi petani dan masyarakat sekitar Desa Margahayu dan Desa Jonggon Jaya, Kutai Kertanegara, Kalimantan Timur dengan membangun water treatment plant.
+            paragraph : `Sebagai perusahaan yang menerapkan kaidah teknik pertambangan yang baik dan benar atau good mining practices, MMSGI melalui anak perusahaannya PT MHU, melakukan pemanfaatan kembali air di kolam pascatambang atau void untuk memberikan keberkahan air bersih bagi petani dan masyarakat sekitar Desa Margahayu dan Desa Jonggon Jaya, Kutai Kertanegara, Kalimantan Timur dengan membangun water treatment plant.
             
-                        Fasilitas pengolahan air ini mampu menyediakan air bersih untuk lebih dari 1500 kepala keluarga`
+                        Fasilitas pengolahan air ini mampu menyediakan air bersih untuk lebih dari 1,500 kepala keluarga`
         },
         {
             title : 'Habis Tambang Terbit Ladang Gembala',
@@ -58,14 +58,16 @@ function CSR(){
             img_url : '/img/MMS/CSR/Content/content-4.jpg',
             paragraph : `Kondisi Indonesia saat awal menghadapi badai pandemi Covid-19 cukup mengkhawatirkan. Kurangnya peralatan medis di fasiltas-fasilitas kesehatan hingga terganggunya kegiatan perekonomian menyebabkan tidak hanya isu kesehatan namun juga isu sosial dan ekonomi di masyarakat.
                         
-                        Melihat situasi ini, MMSGI melalui anak perusahannya PT MHU yang bekerjasama dengan perusahaan-perusahaan mitra kerja, bergerak cepat dan tanggap untuk menggelontorkan bantuan ke rumah sakit dan desa-desa di Kalimantan Timur hingga Rp 5 Milliar berupa APD medis dan sembako yang langsung diterima oleh Gubernur Kalimantan Timur Isran Noor.`
+                        Melihat situasi ini, MMSGI melalui anak perusahannya PT MHU yang bekerjasama dengan perusahaan-perusahaan mitra kerja, bergerak cepat dan tanggap untuk menggelontorkan bantuan ke rumah sakit dan desa-desa di Kalimantan Timur hingga Rp 5 Milliar berupa APD medis dan sembako yang langsung diterima oleh Gubernur Kalimantan Timur Isran Noor.
+                        
+                        MMSGI secara keseluruhan juga telah mengkontribusi dalam pembagian bansos sembako dan vaksin kepada 7,500 warga di Kalimantan untuk membantu pemerintah mencapai herd immunity.`
         },
         {
             title : 'Ekonomi Mandiri ala Sungai Payang',
             belonging : 'Governance',
             sgd_symbol : ['01','08','10','11','17'],
             img_url : '/img/MMS/CSR/Content/content-5.jpg',
-            paragraph : `Masyarakat Desa Sungai Panyang memiliki unit usaha dengan laba bersih mencapai Rp 600 juta. Unit usaha ini memiliki 6 lini bisnis utama, mulai dari pengangkutan tandan bauh sawit dan batubara, jasa perantara pengelolaan bahan bakar minyak, jasa pengelolaan cabang perbankan, dll.
+            paragraph : `Masyarakat Desa Sungai Panyang memiliki unit usaha dengan laba bersih mencapai Rp 600 juta. Unit usaha ini memiliki 6 lini bisnis utama, mulai dari pengangkutan tandan buah sawit dan batubara, jasa perantara pengelolaan bahan bakar minyak, jasa pengelolaan cabang perbankan, dll.
                         
                         Melihat opportunity pengembangan desa di wilayah operasinya, PT MHU bekerjasama dengan PT Niagamas Gemilang menyusun proyek pengembangan pabrik kompos untuk meningkatkan skala produksi unit usaha desa ini. PT MHU juga menjadi off taker pupuk kompos yang diproduksi untuk keperluan revegetasi pada lahan reklamasi.
                         

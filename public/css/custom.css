@@ -6983,3 +6983,11 @@ p {
 	background:#fff;
 	outline: 0;
   }
+
+  .onHoverFull{
+	  opacity: 0.8;
+  }
+  .onHoverFull:hover,
+  .onHoverFull:focus{
+	  opacity: 1;
+  }

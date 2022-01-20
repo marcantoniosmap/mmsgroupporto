@@ -99,9 +99,8 @@ function Subholding(props){
                     {
                         subholdingContent.youtube_embed ?
                         <div className='d-flex justify-content-start'>
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/bZGTFJ8z7kQ" title="MHU company Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            {subholdingContent.youtube_embed}
                             </div>
-                        // <iframe  src="https://www.youtube.com/embed/bZGTFJ8z7kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         :
                         <img src={subholdingContent.desc_image} style={{height:'100%', width:'auto'}} className="d-non d-lg-block " alt=""/>
 

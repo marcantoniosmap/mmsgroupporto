@@ -23,7 +23,7 @@ function HomeSliderSlick({sliderContent}){
         slidesToScroll: 1,
         autoplay:true,
         dotsClass: 'slick-dots button__bar',
-        speed:2000,
+        speed:1000,
         autoplaySpeed:8000,
         adaptiveHeight: true
     }

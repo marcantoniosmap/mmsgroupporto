@@ -8,7 +8,7 @@ function Corporate_value(props){
             imageUrl:'img/MMS/value/modern.svg',
             letterBold:'M',
             continutity:'odern',
-            caption: 'Untuk mencapai visi misi, MMSGI harus siap beranjak menjadi lebih baik'
+            caption: 'Untuk mencapai visi misi, MMSGI selalu siap beranjak menjadi lebih baik'
         },
         {
             imageUrl:'img/MMS/value/meaningful.svg',
@@ -43,7 +43,7 @@ function Corporate_value(props){
         <div class="row">
             <div className="col text-center py-5">
                 <h3 class="font-weight-bold text-color-primary text-4-5 ls-0 mb-2">Nilai Perusahaan</h3>
-                <h2 class="font-weight-bold text-color-dark text-11 line-height-3 line-height-md-1 mb-5">MMS Group Indonesia</h2>
+                <h2 class="font-weight-bold text-color-dark text-lg-11 text-9 line-height-3 line-height-md-1 mb-5">MMS Group Indonesia</h2>
             </div>
         </div>
 

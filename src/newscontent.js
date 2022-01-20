@@ -41,7 +41,7 @@ var content=[
         
         Bantuan ini diberikan melalui PT Mitra Properti Sukses selaku anak Perusahaan MMS Group Indonesia yang membawahi Puri Denpasar Hotel Jakarta dan Pullman Bali Legian yang karena karyawannya terdampak #Covid-19 terpaksa harus mengurangi waktu kerjanya.
         
-        Semoga pandemi ini segera teratasi selambat-lambatnya di kuartal 3, agar dapat kembali bangkit di kuartal 4 dengan megoptimalkan momen liburan akhir tahun, kata CEO PT Mitra Properti Sukses Sandra Pohar, dalam sambutannya, Jum’at (03/07/2020)`
+        Semoga pandemi ini segera teratasi selambat-lambatnya di kuartal 3, agar dapat kembali bangkit di kuartal 4 dengan megoptimalkan momen liburan akhir tahun, kata CEO PT Mitra Properti Sukses Sandra Pohar, dalam sambutannya, Jum'at (03/07/2020)`
     },
 
     {
@@ -100,13 +100,13 @@ var content=[
         imageUrl:'News - 9',
         date:"2021-01-08",
         newsUrl:'/',
-        newsContent:`Jakarta – Sudah hampir satu tahun, Indonesia mengumumkan kasus pertama wabah Covid-19 menyebar di wilayah Nusantara. Dampak yang luas terhadap perkembangan ekonomi tidak dapat dihindari termasuk di Industri Pariwisata yang terpaksa harus beristirahat dahulu agar dapat mengurangi lebih luasnya penyebaran Virus Covid-19 ini.
+        newsContent:`Jakarta - Sudah hampir satu tahun, Indonesia mengumumkan kasus pertama wabah Covid-19 menyebar di wilayah Nusantara. Dampak yang luas terhadap perkembangan ekonomi tidak dapat dihindari termasuk di Industri Pariwisata yang terpaksa harus beristirahat dahulu agar dapat mengurangi lebih luasnya penyebaran Virus Covid-19 ini.
         
         Pullman Bali Legian Beach, sebagai salah satu dari penunjang ekonomi pariwisata dibawah bendera MMS Group Indonesia tidak dapat menghindar dari keadaan ini, operasional hotel terpaksa harus berhenti sementara agar tidak menanggung rugi yang berkepanjangan.
         
         Dengan semangat One Team One Goals dan ditunjang oleh Corporate Value yang salah satunya adalah peduli, penuh perhatian, Manajemen MMS Group Indonesia bersama dengan karyawan Head Office Jakarta telah memberikan Bantuan Akhir Tahun kepada karyawan Pullman Bali Legian Beach berupa dana tunai sejumlah Rp. 220.950.000,-
         
-        Dana yang diterima langsung oleh masing – masing karyawan membawa kebahgiaan tersendiri bagi karyawan terutama dalam menjelang pergantian tahun 2020 – 2021.
+        Dana yang diterima langsung oleh masing - masing karyawan membawa kebahgiaan tersendiri bagi karyawan terutama dalam menjelang pergantian tahun 2020 - 2021.
         
         Harapan kita semua, Semoga pandemi ini segera dapat diatasi agar ekonomi Indonesia dapat segera pulih dan Industri Pariwisata dapat bangkit kembali.`
     },
@@ -151,7 +151,7 @@ var content=[
         imageUrl:'News - 11',
         date:"2021-04-07",
         newsUrl:'/',
-        newsContent:`Kutai Kartanegara, 7 April 2021 – Berangkat dari terdapatnya kebutuhan masyarakat pra-sejahtera terutama pada masa pandemi COVID-19 yang terjadi selama setahun belakangan, dan dukungan kepada pemerintah daerah dalam menangani dampak pandemi, maka Yayasan Life After Mine tergerak selalu memikirkan inisiatif yang dapat dilakukan untuk memberikan dampak positif kepada masyarakat.
+        newsContent:`Kutai Kartanegara, 7 April 2021 - Berangkat dari terdapatnya kebutuhan masyarakat pra-sejahtera terutama pada masa pandemi COVID-19 yang terjadi selama setahun belakangan, dan dukungan kepada pemerintah daerah dalam menangani dampak pandemi, maka Yayasan Life After Mine tergerak selalu memikirkan inisiatif yang dapat dilakukan untuk memberikan dampak positif kepada masyarakat.
         
         Salah satu bentuk inisiatif tersebut adalah kegiatan dimana Yayasan Life After Mine memberikan bantuan berupa pemberian 5-unit rumah layak huni yang berlokasi di Desa Jembayan, Kecamatan Loa Kulu, Kabupaten Kutai Kartanegara, Propinsi Kalimantan Timur kepada masyarakat melalui instansi pemerintah daerah.
         
@@ -175,7 +175,7 @@ var content=[
         newsUrl:'/',
         newsContent:`Sudah menjadi bagian dari budaya Perusahaan MMS Group Indonesia (MMSGI) bahwa setiap menjelang hari besar keagamaan seperti Idul Fitri, Idul Adha, Natal dan hari besar lainnya MMSGI melakukan kegiatan Corporate Social Responsibility (CSR) untuk berbagi kepada masyarakat di lingkungan sekitar.
         
-        7 April 2021, pada bulan suci penuh berkah, Ramadhan 1442 H, MMSGI mewujudkannya dengan pemberian Sembako, alat tulis, vitamin, masker juga beserta barang – barang bermanfaat lainnya kepada 5 yayasan Yatim Piatu di Jakarta, seperti Yayasan Yatim Piatu Putra Nusa Bagian Putra, Putra Nusa Bagian Putri, Panti Asuhan Muhammadiyah, Panti Asuhan Iman Jafariyah, dan Panti Asuhan Muslim Nusantara Foundation.
+        7 April 2021, pada bulan suci penuh berkah, Ramadhan 1442 H, MMSGI mewujudkannya dengan pemberian Sembako, alat tulis, vitamin, masker juga beserta barang - barang bermanfaat lainnya kepada 5 yayasan Yatim Piatu di Jakarta, seperti Yayasan Yatim Piatu Putra Nusa Bagian Putra, Putra Nusa Bagian Putri, Panti Asuhan Muhammadiyah, Panti Asuhan Iman Jafariyah, dan Panti Asuhan Muslim Nusantara Foundation.
         
         Kegiatan ini dihadiri oleh beberapa karyawan MMSGI dan ibu Margareta yang mewakili team Direksi lainnya untuk langsung menyerahkan bantuan.
         
@@ -221,6 +221,21 @@ var content=[
 
         Lanjutnya, dengan adanya bantuan ini artinya masyarakat Kota Balikpapan harus berani untuk memutus mata rantai penyebaran Covid-19.`        
     },
+
+    {
+        id:'102fndwq847',
+        title:'Ribbon Cutting Ceremony Commodity Square oleh MMS Group Indonesia dan Trinugraha Thohir Group',
+        imageUrl:'News - 16',
+        date:"2021-11-24",
+        newsUrl:'/',
+        newsContent:`Founder PT MMS Group Indonesia (MMSGI) Andrew Hidayat Bersama dengan Garibaldi (Boy) Thohir selaku perwakilan PT Trinugraha Thohir, meresmikan gedung Commodity Square yang berlokasi di Jl. Jend. Gatot Subroto Kav. 35-35, Jakarta Selatan.
+
+        Berpegang teguh pada visi untuk melebarkan jangkauan, MMSGI melakukan diversifikasi bisnis ke sektor properti dan hospitality sejak 2015. Sebelumnya, melalui PT Mitra Properti Sukses (MPS) yang merupakan salah anak usaha dari MMSGI, telah diakuisisi Hotel Pullman Legian Bali, didirikan Mini City Kota Harapan Sukses di Kalimantan Timur, dibangun Data Center yang berlokasi di Jakarta Selatan hingga dibukanya Showroom Mobil Luxury di Bali. 
+        
+        Sebagai bentuk milestone besar lainnya, PT Mitra Properti Sukses (MPS) secara resmi telah melakukan pembelian Gedung Berita Satu Plaza pada Jumat, 15 Oktober 2021. Bersamaan dengan telah dilaksanakannya acara peresmian pada 24 November 2021 lalu, Gedung Berita Satu Plaza secara resmi berubah menjadi Gedung Commodity Square.
+        
+        Milestone ini merupakan capaian bagi PT Mitra Properti Sukses (MPS) yang merupakan bagian dari MMS Land, pilar usaha MMSGI, dalam bersumbangsih dan berkontribusi dalam transformasi sektor properti dan hospitality tanah air. MMSGI melalui 3 (tiga) pilar usahanya, yaitu MMS Resources (Mining & Trading), MMS Land (Property & Hospitality), dan MMS Solution (Other Industries) berkomitmen dalam menjalankan praktik bisnis berkelanjutan yang memperhatikan aspek lingkungan, sosial, dan governance dengan tujuan untuk terus mendorong kesejahteraan dan perekonomian bangsa melalui pengelolaan komoditas serta layanan untuk masyarakat Indonesia.`        
+    },
     {
         id:'1029fscfnd847',
         title:'Yayasan Life After Mine Gandeng PT Multi Harapan Utama Gelar Vaksin Gotong Royong',
@@ -237,7 +252,7 @@ var content=[
         
         Andrew Hidayat, selaku Pembina Yayasan Life After Mine menyampaikan, "Hasil analisa tim kami menunjukan tingkat vaksinasi masyarakat di area kerja MHU masih dapat ditingkatkan. Oleh karena itu, kami merasa perlu adanya inisiatif kerjasama yang melibatkan MHU dan pemerintah daerah dalam mendorong penetrasi vaksinasi untuk menekan angka penularan COVID-19".
         
-        Andrew percaya vaksinasi dan social distancing adalah satu – satunya cara untuk menahan resiko penyebaran kasus baru COVID-19 yang nantinya dapat mendukung kemajuan ekonomi dan pembangunan di setiap daerah.
+        Andrew percaya vaksinasi dan social distancing adalah satu - satunya cara untuk menahan resiko penyebaran kasus baru COVID-19 yang nantinya dapat mendukung kemajuan ekonomi dan pembangunan di setiap daerah.
         
         Terdapat tiga kecamatan di Kabupaten Kukar yang merupakan area kerja MHU dengan jumlah penduduk terpadat yaitu Tenggarong, Loa Janan dan Loa Kulu yang mencatatkan tingkat vaksinasi yang cukup tinggi namun masih dapat terus dioptimalkan untuk mencapai herd immunity.
         
@@ -249,7 +264,46 @@ var content=[
         
         Pihaknya berharap dengan bantuan ini dapat membantu pencegahan penyebaran COVID-19 secara menyeluruh, guna mengembalikan kembali perkembangan ekonomi di daerah.`        
     },
-
+    {
+        id:'1029fadfngk47',
+        title:'YLAM bersama Pemda-TNI AD bantu vaksinasi 7.000 warga Kalimantan',
+        imageUrl:'News - 17',
+        date:"2021-12-27",
+        newsUrl:'/',
+        newsContent:`Yayasan Life After Mine (YLAM) bersama pemerintah daerah dan TNI AD membantu program vaksinasi untuk 7.000 warga di Provinsi Kalimantan Timur dan Kalimantan Selatan.
+        
+        Pembina YLAM Andrew Hidayat dalam keterangannya diterima di Jakarta, Senin, menyampaikan awalnya hasil analisa timnya menunjukkan tingkat vaksinasi masyarakat di beberapa wilayah masih perlu ditingkatkan.
+        
+        Salah satunya, bantuan vaksinasi diberikan pada warga di wilayah kerja anak-anak perusahaan di bawah kepemilikan dan kendali MMSGI serta perusahaan swasta mitra kerja YLAM. YLAM juga bekerja sama dengan perusahaan-perusahaan tersebut dalam menggelar serbuan vaksinasi.
+        
+        "Seperti di sekitar wilayah kerja PT MHU (di Tenggarong), PT MMP (Balikpapan), dan MA. Namun karena lokasinya yang tidak mudah dijangkau, diperlukan kerja sama antara mitra swasta, pemerintah daerah, bahkan TNI dalam mendorong partisipasi warga," kata dia.
+        
+        Setidaknya menurut dia program itu diharapkan mampu mencapai kekebalan kelompok, bahkan juga diharapkan capaian vaksinasi bisa sama dengan rata-rata provinsi dan nasional.
+        
+        Menurut Andrew tingkat kesehatan warga berkaitan langsung dengan kemajuan ekonomi dan pembangunan di setiap daerah, sehingga berdampak langsung terhadap pertumbuhan dan kemajuan perusahaan yang beroperasi di wilayah tersebut.
+        
+        “Awalnya kami memulai dengan 1.000 dosis vaksin untuk warga di tiga kecamatan di Kabupaten Kukar. Namun karena antusiasme tinggi dan massal yang ditunjukkan masyarakat dalam merespon program ini kami putuskan untuk menambah volume vaksin," kata dia.
+        
+        YLAM juga memikirkan cara-cara baru guna meningkatkan partisipasi warga, serta memperluas wilayah yang bisa dijangkau untuk program tersebut.
+        
+        "Sehingga bisa memaksimalkan dukungan dan partisipasi luar biasa dari pemerintah daerah dan dari para pimpinan TNI AD,” kata Pengurus YLAM Adri Martowardojo.
+        
+        Melalui program 'Vaksin Gotong Royong', YLAM melakukan serbuan vaksinasi di beberapa wilayah di provinsi Kalimantan Timur (Kaltim) dan Kalimantan Selatan (Kalsel) yang tingkat vaksinasi warganya masih di bawah rata-rata provinsi dan nasional.
+        
+        Demi meningkatkan partisipasi warga, YLAM menggunakan beragam cara baru salah satunya melalui pembagian paket sembako dan bantuan sosial lainnya.
+        
+        Hal itu sejalan dengan imbauan Menteri Dalam Negeri (Mendagri) Tito Karnavian kepada pemerintah daerah untuk menggunakan dana belanja tidak terduga dan bantuan sosial dalam anggaran pendapatan dan belanja daerah (APBD) untuk meningkatkan capaian vaksinasi masyarakat.
+        
+        Beragam cara-cara baru yang dilakukan YLAM, khususnya dengan memberikan bantuan sembako dan bantuan sosial lainnya terbukti efektif. Partisipasi warga yang menerima vaksinasi dan bantuan sembako mencapai 7.000 orang dalam waktu kurang dari satu bulan terakhir.
+        
+        Chief Operating Officer (COO) MHU Faiz Firdaus menjelaskan program vaksinasi kali ini sangat penting walaupun tingkat vaksinasi di Kukar sudah mempunyai capaian yang baik.
+        
+        "Pembagian sembako yang kita adakan bersamaan dengan dilakukannya vaksinasi adalah demi memastikan kecukupan gizi masyarakat terutama pada periode pasca vaksin," ucapnya.
+        
+        Sekretaris Daerah Kabupaten Kutai Kartanegara Sunggono juga menyambut baik bantuan vaksin dan sembako yang diusung oleh Yayasan Life After Mine bersama MHU.
+        
+        "Kami berharap dengan bantuan ini dapat membantu pencegahan penyebaran COVID-19 secara menyeluruh, guna mengembalikan kembali perkembangan ekonomi di daerah kami," ujarnya.`        
+    },
     {
         id:'1029fwfngk47',
         title:'PT Mitra Properti Sentosa, Anak Usaha MMS Land, Menyasar Segmen Pasar Berbeda di Labuan Bajo',

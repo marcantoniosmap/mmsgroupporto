@@ -5,8 +5,7 @@ function Introduction(props){
 
 
     const introText=[
-        'MMS Group Indonesia (MMSGI) merupakan perusahaan energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources',
-        // 'Today, our group have grown into one of the most reputable and reliable coal suppliers for both national and international markets.'
+        'MMS Group Indonesia (MMSGI) merupakan perusahaan Unicorn energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.'
     ]
 
     return(
@@ -15,7 +14,7 @@ function Introduction(props){
                 <div class="col-lg-7 pe-lg-5 mb-3 mb-lg-0 d-flex align-items-center" >
                     <div>
 
-						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">The <span className="text-primary">Unicorn </span>of Indonesia's Natural Resources Sector</h2>
+						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">Perusahaan <span className="text-primary">Unicorn </span>Sektor Energi di Indonesia</h2>
     
                         {/* <Typewriter
                             options={{

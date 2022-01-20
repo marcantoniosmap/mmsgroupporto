@@ -45,6 +45,7 @@ function NewsContainer(props){
 							    <div class="col-md-4">
                                     <NewsCard 
 										id={news.id}
+										date={news.date}
                                         title={news.title}
                                         imageUrl={news.imageUrl}
                                         newsContent={news.newsContent}/>

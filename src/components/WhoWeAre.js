@@ -20,7 +20,7 @@ function WhoWeAre(props){
             top:'70%',
         },
         {
-            id:'Samarinda',
+            id:'Kutai Kartanegara',
             left:'48%',
             top:'42%',
         },

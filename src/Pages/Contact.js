@@ -18,14 +18,14 @@ function Contact(props){
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.399677340555!2d106.8142241156511!3d-6.210900762568472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6a9c14edf29%3A0xaa58930ff69274c0!2sTower%20one!5e0!3m2!1sen!2sid!4v1634203779005!5m2!1sen!2sid" 
                     title="mmsgrouploc"
                     width="100%" 
-                    height="300px" 
+                    height="350px" 
                     style={{border:0}} 
                     allowfullscreen="" 
                     loading="lazy"/>
 				</div>
         <div class="container container-xl-custom my-5">
 		<h2 class="font-weight-bold text-center text-8 mt-2 mb-0">Kontak Kami</h2>
-		<p class="text-4 text-center">Jangan ragu untuk bertanya, jangan simpan pertanyaan apa pun!</p>
+		{/* <p class="text-4 text-center">Jangan ragu untuk bertanya, jangan simpan pertanyaan apa pun!</p> */}
 
 					<div class="row">
 						<div class="col-lg-4"> 
@@ -54,9 +54,9 @@ function Contact(props){
 							<div class="">
 								<h4 class="">Jam <strong>Operasional</strong></h4>
 								<ul class="list list-icons list-dark mt-2">
-									<li><i class="far fa-clock top-6"></i> Senin Jumat - 9am to 5pm</li>
-									<li><i class="far fa-clock top-6"></i> Sabtu - 9am sampai 2pm</li>
-									<li><i class="far fa-clock top-6"></i> Minggu - Tutup</li>
+									<li><i class="far fa-clock top-6"></i> Senin Jumat - 9:00 to 17:00</li>
+									{/* <li><i class="far fa-clock top-6"></i>  - 9am sampai 2pm</li> */}
+									<li><i class="far fa-clock top-6"></i> Sabtu - Minggu - Tutup</li>
 								</ul>
 							</div>
 						</div>

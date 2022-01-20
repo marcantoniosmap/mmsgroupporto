@@ -7,7 +7,7 @@ function SolutionSection(props){
         {
             imgUrl:'solar.jpg',
             title :'Pembangkit Listrik Tenaga Surya',
-            description:'MMS Solution melalui PT Mitra Dayatama Energi mengembangkan pembangkit listrik tenaga surya di beberapa lokasi di Indonesia dengan pipeline awal pembangkit 2 MW di Kutai Kartanegara, Kalimantan Timur. ',
+            description:'MMS Solution melalui PT Mitra Dayatama Prima mengembangkan pembangkit listrik tenaga surya di beberapa lokasi di Indonesia dengan pipeline awal pembangkit 2 MW di Kutai Kartanegara, Kalimantan Timur. ',
         },
         {
             imgUrl:'miniranch.jpg',

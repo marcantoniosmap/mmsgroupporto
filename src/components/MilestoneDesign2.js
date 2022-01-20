@@ -10,7 +10,7 @@ function MilestoneTab(props){
         {
             title : 'Mengawali Perjalanan MMSGI',
             year : '2005',
-            content : ['MMS Group Indonesia (MMSGI) diawali dengan didirikannya PT Mitra Maju Sukses (MMS) pada tahun 2005 sebagai perusahaan perdagangan batu bara dan pemasok batu bara, yang awalnya menjadi pemasok PLN dan Industri lainnya.']
+            content : ['MMS Group Indonesia (MMSGI) diawali dengan didirikannya PT Mitra Maju Sukses (MMS) pada tahun 2005 sebagai perusahaan perdagangan dan pemasok batu bara, yang bermula sebagai pemasok PLN dan industri lainnya.']
         },
         {
             title : 'Meniti Pasar Ekspor ',
@@ -19,7 +19,7 @@ function MilestoneTab(props){
         }, {
             title : 'Ekspansi Tambang Batubara',
             year : '2014',
-            content : ['MMSGI membentuk MMS Resources (PT Mulia Mandiri Sukses) sebagai pilar usaha untuk mengelola seluruh portfolio batu bara',
+            content : ['MMSGI membentuk MMS Resources (PT Mulia Mandiri Sukses) sebagai pilar usaha untuk mengelola seluruh portofolio batu bara',
                         'MMSGI mengakuisisi tambang batu bara PT Duta Dharma Utama (DDU) untuk memperkuat portofolio menjadi perusahaan batu bara yang terintegrasi.',
                         'MMSGI melakukan ekspansi kerjasama dengan mendirikan Joint Operation bersama MPAS untuk kegiatan tambang batubara di Kalimantan Timur.'],
         },{
@@ -36,18 +36,18 @@ function MilestoneTab(props){
         }, {
             title : 'Dedikasi Energi Baru Terbarukan',
             year : '2018',
-            content : ['MMSGI memahami pentingnya energi hijau yang mendorong didirkannya PT Dayatama Prima Energi sebagai perusahaan yang berfokus pada pengembangan Energi baru dan terbarukan.',
-            'MMSGI mendirikan MMS LAND (PT Mitra Properti Sentosa) sebagai pilar usaha untuk mengelola seluruh portofolio properti kedepannya.'
+            content : ['MMSGI memahami pentingnya energi hijau untuk masa depan Indonesia yang mendorong didirikannya PT Dayatama Prima Energi sebagai perusahaan yang berfokus pada pengembangan Energi baru dan terbarukan.',
+            'MMSGI mendirikan MMS Land (PT Mitra Properti Sentosa) sebagai pilar usaha untuk mengelola seluruh portofolio properti dan real estat kedepannya.'
             ]
         }, {
             title : 'Disrupsi Teknologi',
             year : '2019',
-            content : ['MMSGI sangat memahami pentingnya infrastruktur digital, MMSGI kembali melebarkan sayapnya ke sektor teknologi dengan mendirikan Mitra Informatika Gemilang sebagai perusahaan penyedia Data Center.',
-            'MMSGI mengakuisisi Puri Denpasar Hotel, salah satu hotel di Jakarta Selatan yang memiliki lokasi strategis dengan Golden Access']
+            content : ['MMSGI sangat memahami pentingnya infrastruktur digital, MMSGI kembali melebarkan sayapnya ke sektor teknologi dengan mendirikan PT Mitra Informatika Gemilang sebagai perusahaan penyedia Data Center.',
+            'MMSGI mengakuisisi Puri Denpasar Hotel, salah satu hotel di Jakarta Selatan yang memiliki lokasi strategis dengan Golden Access di area Kuningan.']
         }, {
             title : 'Investasi untuk Masa Depan',
             year : '2020',
-            content : ['MMSGI mendirikan pilar usaha MMS SOLUTION (PT Mitrakarya Cipta Gemilang) yang akan mengakomodir pengembangan bisnis baru dan berkelanjutan.',
+            content : ['MMSGI mendirikan pilar usaha MMS Solution (PT Mitrakarya Cipta Gemilang) yang akan mengakomodir pengembangan bisnis baru dan berkelanjutan.',
             'MMSGI juga mendukung program food estate pemerintah, dengan mendirikan PT Bramasta Sakti di Kalimantan Timur untuk memanfaatkan lahan pasca tambang untuk pertanian jagung dan peternakan sapi.']
         }]
 
