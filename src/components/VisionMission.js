@@ -38,7 +38,7 @@ function VissionMission(props){
                         <div class="custom-divider divider divider-light divider-small my-3">
                             <hr class="my-0"/>
                         </div>
-                        <p className='text-5 pt-3'>Menjadi perusahaan yang berkembang dan tangguh yang memberikan<b> solusi inovatif</b></p>
+                        <p className='text-5 pt-3'>Menjadi perusahaan yang berkembang dan tangguh yang memberikan<b> solusi inovatif</b>.</p>
 
                         </div>
                     </div>
@@ -50,8 +50,8 @@ function VissionMission(props){
 
                         <p className='text-4 mb-0'>
                             <ul className='ps-3'>
-                                <li className='py-2'>Memberikan dampak positif bagi masyarakat dan lingkungan</li>
-                                <li className='py-2'>Tempat kerja yang menyenangkan untuk bekerja dan berusaha</li>
+                                <li className='py-2'>Memberikan dampak positif bagi masyarakat dan lingkungan,</li>
+                                <li className='py-2'>Tempat kerja yang menyenangkan untuk bekerja dan berusaha, dan</li>
                                 <li className='py-2'>Menjadi mitra bisnis berdasarkan prinsip saling percaya dan saling menguntungkan.</li>
                             </ul>
                         </p>

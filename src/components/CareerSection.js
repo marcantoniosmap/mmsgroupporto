@@ -5,7 +5,7 @@ function CareerSection(props){
     const careerText={
         titleBold:'Karir',
         titleNormal:' di MMS Group Indonesia',
-        paragraph1:' Kami berkomitmen untuk menyediakan akomodasi yang wajar bagi pelamar penyandang disabilitas yang memenuhi syarat dalam aplikasi pekerjaan dan proses rekrutmen kami.',
+        paragraph1:' Kami berkomitmen untuk menyediakan fasilitas penyandang disabilitas yang memenuhi syarat dalam aplikasi pekerjaan dan proses rekrutmen kami.',
         paragraph2:'MMSGI menghargai keragaman & rasa memiliki dan bangga menjadi pemberi kerja Kesempatan Kerja yang Setara. Semua individu yang mencari pekerjaan di MMSGI dianggap tanpa memandang ras, warna kulit, agama, asal negara, usia, jenis kelamin, status perkawinan, keturunan, cacat fisik atau mental, status veteran, identitas gender, orientasi seksual, atau karakteristik lain yang dilindungi hukum.',
     }
 

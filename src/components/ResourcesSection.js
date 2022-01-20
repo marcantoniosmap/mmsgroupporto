@@ -105,7 +105,10 @@ function ResourcesSection(props){
     const sliderRef = useRef();
 
 
-
+    const text=`Pasca akuisisi MHU oleh MMSGI pada 2017, MHU mengalami peningkatan volume produksi batu bara yang signifikan. Terjadi peningkatan sebesar 294% dalam 4 tahun terakhir. Hal ini membuktikan kemampuan MMSGI dalam memberikan nilai tambah untuk pengoperasian tambang batu bara.
+    
+    Penerapan strategi yang tepat sejak awal, kepercayaan dari stakeholders dan pengalaman dalam sektor batubara merupakan kunci sukses dari MMSGI dalam meningkatkan produksi MHU dengan pesat dalam waktu yang singkat.
+    `
  
     return(
         <section class=" section-height-1 section-no-border my-5">
@@ -118,9 +121,12 @@ function ResourcesSection(props){
                    <div className='col-lg-6'>
                         <div className='h-100 px-3'>
                             <div className=''>
-                                <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">Penjualan</p>
+                                <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">Produksi</p>
                                 <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Pertumbuhan Pesat sejak akuisisi MHU oleh MMSGI </p>
-                                <p class="mb-4 text-4">Pasca akuisisi MHU oleh MMSGI pada 2017, MHU mengalami peningkatan volume produksi batu bara yang signifikan. Terjadi peningkatan sebesar <b>294%</b> atau setara dengan 2.5 juta ton per tahun dalam 5 tahun. Hal ini membuktikan kemampuan MMSGI dalam memberikan nilai tambah untuk pengoperasian tambang batu bara.</p>
+                                <p class="text-4" style={{whiteSpace:'pre-line'}}>
+                                    {text}
+                                    
+                                </p>
                                 {/* <p class=" mb-4 text-4">{points.description}</p> */}
 
                             </div>

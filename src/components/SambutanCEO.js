@@ -13,7 +13,7 @@ function SambutanCEO(props){
                 {/* <div class="overflow-hidden mb-3">
                     <p class="font-weight-bold text-primary text-uppercase mb-0">Sendy Greti</p>
                 </div> */}
-                <p class="text-justify text-4" style={{marginRight:'1rem'}}>
+                <p class="text-justify text-4">
                         Dengan perkembangan saat ini, aspek lingkungan, sosial dan tata kelola menjadi perhatian dari setiap bisnis, terutama pada perusahaan energi. Kami menjawab tantangan tersebut dimana kami telah berkembang dari sebuah perusahaan di sektor pertambangan dan perdagangan batubara yang kemudian merambah sektor properti dan bisnis-bisnis berkelanjutan yang sesuai dengan prinisip <i>Sustainable Development Goals</i> (SDGs) seperti pembangkit listrik tenaga surya, pertanian berteknologi tinggi, dan smelter nikel. 
                         <br/><br/>
                     Selain itu, kami juga mendukung program <i>Net Zero Emission</i> Indonesia 2060 dengan perencanaan dan implementasi efisiensi energi dan penggunaan listrik berbasis energi baru terbarukan. Khusus untuk aspek sosial, kami aktif berkontribusi kepada masyarakat melalui Yayasan Life After Mine yang kami dirikan untuk meningkatkan kesejahteraan masyarakat terutama di area sekitar pertambangan. 
