@@ -6930,8 +6930,8 @@ p {
 }
 
 .image-greyscale{
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	opacity: 0.6;
+	filter: grayscale(70%);
 	width:180px
 }
 .subHolding-default{
