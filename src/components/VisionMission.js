@@ -33,6 +33,9 @@ function VissionMission(props){
             <div class="container container-xl-custom">
                 <div class="row my-3">
                     <div class="col-lg-6 pe-5 mb-5 mb-lg-3 mb-lg-0">
+                    <div className='' style={{position:'relative',opacity:'0.2', top:'60px',right:'110px'}}>
+                            <img className='d-none d-lg-block' style={{position:'absolute', bottom:'0px'}} width='140px' alt='visi' src='/img/MMS/visi.png'/>
+                        </div>
                         <div className=' pe-lg-5'>
                         <h3 class="font-weight-bold text-8 mb-2">Visi</h3>
                         <div class="custom-divider divider divider-light divider-small my-3">
@@ -43,11 +46,13 @@ function VissionMission(props){
                         </div>
                     </div>
                     <div class="col-lg-6 pe-5" >
+                        <div className='' style={{position:'relative',opacity:'0.2', top:'60px',right:'110px'}}>
+                            <img className='d-none d-lg-block' style={{position:'absolute', bottom:'0px'}} width='140px' alt='misi' src='/img/MMS/misi.png'/>
+                        </div>
                         <h3 class="font-weight-bold text-8 mb-2">Misi</h3>
                         <div class="custom-divider divider divider-light divider-small my-3">
                             <hr class="my-0"/>
                         </div>
-
                         <p className='text-4 mb-0'>
                             <ul className='ps-3'>
                                 <li className='py-2'>Memberikan dampak positif bagi masyarakat dan lingkungan,</li>

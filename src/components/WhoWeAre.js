@@ -62,7 +62,7 @@ function WhoWeAre(props){
                         Berawal dari MMS Resources yang bergerak di bidang perdagangan dan pertambangan batu bara, MMS Group Indonesia berkembang dan melakukan diversifikasi bisnis ke sektor properti melalui MMS Land dan bisnis berkelanjutan dengan MMS Solution.
 					</p>
 					<p class ="text-4">
-M                       Melalui 3 pilar tersebut, MMS Group Indonesia mempunyai visi untuk terus mendukung pengembangan Indonesia yang lebih hijau untuk masa depan yang lebih baik serta menjadi perusahaan energi berkelanjutan yang terpercaya.
+                       Melalui 3 pilar tersebut, MMS Group Indonesia mempunyai visi untuk terus mendukung pengembangan Indonesia yang lebih hijau untuk masa depan yang lebih baik serta menjadi perusahaan energi berkelanjutan yang terpercaya.
                     </p>
 				</div>
 			</div>

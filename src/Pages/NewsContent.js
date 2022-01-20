@@ -75,7 +75,7 @@ function NewsContent(props){
                                     </aside>
                             </div>
                         </div>
-                        <div class="col-lg-9 order-lg-1 pe-5">
+                        <div class="col-lg-9 order-lg-1 pe-lg-5">
                             <div class="blog-posts single-post">
                                 <article class="post post-large blog-single-post border-0 m-0 p-0">
                                     <div class="post-image ms-0">

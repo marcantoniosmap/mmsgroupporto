@@ -118,7 +118,7 @@ function LandSection(props){
                            {pinpoint.map((points,index)=>
                             <div className='px-3' key={index}>
                                 <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">{points.id}</p>
-                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">{points.judul}</p>
+                                <div class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">{points.judul}</div>
                                 <p class=" mb-4 text-4">{points.description}</p>
                                 {/* <p class=" mb-4 text-4">{points.description}</p> */}
                             </div>

@@ -81,7 +81,7 @@ function Subholding(props){
 			<div class="row text-center text-lg-start"  >
 				<div class="col-lg-6 pe-lg-5 order-lg-1 order-2">
 					<p class="font-weight-semibold mb-1 mt-2 text-uppercase">{subholdingContent.subheading}</p>
-					<p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">{subholdingContent.title}</p>
+					<div class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2" style={{textAlign:'left'}}>{subholdingContent.title}</div>
 					<p class=" mb-4 text-4">{subholdingContent.caption}</p>
                     <div className="w-100">
                         <Slider  {...LogoSlickSetting}>
