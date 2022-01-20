@@ -1,12 +1,20 @@
 import React,{useState,useEffect} from "react";
 import $ from 'jquery'
-import { Link,withRouter,useLocation } from "react-router-dom";
-import { isCompositeComponent } from "react-dom/test-utils";
+import { Link,useLocation } from "react-router-dom";
 
 function Navbar(props){
     const [isScrolled,setIsScrolled]=useState(false)
     const location=useLocation()
     const [page,setPage]=useState()
+	const [tabOpen,setTabOpen]=useState(false)
+
+	function openTabs(e){
+		e.preventDefault()
+		if (window.innerWidth>992) return ''
+		else {
+			tabOpen ? setTabOpen(false) : setTabOpen(true)
+		}
+	}
 
     $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
@@ -59,9 +67,10 @@ function Navbar(props){
 													</li>
 
 													{/* OUR BUSINESS */}
-													<li class="dropdown">
-														<a class={`${page=='business'&&'active '} dropdown-item text-3 dropdown-toggle`} >
+													<li class={`dropdown dropdown-reverse ${tabOpen && 'open'}`}>
+														<a onClick={(e)=>openTabs(e)} class={`${page=='business'&&'active '} dropdown-item text-3 dropdown-toggle`} >
 															Bisnis Kami
+															<i class="fas fa-chevron-down"></i>
 														</a>
 														<ul class="dropdown-menu">
 			                                                <li>
@@ -125,8 +134,7 @@ function Navbar(props){
 					</div>
 				</div>
 			</header>
-
     )
 }
 
-export default Navbar
+export default Navbar;

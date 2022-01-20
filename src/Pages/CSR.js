@@ -17,7 +17,7 @@ function CSR(){
         CTA : null,
         additional :<div>
             <img className='mb-3' style={{maxHeight:'120px'}} src='/img/MMS/logo/MMS/LAM.png'/>
-            <span className='text-5 text-lg-8 text-color-light'>MMSGI mendirikan Yayasan Life After Mine untuk merealisasikan komitmennya dalam aspek <span className='font-weight-semibold'>Environment, Social and Governance </span>untuk mendukung peningkatan kesejahteraan masyarakat dan lingkungan yang sesuai dengan prinsip SDG di Indonesia</span>,
+            <span className='text-5 text-lg-8 text-color-light'>Yayasan Life After Mine (YLAM) merupakan yayasan independen yang berperan sebagai pelaksana dan koordinator kegiatan tanggung jawab sosial perusahaan dengan fokus pembangunan ekonomi, sosial, dan lingkungan bagi masyarakat sekitar area operasi pasca kegiatan penambangan.</span>,
         </div>
         },
 
@@ -25,7 +25,7 @@ function CSR(){
 
     const containerSegment=[
         {
-            title : 'Berkah yang Mengalir dari Kolam Pasca Tambang',
+            title : 'Berkah yang Mengalir dari Kolam Pascatambang',
             belonging : 'Environment',
             img_url : '/img/MMS/CSR/Content/content-1.jpg',
             sgd_symbol : ['03','06','17'],

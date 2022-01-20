@@ -105,7 +105,7 @@ function ResourcesSection(props){
     const sliderRef = useRef();
 
 
-    const text=`Pasca akuisisi MHU oleh MMSGI pada 2017, MHU mengalami peningkatan volume produksi batu bara yang signifikan. Terjadi peningkatan sebesar 294% dalam 4 tahun terakhir. Hal ini membuktikan kemampuan MMSGI dalam memberikan nilai tambah untuk pengoperasian tambang batu bara.
+    const text=`Pasca akuisisi MHU oleh MMSGI pada 2017, MHU mengalami peningkatan volume produksi batubara yang signifikan. Terjadi peningkatan sebesar 294% dalam 4 tahun terakhir. Hal ini membuktikan kemampuan MMSGI dalam memberikan nilai tambah untuk pengoperasian tambang batubara.
     
     Penerapan strategi yang tepat sejak awal, kepercayaan dari stakeholders dan pengalaman dalam sektor batubara merupakan kunci sukses dari MMSGI dalam meningkatkan produksi MHU dengan pesat dalam waktu yang singkat.
     `

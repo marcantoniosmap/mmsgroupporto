@@ -14,7 +14,7 @@ function Introduction(props){
                 <div class="col-lg-7 pe-lg-5 mb-3 mb-lg-0 d-flex align-items-center" >
                     <div>
 
-						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">Perusahaan <span className="text-primary">Unicorn </span>Sektor Energi di Indonesia</h2>
+						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">Perusahaan <span className="text-primary">Unicorn </span>di Sektor Energi</h2>
     
                         {/* <Typewriter
                             options={{

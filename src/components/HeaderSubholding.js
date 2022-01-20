@@ -9,7 +9,7 @@ function HeaderSubholding(props){
         <>
         <div style={{height:'100px'}}></div>
     <Parallax
-        bgImage={props.imageUrl}
+        bgImage='/img/MMS/slider-3.png'
         bgImageStyle={{top:'9%', minHeight:'100%'}}
         strength={300}
         className="page-header page-header-modern page-header-background page-header-background-md parallax overlay overlay-color-light overlay-show overlay-op-8 mt-0" style={{padding:'90px 0'}} >
