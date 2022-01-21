@@ -122,7 +122,7 @@ function ResourcesSection(props){
                         <div className='h-100 px-3'>
                             <div className=''>
                                 <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">Produksi</p>
-                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Pertumbuhan Pesat sejak akuisisi MHU oleh MMSGI </p>
+                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Pertumbuhan pesat sejak akuisisi MHU oleh MMSGI </p>
                                 <p class="text-4" style={{whiteSpace:'pre-line'}}>
                                     {text}
                                     
