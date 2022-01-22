@@ -33,12 +33,11 @@ function Introduction(props){
 						<Link to='/contact' class="btn btn-outline btn-dark custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 d-md-block d-none ">Kontak Kami</Link>
 					</div>
                     </div>
-
 				</div>
                 <div class="col-lg-5 d-lg-block d-none">
 					<div class="position-relative">
 						<div>
-							<img src="img/MMS/threebusiness.jpg" class="img-fluid" alt="" />
+							<img src="img/MMS/threebusiness.png" class="img-fluid" alt="" />
 						</div>
 					
 					</div>

@@ -13,6 +13,8 @@ import {
   import ChartDataLabels from 'chartjs-plugin-datalabels';
 function ResourcesSection(props){
 
+    const [windowSize,setWindowSize]=useState(window.innerWidth>992)
+
     ChartJS.register(
         CategoryScale,
         LinearScale,
@@ -32,7 +34,8 @@ function ResourcesSection(props){
                 ticks: {
                     // Include a dollar sign in the ticks
                     callback: function(value, index, values) {
-                        return  value%4===0 ? value + ' MIO MT' : ''
+                        var stringtemp= windowSize ? 'MIO MT' : ''
+                        return  value%4===0 ? value + stringtemp : ''
                     },
                     font:{
                         size:12,
@@ -59,13 +62,13 @@ function ResourcesSection(props){
             enabled:false,
         },
           title: {
-            display: true,
+            display: windowSize,
             text: 'Produksi MHU Dalam Jutaan Ton',
             padding:{
                 top:10
             },
             font:{
-                size:18,
+                size:16,
                 color: '#953735',
                 family : 'poppins'
             },
@@ -77,14 +80,15 @@ function ResourcesSection(props){
             display: true,
             anchor : 'end',
             align : 'bottom',
+            padding:'10',
             color : '#FFFFFF',
             font: {
-                size: 14,
+                size: 16,
                 family: 'poppins',
-                weight:600,
+                weight:500,
             },
             formatter: (ctx, data) => {
-              return `${ctx} jt Ton`;
+              return `${ctx.toFixed(1)}`;
             }},
             
         },
@@ -100,10 +104,6 @@ function ResourcesSection(props){
             backgroundColor: '#953735',
         }],
     };
-
-    const [chosenState,setChosenState]=useState('Jakarta')
-    const sliderRef = useRef();
-
 
     const text=`Pasca akuisisi MHU oleh MMSGI pada 2017, MHU mengalami peningkatan volume produksi batubara yang signifikan. Terjadi peningkatan sebesar 294% dalam 4 tahun terakhir. Hal ini membuktikan kemampuan MMSGI dalam memberikan nilai tambah untuk pengoperasian tambang batubara.
     

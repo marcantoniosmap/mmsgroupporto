@@ -4,7 +4,7 @@ function SambutanCEO(props){
     return(
     <div class="container container-xl-custom pt-5">
         <div class="row py-4 mb-2">
-            <div class="col-lg-8 order-2 align-items-center justify-content-center d-flex " >
+            <div class="col-lg-8 order-2 align-items-center justify-content-center d-flex pe-lg-3" >
                 <div>
                 <div class="overflow-hidden">
 					<h2 class="text-color-dark font-weight-bold text-lg-12 text-10 mb-lg-4 mb-2 pt-0 mt-0">Sambutan Direktur Utama</h2>

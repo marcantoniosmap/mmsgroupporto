@@ -64,7 +64,7 @@ function LandSection(props){
             description :
             <>
             <p>
-                MMS Land melalui PT Mitra Properti Sentorsa berencana mengembangkan hotel bintang 4 dengan konsep bisnis hotel untuk mendukung ekosistem pariwisata segmen MICE (Meeting, Incentive, Conference, and Exhibition) bertaraf Internasional di Labuan Bajo.
+                MMS Land melalui PT Mitra Properti Sentosa berencana mengembangkan hotel bintang 4 dengan konsep bisnis hotel untuk mendukung ekosistem pariwisata segmen MICE (Meeting, Incentive, Conference, and Exhibition) bertaraf Internasional di Labuan Bajo.
             </p>
             <p>
                 Hotel ini rencananya akan dikelola oleh jaringan hotel internasional dan dilengkapi dengan fasilitas dan pelayanan berstandar internasional.
@@ -116,7 +116,7 @@ function LandSection(props){
                    <div className='col-lg-5 '>
                        <Slider ref={sliderRef} {...settings}>
                            {pinpoint.map((points,index)=>
-                            <div className='px-3' key={index}>
+                            <div className='px-lg-3' key={index}>
                                 <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">{points.id}</p>
                                 <div class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">{points.judul}</div>
                                 <p class=" mb-4 text-4">{points.description}</p>
