@@ -15,7 +15,8 @@ function Contact(props){
 				<div style={{height:'100px'}}/>
 
 				<div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.399677340555!2d106.8142241156511!3d-6.210900762568472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6a9c14edf29%3A0xaa58930ff69274c0!2sTower%20one!5e0!3m2!1sen!2sid!4v1634203779005!5m2!1sen!2sid" 
+				{/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.399677340555!2d106.8142241156511!3d-6.210900762568472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6a9c14edf29%3A0xaa58930ff69274c0!2sTower%20one!5e0!3m2!1sen!2sid!4v1634203779005!5m2!1sen!2sid"  */}
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.397385233971!2d106.816309!3d-6.211205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b13069282b2ad76!2sMMS%20GROUP%20INDONESIA!5e0!3m2!1sid!2sid!4v1642832598156!5m2!1sid!2sid"  
                     title="mmsgrouploc"
                     width="100%" 
                     height="350px" 
@@ -56,7 +57,7 @@ function Contact(props){
 								<ul class="list list-icons list-dark mt-2">
 									<li><i class="far fa-clock top-6"></i> Senin Jumat - 9:00 to 17:00</li>
 									{/* <li><i class="far fa-clock top-6"></i>  - 9am sampai 2pm</li> */}
-									<li><i class="far fa-clock top-6"></i> Sabtu - Minggu - Tutup</li>
+									<li><i class="far fa-clock top-6"></i> Sabtu Minggu - Tutup</li>
 								</ul>
 							</div>
 						</div>
