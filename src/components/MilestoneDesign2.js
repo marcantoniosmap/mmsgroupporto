@@ -10,27 +10,27 @@ function MilestoneTab(props){
         {
             title : 'Mengawali Perjalanan MMSGI',
             year : '2005',
-            content : ['MMS Group Indonesia (MMSGI) diawali dengan didirikannya PT Mitra Maju Sukses (MMS) pada tahun 2005 sebagai perusahaan perdagangan dan pemasok batu bara, yang bermula sebagai pemasok PLN dan industri lainnya.']
+            content : ['MMS Group Indonesia (MMSGI) diawali dengan didirikannya PT Mitra Maju Sukses (MMS) pada tahun 2005 sebagai perusahaan perdagangan dan pemasok batubara, yang bermula sebagai pemasok PLN dan industri lainnya.']
         },
         {
             title : 'Meniti Pasar Ekspor ',
             year : '2012',
-            content : ['MMSGI mendirikan Mitra Asia Cemerlang untuk memperluas sayap perdagangan ke pasar ekspor batu bara.']
+            content : ['MMSGI mendirikan Mitra Asia Cemerlang untuk memperluas sayap perdagangan ke pasar ekspor batubara.']
         }, {
             title : 'Ekspansi Tambang Batubara',
             year : '2014',
-            content : ['MMSGI membentuk MMS Resources (PT Mulia Mandiri Sukses) sebagai pilar usaha untuk mengelola seluruh portofolio batu bara',
-                        'MMSGI mengakuisisi tambang batu bara PT Duta Dharma Utama (DDU) untuk memperkuat portofolio menjadi perusahaan batu bara yang terintegrasi.',
+            content : ['MMSGI membentuk MMS Resources (PT Mulia Mandiri Sukses) sebagai pilar usaha untuk mengelola seluruh portofolio batubara',
+                        'MMSGI mengakuisisi tambang batubara PT Duta Dharma Utama (DDU) untuk memperkuat portofolio menjadi perusahaan batubara yang terintegrasi.',
                         'MMSGI melakukan ekspansi kerjasama dengan mendirikan Joint Operation bersama MPAS untuk kegiatan tambang batubara di Kalimantan Timur.'],
         },{
             title : 'Diversifikasi ke Bisnis Properti',
             year : '2015',
-            content : ['MMSGI memiliki visi ke depan untuk diversifikasi bisnis batu bara dan mulai melakukan ekspansi ke sektor lain dengan nilai aset yang terus bertumbuh.',
+            content : ['MMSGI memiliki visi ke depan untuk diversifikasi bisnis batubara dan mulai melakukan ekspansi ke sektor lain dengan nilai aset yang terus bertumbuh.',
                         'MMSGI memandang sektor properti  sebagai sektor yang tepat, hal ini menjadi alasan atas akuisisi MMSGI melalui Mitra Asian Properti terhadap sebuah hotel di Legian Bali yang dikelola oleh Pullman'],
         }, {
             title : 'Akuisisi PT Multi Harapan Utama',
             year : '2017',
-            content : ['MMSGI membuktikan kemampuannya dalam sektor perdagangan batu bara yang diikuti dengan akuisisi PT Multi Harapan Utama sehingga menempatkan MMSGI menjadi salah satu perusahaan tambang batubara terkemuka di Indonesia.',
+            content : ['MMSGI membuktikan kemampuannya dalam sektor perdagangan batubara yang diikuti dengan akuisisi PT Multi Harapan Utama sehingga menempatkan MMSGI menjadi salah satu perusahaan tambang batubara terkemuka di Indonesia.',
                 'MMSGI berada pada posisi yang tepat untuk mulai melakukan investasi masa depan pada bisnis yang berkelanjutan pasca akuisisi PT Multi Harapan Utama.'
                 ]
         }, {
@@ -48,7 +48,7 @@ function MilestoneTab(props){
             title : 'Investasi untuk Masa Depan',
             year : '2020',
             content : ['MMSGI mendirikan pilar usaha MMS Solution (PT Mitrakarya Cipta Gemilang) yang akan mengakomodir pengembangan bisnis baru dan berkelanjutan.',
-            'MMSGI juga mendukung program food estate pemerintah, dengan mendirikan PT Bramasta Sakti di Kalimantan Timur untuk memanfaatkan lahan pasca tambang untuk pertanian jagung dan peternakan sapi.']
+            'MMSGI juga mendukung program food estate pemerintah, dengan mendirikan PT Bramasta Sakti di Kalimantan Timur untuk memanfaatkan lahan pascatambang untuk pertanian jagung dan peternakan sapi.']
         }]
 
     

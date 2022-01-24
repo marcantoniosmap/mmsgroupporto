@@ -82,13 +82,13 @@ var content=[
         newsUrl:'/',
         newsContent:`Jakarta, 26 November 2020 - PT Multi Harapan Utama (MHU) anak usaha dari MMS Group Indonesia (MMSGI), perusahaan perdagangan batubara Indonesia, menjadi salah satu dari enam eksportir utama batubara ke Tiongkok. Keikutsertaan ini merupakan bagian dari kerja sama Asosiasi Pertambangan Batubara Indonesi (APBI) dan China Coal Transportation and Distribution Association (CCTDA) yang difasilitasi oleh pemerintah untuk meningkatkan ekspor batubara Indonesia ke Tiongkok.
         
-        Kesepakatan kerja sama ini ditandatangani Rabu lalu (25/11), oleh Ketua Umum APBI, Pandu Patria Sjahrir dan Liang Jia Kun selaku perwakilan dari CCTDA, kedua pihak sepakat untuk menandatangani kontrak pembelian batu bara tahun 2021, dan berkomitmen untuk melaksanakan isi kontrak tersebut.        
+        Kesepakatan kerja sama ini ditandatangani Rabu lalu (25/11), oleh Ketua Umum APBI, Pandu Patria Sjahrir dan Liang Jia Kun selaku perwakilan dari CCTDA, kedua pihak sepakat untuk menandatangani kontrak pembelian batubara tahun 2021, dan berkomitmen untuk melaksanakan isi kontrak tersebut.        
         
         Penandatanganan MoU secara virtual tersebut dilakukan bersama dengan enam perusahaan batubara Indonesia seperti MMSGI, Adaro, Bukit Asam, Banpu, Noble, dan ITOCHU. Dalam kesempatan ini MMSGI di wakilkan oleh Edmund Tan, Director Marketing Trading and Logistics MMSGI.       
         
         Acara penandatanganan di atas juga disaksikan oleh Menteri Koordinator Bidang Kemaritiman dan Investasi Indonesia, Luhut Binsar Panjaitan, perwakilan dari Kedutaan China serta, Duta Besar Berkuasa Penuh Indonesia untuk China dan Mongolia, Djauhari Oratmangun.
         
-        APBI mengungkapkan bahwa Tiongkok akan membeli batubara termal Indonesia senilai US$1,467 miliar dan diharapkan akan ada peningkatan ekspor batu bara ke Tiongkok sebesar 200 juta ton di 2021.
+        APBI mengungkapkan bahwa Tiongkok akan membeli batubara termal Indonesia senilai US$1,467 miliar dan diharapkan akan ada peningkatan ekspor batubara ke Tiongkok sebesar 200 juta ton di 2021.
         
         Adri Martowardojo, Head of Corporate Strategy and Communication MMSGI mengatakan, “Melalui MHU, sebagai kontraktor yang ditunjuk oleh Pemerintah Republik Indonesia untuk melakukan kegiatan pertambangan (eksplorasi dan operasi produksi) batubara, MMSGI berupaya untuk memperkuat pasar batubara Indonesia di Tiongkok di tahun mendatang. Penandatanganan MoU memberikan kepastian dalam upaya serta strategi kami agar dapat menjadi eksportir batubara terbesar di Indonesia.”
         

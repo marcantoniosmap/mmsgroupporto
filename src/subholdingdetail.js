@@ -2,7 +2,7 @@ var content=[
     {
         id:'resources',
         subheading:'MMS RESOURCES',
-        title:'Pertambangan dan Perdagangan Batu Bara',
+        title:'Pertambangan dan Perdagangan Batubara',
         caption:'MMS Resources merupakan pilar usaha MMSGI yang berdiri sejak 2012. Fokus kegiatan MMS Resources terletak pada kegiatan produksi dan perdagangan batubara dengan operasi usaha utama berada di Kutai Kartanegara, Kalimantan Timur. MMS Resources menyediakan energi untuk membantu Indonesia tumbuh secara berkelanjutan.',
         company: ['MHU','MMS','MAC',''],
         header_image : '/img/MMS/Parallax5.jpg',

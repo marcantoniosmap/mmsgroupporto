@@ -59,7 +59,7 @@ function WhoWeAre(props){
                         MMS Group Indonesia merupakan perusahaan energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.
 					</p>
 					<p class ="text-4">
-                        Berawal dari MMS Resources yang bergerak di bidang perdagangan dan pertambangan batu bara, MMS Group Indonesia berkembang dan melakukan diversifikasi bisnis ke sektor properti melalui MMS Land dan bisnis berkelanjutan dengan MMS Solution.
+                        Berawal dari MMS Resources yang bergerak di bidang perdagangan dan pertambangan batubara, MMS Group Indonesia berkembang dan melakukan diversifikasi bisnis ke sektor properti melalui MMS Land dan bisnis berkelanjutan dengan MMS Solution.
 					</p>
 					<p class ="text-4">
                        Melalui 3 pilar tersebut, MMS Group Indonesia mempunyai visi untuk terus mendukung pengembangan Indonesia yang lebih hijau untuk masa depan yang lebih baik serta menjadi perusahaan energi berkelanjutan yang terpercaya.

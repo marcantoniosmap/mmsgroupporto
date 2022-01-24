@@ -37,25 +37,25 @@ function Awards(){
    const awardList=[
        {
            title :'Kepatuhan Pajak 2019',
-           content:'Apresiasi Atas Kontribusi dan Pemenuhan Kepatuhan Formal Kepada PT Mitra Asian Properti'
+           content:'Apresiasi Atas Kontribusi dan Pemenuhan Kepatuhan Formal kepada PT Mitra Asian Properti'
        },{
             title :'Penghargaan Subroto 2019',
-            content:'Pengelolaan Keselamatan Pertambangan Mineral dan Batubara Kepada PT Multi Harapan Utama'
+            content:'Pengelolaan Keselamatan Pertambangan Mineral dan Batubara kepada PT Multi Harapan Utama'
         },{
             title :'Penghargaan Kecelakaan Nihil',
-            content:'> 27 Juta Jam Kerja Tanpa LTI Kepada PT Multi Harapan Utama'
+            content:'> 27 Juta Jam Kerja Tanpa LTI kepada PT Multi Harapan Utama'
         },{
             title :'Penghargaan Program P2-HIV & AIDS',
             content:'Pelaksanaan Program Pencegahan dan Penanggulangan HIV & AIDS di Tempat Kerja Dengan Kategori Platinum'
         },{
             title :'Indonesian Mining Award 2019 (APBI ICMA)',
-            content:'Perusahaan Batubara Dengan Pengelolaan Keselamatan Pertambangan Terbaik'
+            content:'Perusahaan Batubara dengan Pengelolaan Keselamatan Pertambangan Terbaik'
         },{
             title :'PROPERNAS',
             content:'Biru (Periode 2018-2019)'
         },{
             title :'ISDA Award 2019',
-            content:'Platinum Untuk Kategori Ketahanan Pangan dan Gold Untuk Kategori Air Bersih dan Sanitasi Layak'
+            content:'Platinum untuk Kategori Ketahanan Pangan dan Gold untuk Kategori Air Bersih dan Sanitasi Layak'
         }
    ]
 

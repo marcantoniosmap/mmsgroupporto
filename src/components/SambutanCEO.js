@@ -29,8 +29,8 @@ function SambutanCEO(props){
 
             </div>
             </div>
-            <div class="col-lg-4 order-lg-2 mb-4 mb-lg-0 d-flex align-items-center">
-                <img src="img/MMS/Sendi Greti.jpg" className="img-fluid mb-2 pl-2" style={{}} alt=""/>
+            <div class="col-lg-4 order-lg-2 mb-4 mb-lg-0 d-flex align-items-center" style={{maxWidth:'500px'}}>
+                <img src="img/MMS/Sendi Greti.jpg" className="img-fluid mb-2 pl-2"  alt=""/>
             </div>
         </div>
     </div>
