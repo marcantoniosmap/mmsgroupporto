@@ -20,9 +20,9 @@ function HeaderSubholding(props){
                 <div className='row'>
                     {
                         subholdingArray.map((sub,index)=>
-                            <div className='col-lg-4'>
+                            <div className='col-4'>
                                 <Link to={`/business/${sub}`}>
-                                    <img alt={'MMS' + sub} className={`${ sub!==props.id &&'image-greyscale'} subHolding-default pb-4 pb-lg-0`} src={`/img/MMS/logo/Subholding/${sub}.png`}/> 
+                                    <img alt={'MMS' + sub} className={`${ sub!==props.id &&'image-greyscale'} img-fluid subHolding-default pb-4 pb-lg-0`} src={`/img/MMS/logo/Subholding/${sub}.png`}/> 
                                 </Link>
                             </div>
                         
