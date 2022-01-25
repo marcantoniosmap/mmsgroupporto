@@ -10,17 +10,17 @@ function HeaderSubholding(props){
         <div style={{height:'100px'}}></div>
     <Parallax
         bgImage='/img/MMS/slider-3.png'
-        bgImageStyle={{top:'9%', minHeight:'100%'}}
+        bgImageStyle={{top:'9%'}}
         strength={300}
-        className="page-header page-header-modern page-header-background page-header-background-md parallax overlay overlay-color-light overlay-show overlay-op-8 mt-0" style={{padding:'90px 0'}} >
+        className="page-header page-header-modern page-header-background page-header-background-md parallax overlay overlay-color-light overlay-show overlay-op-8 mt-0 p-0" >
         
-        <div class="container">
-            <div class="row">
+        <div class="container py-5 ">
+            <div class="row  py-lg-5 py-4">
             <div class="col-md-12 align-self-center p-static order-2 text-center">
                 <div className='row'>
                     {
                         subholdingArray.map((sub,index)=>
-                            <div className='col-4 p-3'>
+                            <div className='col-4 px-2'>
                                 <Link to={`/business/${sub}`}>
                                     <img alt={'MMS' + sub} className={`${ sub!==props.id &&'image-greyscale'} img-fluid subHolding-default pb-4 pb-lg-0`} src={`/img/MMS/logo/Subholding/${sub}.png`}/> 
                                 </Link>
