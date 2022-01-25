@@ -1,88 +1,94 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import Slider from 'react-slick';
+import NextButton from './NextButton';
 
 function SolutionSection(props){
+
+    const [chosenState,setChosenState]=useState('Pembangkit Listrik Tenaga Surya')
+    const sliderRef = useRef();
+
+    function clickListener(e,index) {
+        console.log('hello')
+        e.preventDefault();
+        setChosenState(projectData[index].id)
+        sliderRef.current.slickGoTo(index)
+     }
 
     const projectData=[
         {
             imgUrl:'solar.jpg',
-            title :'Pembangkit Listrik Tenaga Surya',
+            id : 'Pembangkit Listrik Tenaga Surya',
+            title :'Menyediakan Listrik Berkelanjutan',
             description:'MMS Solution melalui PT Mitra Dayatama Prima mengembangkan pembangkit listrik tenaga surya di beberapa lokasi di Indonesia dengan pipeline awal pembangkit 2 MW di Kutai Kartanegara, Kalimantan Timur. ',
         },
         {
             imgUrl:'miniranch.jpg',
-            title :'Peternakan Sapi Jayatama',
+            id: 'Peternakan Sapi Jayatama',
+            title :'Fasilitas Penggemukan Sapi Berteknologi',
             description:'PT Bramasta Sakti mengelola peternakan sapi Jayatama yang terintegrasi dengan pertanian jagung Bramasta sebagai fasilitas untuk peternak lokal dengan model kemitraan agar memberikan dampak positif kepada masyarakat.',
         },
         {
             imgUrl:'corn.jpg',
-            title :'Perkebunan Jagung',
+            id :'Perkebunan Jagung',
+            title :'Precision Farming Berstandar International',
             description:'MMS Solution melalui PT Bramasta Sakti mengelola pertanian jagung skala besar berteknologi tinggi yang menjadi pionir precision farming di Indonesia. Pertanian jagung Bramasta terletak di Kutai Kartanegara, Kalimantan Timur.',
         },
         {
             imgUrl:'smelter.jpg',
-            title :'Smelter Nikel',
+            id:'Smelter Nikel',
+            title :'Smelter dengan Terknologi RKEF',
             description:'MMS Solution melalui PT Mitra Murni Perkasa mengembangkan pabrik pemurnian bijih nikel kelas I untuk memproduksi nikel matte dengan kapasitas produksi 22.000 ton nikel per tahun untuk mendukung pengembangan ekosistem energi hijau di Indonesia.',
         },
     ]
-
-    const settings={
-        className:'h-100',
+    const settings = {
+        dots: true,
+        arrows: true,
         infinite: true,
-        slidesToShow: 4,
+        autoplay : true,
+        autoplaySpeed : 6000,
+        speed: 500,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay:false, 
-        adaptiveHeight: true,
-        responsive:[
-            {
-                breakpoint: 1024,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 3,
-                  infinite: true,
-                  dots: true
-                }
-              },
-              {
-                breakpoint: 600,
-                settings: {
-                    centerMode : true,
-                    autoplay:true,
-                 slidesToShow: 1,
-                  slidesToScroll: 2,
-                  initialSlide: 2
-                }
-              },
-        ]
-    }
+        beforeChange: (current, next) => setChosenState(projectData[next].id),
+        nextArrow: <NextButton />,
+        prevArrow: <NextButton />
+      };
+
     
 
     return(
-        <section class=" section-height-1 section-no-border my-5">
-            <div className='container container-xl-custom pb-5'>
-                <div class="row">
-                <div className="col text-center mb-4">
-                    {/* <h3 class="font-weight-bold text-color-primary text-4-5 ls-0 mb-2">Projek</h3> */}
-                    <h2 class="font-weight-bold text-color-dark text-lg-10 text-8 line-height-3 line-height-md-1 mb-2 ">Proyek MMS Solution</h2>
-                    <p class="mb-4 text-center text-4">MMS Solution berencana untuk mengoperasikan semua inisiatif secara komersial pada <span className='text-primary'>skala industri</span></p>
-                </div>
-            </div>
-                <Slider {...settings}>
-                    { projectData.map((project,index)=>
-                        <div className=''>
-                            <div className="card-custom">
-                                <img src={`/img/MMS/subholding/Solution/${project.imgUrl}`} />
-                                <div className="info">
-                                    <div className='text-6 font-weight-bold'>{project.title}</div>
-                                    <div className='text-white text-left text-3' style={{lineHeight:'21px'}}>{project.description}</div>
+        <section class=" section-height-1 section-no-border my-lg-5 my-3">
+        <div className='container container-xl-custom pb-5'>
+           <div className='row'>
+               <div className='col-lg-6 pe-lg-5 '>
+                   <div className='row'>
+                       {projectData.map((project,index)=>
+                       <div className={`col-6  ${chosenState!==project.id ? 'p-1':' p-2'}`} >
+                           <img onClick={(e)=>clickListener(e,index)} className={`img-fluid ${chosenState!==project.id ? 'custom-image-solution':''}`} src={`/img/MMS/subholding/Solution/${project.imgUrl}`} alt={project.title}/>
+                       </div>)}
+                   </div>
+               </div>
+
+               <div className='col-lg-6 pt-3 pt-lg-0 px-0'>
+                   <Slider ref={sliderRef} {...settings}>
+                       {projectData.map((points,index)=>
+                            <div className='d-flex justify-content px-2 px-lg-0'>
+                                <div className='px-lg-3' key={index}>
+                                    <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">{points.id}</p>
+                                    <div class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">{points.title}</div>
+                                    <p class=" mb-4 text-4">{points.description}</p>
+                                    {/* <p class=" mb-4 text-4">{points.description}</p> */}
                                 </div>
                             </div>
+                       
+                       )}
 
-                        </div>
-                        )}
-                </Slider>
-            </div>
-        </section>
+                   </Slider>
+                   
+               </div>
+           </div>
+        </div>
+    </section>
     )
 }
 export default SolutionSection;

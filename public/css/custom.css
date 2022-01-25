@@ -6991,3 +6991,12 @@ p {
   .onHoverFull:focus{
 	  opacity: 1;
   }
+
+  .custom-image-solution{
+	  filter: grayscale(100%);
+	  opacity: 0.8;
+  }
+
+  .width-more{
+	  width: 110%;
+  }
