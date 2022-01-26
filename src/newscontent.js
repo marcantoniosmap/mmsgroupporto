@@ -117,7 +117,7 @@ var content=[
         imageUrl:'News - 5',
         date:"2021-02-20",
         newsUrl:'/',
-        newsContent:`JJakarta, 20 Februari 2021- Hujan semalaman telah membawa permasalahan tahunan bagi ibukota dan sekitarnya, banjir terjadi di mana-mana mengakibatkan banyak rumah terendam air termasuk rumah beberapa karyawan MMSGI.
+        newsContent:`Jakarta, 20 Februari 2021- Hujan semalaman telah membawa permasalahan tahunan bagi ibukota dan sekitarnya, banjir terjadi di mana-mana mengakibatkan banyak rumah terendam air termasuk rumah beberapa karyawan MMSGI.
         
         Tim Sigap MMSGI yang dibentuk tahun lalu segera bergerak, dimulai dengan melakukan pendataan karyawan yang rumahnya terkena banjir dilanjutkan dengan pengiriman kebutuhan utama yang sangat diperlukan yaitu makanan dan minuman. Sejumlah Mie instant dan air mineral telah dikirimkan langsung oleh bagian ekspedisi Tim Sigap ke rumah karyawan yang dapat dijangkau. Semoga bantuan darurat ini, dapat bermanfaat bagi penerimanya.
         
