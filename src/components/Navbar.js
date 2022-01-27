@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import $ from 'jquery'
 import { Link,useLocation } from "react-router-dom";
+import {Modal} from 'react-bootstrap'
 
 function Navbar(props){
     const [isScrolled,setIsScrolled]=useState(false)
@@ -16,7 +17,13 @@ function Navbar(props){
 		}
 	}
 
-    $(window).scroll(function (event) {
+  	const [lgShow, setLgShow] = useState(false);
+
+	  function handleOpen(){
+		  setLgShow(true)
+	  }
+
+    $(window).scroll(function (event) {	
         var scroll = $(window).scrollTop();
         if (scroll>30){
             setIsScrolled(false)
@@ -134,9 +141,52 @@ function Navbar(props){
 					</div>
 				</div>
 
-				<a  class="g-20" href="https://b20indonesia2022.org/" target="_blank">
-				<img alt="MMSGI Logo" className="ms-1 my-float" height={'60px'}  src="/img/MMS/logo/MMS/logo-g20.png"/>
+
+
+				<a class="g-20" onClick={handleOpen}>
+					<img alt="MMSGI Logo" className="ms-1 my-float" height={'60px'}  src="/img/MMS/logo/MMS/logo-g20.png"/>
 				</a>
+			
+				<Modal
+					size="lg"
+					show={lgShow}
+					onHide={() => setLgShow(false)}
+					aria-labelledby="example-modal-sizes-title-lg"
+				>
+					<Modal.Header closeButton>
+					{/* <Modal.Title id="example-modal-sizes-title-lg">
+						<h3 className="text-4 mb-0 font-weight-semibold text-primary">MMSGI Becoming G20 Partner</h3>
+					</Modal.Title> */}
+					</Modal.Header>
+					<Modal.Body>
+						<div className="row pb-4 pb-lg-0">
+
+						<div className="col-md-4 px-lg-4 ">
+							<img className="img-fluid d-none d-lg-block" src='/img/MMS/logo/MMS/logo-g20.png' style={{maxHeight:'300px'}}/>
+						</div>
+						<div className="col-md-8 pe-5">
+							<div className="d-flex align-items-center h-100">
+								<div>
+							<h1 className="text-lg-7 text-6 mb-0 font-weight-bold text-uppercase" style={{lineHeight:'35px'}}>MMSGI in B20 Indonesia 2022</h1>
+							<h1 className="text-4 mb-3 font-weight-bold text-primary" style={{lineHeight:'20px'}}>Advancing Innovative, Inclusive, and Collaborative Growth </h1>
+							<p className="text-4">MMSGI merupakan salah satu partisipan pada forum B20 Indonesia pada Tahun 2022. Ingin tahu mengenai forum B20 lebih lanjut? Klik link dibawah ini!</p>
+
+							<a className="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5 mt-2" href="https://b20indonesia2022.org/" target='blank'>Visit B20 Website
+							<i class="fas fa-arrow-right ms-2"></i> </a>
+
+								</div>
+
+							</div>
+
+						</div>
+						</div>
+									
+						
+					</Modal.Body>
+				</Modal>
+				
+				
+
 			</header>
     )
 }
