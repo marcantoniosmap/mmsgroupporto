@@ -20,7 +20,8 @@ function SambutanCEO(props){
                     <p  style={{textAlign:'right'}}>
                         Salam,
                         <br/>
-                            <span class="font-weight-bold text-primary text-uppercase mb-0">Sendy Greti</span> 
+                            <span class="font-weight-bold text-primary text-uppercase mb-0">Sendy Greti</span>
+                            <p class=" text-3 text- font-weight-semibold text-dark my-0" style={{lineHeight:'18px'}}>Direktur Utama</p> 
                         </p>
                    </p>
                 {/* <hr class="solid my-4 "/>

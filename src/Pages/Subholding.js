@@ -56,6 +56,7 @@ function Subholding(props){
         slidesToScroll: 1,
         autoplay:true,
         autoplaySpeed:4000,
+        arrows:false
         // responsive:[
         //     {
         //         breakpoint: 600,
@@ -77,7 +78,7 @@ function Subholding(props){
             id={subholdingContent.id}
         />
         {/* <div style={{height:'100px'}}/> */}
-        <div class="container container-xl-custom py-5 ">
+        <div class="container container-xl-custom py-lg-5 py-3 ">
 			<div class="row text-center text-lg-start"  >
 				<div class="col-lg-6 pe-lg-5 order-lg-1 order-2">
 					<p class="font-weight-semibold mb-1 mt-2 text-uppercase">{subholdingContent.subheading}</p>

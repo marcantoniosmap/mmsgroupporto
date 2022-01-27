@@ -133,6 +133,10 @@ function Navbar(props){
 						</div>
 					</div>
 				</div>
+
+				<a  class="g-20" href="https://b20indonesia2022.org/" target="_blank">
+				<img alt="MMSGI Logo" className="ms-1 my-float" height={'60px'}  src="/img/MMS/logo/MMS/logo-g20.png"/>
+				</a>
 			</header>
     )
 }

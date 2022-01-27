@@ -24,7 +24,7 @@ function Footer(props){
 						TCC Batavia Tower One, Jl. K.H. Mas Mansyur No.126, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Jakarta
 					</li>
 					<li class="pb-1 mb-2">
-						<span class="d-block font-weight-normal line-height-1 text-color-light">PHONE</span>
+						<span class="d-block font-weight-normal line-height-1 text-color-light">Telepon</span>
 						<a href="tel:+622129529473">(62-21) 29529473</a>
 					</li>
 					<li class="pb-1 mb-2">

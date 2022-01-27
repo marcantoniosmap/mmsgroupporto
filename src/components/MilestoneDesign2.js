@@ -42,7 +42,7 @@ function MilestoneTab(props){
         }, {
             title : 'Disrupsi Teknologi',
             year : '2019',
-            content : ['MMSGI sangat memahami pentingnya infrastruktur digital, MMSGI kembali melebarkan sayapnya ke sektor teknologi dengan mendirikan PT Mitra Informatika Gemilang sebagai perusahaan penyedia Data Center.',
+            content : ['MMSGI sangat memahami pentingnya infrastruktur digital, MMSGI kembali melebarkan sayapnya ke sektor teknologi dengan mendirikan PT Mitra Informatika Gemilang sebagai perusahaan penyedia layanan Data Center.',
             'MMSGI mengakuisisi Puri Denpasar Hotel, salah satu hotel di Jakarta Selatan yang memiliki lokasi strategis dengan Golden Access di area Kuningan.']
         }, {
             title : 'Investasi untuk Masa Depan',

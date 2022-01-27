@@ -86,7 +86,16 @@ function LandSection(props){
         slidesToScroll: 1,
         beforeChange: (current, next) => setChosenState(pinpoint[next].id),
         nextArrow: <NextButton />,
-        prevArrow: <NextButton />
+        prevArrow: <NextButton />,
+        responsive:[
+            {
+            breakpoint:900,
+            settings:{
+                arrows:false
+
+            },
+        }
+        ]
       };
 
     
