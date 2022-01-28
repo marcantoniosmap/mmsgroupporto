@@ -21,7 +21,7 @@ function LandSection(props){
             <p>
             MMS Land memiliki 2 portfolio berupa gedung perkantoran yang berlokasi di Jakarta, yaitu Gedung Commodity Square (d/h Berita Satu Plaza) yang terletak di Jalan Gatot Subroto serta Data Center yang berlokasi di area Kuningan Jakarta.</p>
             <p>
-            Gedung Commudity Square (CSQ) dikelola oleh PT Mitra Griya Realitindo sedangkan Data Center dikelola oleh PT Mitra Informatika Gemilang.
+            Gedung Commodity Square (CSQ) dikelola oleh PT Mitra Griya Realitindo sedangkan Data Center dikelola oleh PT Mitra Informatika Gemilang.
             </p>
             </>,
             
