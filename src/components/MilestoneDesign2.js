@@ -30,14 +30,14 @@ function MilestoneTab(props){
         }, {
             title : 'Akuisisi PT Multi Harapan Utama',
             year : '2017',
-            content : ['MMSGI membuktikan kemampuannya dalam sektor perdagangan batubara yang diikuti dengan akuisisi PT Multi Harapan Utama sehingga menempatkan MMSGI menjadi salah satu perusahaan tambang batubara terkemuka di Indonesia.',
+            content : ['MMSGI membuktikan kemampuannya dalam sektor pertambangan batubara yang diikuti dengan akuisisi PT Multi Harapan Utama sehingga menempatkan MMSGI menjadi salah satu perusahaan tambang batubara terkemuka di Indonesia.',
                 'MMSGI berada pada posisi yang tepat untuk mulai melakukan investasi masa depan pada bisnis yang berkelanjutan pasca akuisisi PT Multi Harapan Utama.'
                 ]
         }, {
             title : 'Dedikasi Energi Baru Terbarukan',
             year : '2018',
             content : ['MMSGI memahami pentingnya energi hijau untuk masa depan Indonesia yang mendorong didirikannya PT Dayatama Prima Energi sebagai perusahaan yang berfokus pada pengembangan Energi baru dan terbarukan.',
-            'MMSGI mendirikan MMS Land (PT Mitra Properti Sentosa) sebagai pilar usaha untuk mengelola seluruh portofolio properti dan real estat kedepannya.'
+            'MMSGI mendirikan MMS Land (PT Mitra Properti Sukses) sebagai pilar usaha untuk mengelola seluruh portofolio properti dan real estat kedepannya.'
             ]
         }, {
             title : 'Disrupsi Teknologi',

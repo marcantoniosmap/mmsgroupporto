@@ -228,7 +228,7 @@ var content=[
         imageUrl:'News - 16',
         date:"2021-11-24",
         newsUrl:'/',
-        newsContent:`Founder PT MMS Group Indonesia (MMSGI) Andrew Hidayat Bersama dengan Garibaldi (Boy) Thohir selaku perwakilan PT Trinugraha Thohir, meresmikan gedung Commodity Square yang berlokasi di Jl. Jend. Gatot Subroto Kav. 35-35, Jakarta Selatan.
+        newsContent:`Founder PT MMS Group Indonesia (MMSGI) Andrew Hidayat Bersama dengan Garibaldi (Boy) Thohir selaku founder PT Trinugraha Thohir, meresmikan gedung Commodity Square yang berlokasi di Jl. Jend. Gatot Subroto Kav. 35-35, Jakarta Selatan.
 
         Berpegang teguh pada visi untuk melebarkan jangkauan, MMSGI melakukan diversifikasi bisnis ke sektor properti dan hospitality sejak 2015. Sebelumnya, melalui PT Mitra Properti Sukses (MPS) yang merupakan salah anak usaha dari MMSGI, telah diakuisisi Hotel Pullman Legian Bali, didirikan Mini City Kota Harapan Sukses di Kalimantan Timur, dibangun Data Center yang berlokasi di Jakarta Selatan hingga dibukanya Showroom Mobil Luxury di Bali. 
         
