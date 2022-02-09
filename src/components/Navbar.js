@@ -143,7 +143,7 @@ function Navbar(props){
 
 
 
-				<a class="g-20" onClick={handleOpen}>
+				<a class="g-20" style={{cursor:'pointer'}} onClick={handleOpen}>
 					<img alt="MMSGI Logo" className="ms-1 my-float" height={'60px'}  src="/img/MMS/logo/MMS/logo-g20.png"/>
 				</a>
 			
