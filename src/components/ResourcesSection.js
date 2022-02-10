@@ -105,7 +105,7 @@ function ResourcesSection(props){
         }],
     };
 
-    const text=`MMS Resources adalah pilar bisnis yang menaungi anak usaha pertambangan dan perdagangan batu bara dengan wilayah kerja di Kalimantan Timur dan Kalimantan Selatan. Diawali dengan PT Mitra Maju Sukses (MMS) sebagai pemasok batu bara untuk pasar domestik, MMS tumbuh menjadi perusahaan yang terpercaya. dan memperluas wilayah operasinya ke pasar ekspor.
+    const text=`MDiawali dengan PT Mitra Maju Sukses (MMS) sebagai pemasok batu bara untuk pasar domestik, MMS tumbuh menjadi perusahaan yang terpercaya. dan memperluas wilayah operasinya ke pasar ekspor.
 
     Dengan keahlian dan kepercayaan yang dibangun, MMSGI memperluas usahanya dengan mendirikan MMS Resources dan melakukan akuisisi tambang di Kalimantan Selatan (PT Duta Dharma Utama, IUP) dan Kalimantan Timur (PT Multi Harapan Utama, PKP2B) sehingga menjelma menjadi perusahaan tambang batu bara terintegrasi. 
     
