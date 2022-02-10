@@ -3,7 +3,6 @@ import Awards from '../components/Awards';
 import Corporate_value from '../components/Corporate_value';
 import Header from '../components/Header';
 import JajaranDireksi from '../components/JajaranDireksi';
-import Milestone from '../components/Milestone';
 import MilestoneTab from '../components/MilestoneDesign2';
 import NumberSection from '../components/NumberSection';
 import SambutanCEO from '../components/SambutanCEO';

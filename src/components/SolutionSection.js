@@ -18,26 +18,30 @@ function SolutionSection(props){
         {
             imgUrl:'solar.jpg',
             id : 'Pembangkit Listrik Tenaga Surya',
-            title :'Menyediakan Listrik Berkelanjutan',
-            description:'MMS Solution melalui PT Mitra Dayatama Prima mengembangkan pembangkit listrik tenaga surya di beberapa lokasi di Indonesia dengan pipeline awal pembangkit 2 MW di Kutai Kartanegara, Kalimantan Timur. ',
+            title :'Energi Terbarukan Melalui Pembangkit Listrik Tenaga Surya',
+            description:[<>MMS Solution melalui PT Mitra Dayatama Prima sedang mengembangkan pembangkit listrik tenaga surya di beberapa lokasi di Indonesia dengan rancangan awal pembangkit 2 MW di Kutai Kartanegara, Kalimantan Timur.</>,
+                        <>Saat ini kami sedang dalam proses pengembangan konseptual hingga 100 MW proyek pembangkit listrik tenaga surya di Kalimantan Timur dan Kalimantan Selatan untuk mendukung target <i>Net Zero Emission</i> Indonesia pada tahun 2060.</>]
         },
         {
             imgUrl:'miniranch.jpg',
             id: 'Peternakan Sapi Jayatama',
-            title :'Fasilitas Penggemukan Sapi Berteknologi',
-            description:'PT Bramasta Sakti mengelola peternakan sapi Jayatama yang terintegrasi dengan pertanian jagung Bramasta sebagai fasilitas untuk peternak lokal dengan model kemitraan agar memberikan dampak positif kepada masyarakat.',
+            title :'Fasilitas Sapi Peternak Lokal',
+            description:[<>Bramasta mengelola Jayatama Mini Ranch yang terintegrasi dengan pertanian jagung menyediakan fasilitas peternakan dan sosialisasi <i>Good Farming Practice</i> bagi petani lokal di Desa Jonggon Jaya dan Margahayu.</>,
+                <>Fasilitas Peternakan Mini Jayatama dapat menampung hingga 200 ekor sapi. Dengan Jayatama, anggota kelompok ternak diharapkan mendapatkan fasilitas, pengetahuan, dan tempat belajar memelihara dan meningkatkan kelangsungan hidup ternak.</>]
         },
         {
             imgUrl:'corn.jpg',
             id :'Perkebunan Jagung',
-            title :'Precision Farming Berstandar International',
-            description:'MMS Solution melalui PT Bramasta Sakti mengelola pertanian jagung skala besar berteknologi tinggi yang menjadi pionir precision farming di Indonesia. Pertanian jagung Bramasta terletak di Kutai Kartanegara, Kalimantan Timur.',
+            title :'Ladang Jagung dengan Teknologi Precision Farming',
+            description:[<>MMS Solution melalui PT Bramasta Sakti (Bramasta) mengelola pertanian jagung skala besar dan berteknologi tinggi yang bertujuan untuk menjadi pelopor <i>Precision Farming</i> di Indonesia. Kebun jagung Bramasta terletak di Kutai Kartanegara, Kalimantan Timur.</>,
+                <>Kehadiran pertanian Bramasta dan fasilitas pendukungnya yang canggih turut membantu membangun industrialisasi dan infrastruktur daerah serta menumbuhkan inovasi di sektor pertanian.</>]
         },
         {
             imgUrl:'smelter.jpg',
             id:'Smelter Nikel',
-            title :'Smelter dengan Terknologi RKEF',
-            description:'MMS Solution melalui PT Mitra Murni Perkasa mengembangkan pabrik pemurnian bijih nikel kelas I untuk memproduksi nikel matte dengan kapasitas produksi 22.000 ton nikel per tahun untuk mendukung pengembangan ekosistem energi hijau di Indonesia.',
+            title :'Smelter Nikel Ramah Lingkungan',
+            description:[<>MMS Solution melalui PT Mitra Murni Perkasa mengembangkan fasilitas smelter nikel pertama di Balikpapan, Kalimantan Timur untuk mendukung ekosistem energi hijau di Indonesia.</>,
+                        <>Pabrik peleburan tersebut diharapkan memiliki kapasitas produksi 22.000 MT nikel per tahun. Jalur produksi <i>Reduction-Kiln Electric Furnace</i> (RKEF) 2 x 48MVA akan dibangun untuk mencapai kapasitas produksi nikel yang dibutuhkan.</>]
         },
     ]
     const settings = {
@@ -76,7 +80,8 @@ function SolutionSection(props){
                                 <div className='px-lg-3' key={index}>
                                     <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">{points.id}</p>
                                     <div class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">{points.title}</div>
-                                    <p class=" mb-4 text-4">{points.description}</p>
+                                    <p class=" text-4">{points.description[0]}</p>
+                                    <p class=" mb-4 text-4">{points.description[1]}</p>
                                     {/* <p class=" mb-4 text-4">{points.description}</p> */}
                                 </div>
                             </div>

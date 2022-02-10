@@ -13,7 +13,7 @@ function CareerAccordion(props){
 
             <div class="row pb-4">
                 <div class="col-lg-12">
-                    <h4 class="mt-2 mb-2 text-lg-8 text-6">Posisi Terbuka</h4>
+                    <h4 class="mt-2 mb-2 text-lg-8 text-6">Lowongan Kerja</h4>
                     <div class="accordion accordion-modern-status accordion-modern-status-primary mt-4" id="accordion"> 
                         {   content.map((item,index)=>
                             <div class="card card-default mb-2" key={index}>

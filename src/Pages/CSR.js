@@ -16,7 +16,7 @@ function CSR(){
         Paragraph : '',
         CTA : null,
         additional :<div>
-            <img className='mb-3' style={{maxHeight:'120px'}} src='/img/MMS/logo/MMS/LAM.png'/>
+            {/* <img className='mb-3' style={{maxHeight:'120px'}} src='/img/MMS/logo/MMS/LAM.png'/> */}
             <span className='text-5 text-lg-8 text-color-light'>Yayasan Life After Mine didirikan sebagai pelaksana Corporate Social Responsibility dengan fokus pada pembangunan ekonomi, sosial dan lingkungan bagi masyarakat terutama di sekitar wilayah operasi pasca tambang.</span>,
         </div>
         },

@@ -7,7 +7,7 @@ function CareerSection(props){
         titleNormal:' di MMS Group Indonesia',
         paragraph: `Kami berkomitmen untuk menyediakan fasilitas penyandang disabilitas yang memenuhi syarat dalam aplikasi pekerjaan dan proses rekrutmen kami.
         
-        MMSGI menghargai keragaman & rasa memiliki dan bangga menjadi pemberi kerja Kesempatan Kerja yang Setara. Semua individu yang mencari pekerjaan di MMSGI dianggap tanpa memandang ras, warna kulit, agama, asal negara, usia, jenis kelamin, status perkawinan, keturunan, cacat fisik atau mental, status veteran, identitas gender, orientasi seksual, atau karakteristik lain yang dilindungi hukum.`
+        MMSGI menghargai keragaman & rasa memiliki dan bangga menjadi pemberi kerja Kesempatan Kerja yang Setara. Semua individu yang mencari pekerjaan di MMSGI dianggap tanpa memandang ras, warna kulit, agama, asal negara, usia, jenis kelamin, status perkawinan, keturunan, difabel, status veteran, identitas gender, orientasi seksual, atau karakteristik lain yang dilindungi hukum.`
     }
 
     return(

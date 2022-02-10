@@ -48,6 +48,8 @@ function Navbar(props){
 										<Link to="/">
 											<img alt="MMSGI Logo" className="my-2" height={isScrolled?'55':'48'}  src="/img/MMS/logo/MMS/MMSGI Horizontal.png"/>
 										</Link>
+										{page==='CSR' && <img alt="MMSGI Logo" className="mx-3" height={isScrolled?'55':'48'}  src="/img/MMS/logo/MMS/LAM color.png"/>}
+
 									</div>
 								</div>
 							</div>

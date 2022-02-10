@@ -35,7 +35,7 @@ function ResourcesSection(props){
                     // Include a dollar sign in the ticks
                     callback: function(value, index, values) {
                         var stringtemp= windowSize ? 'MIO MT' : ''
-                        return  value%4===0 ? value + stringtemp : ''
+                        return (value%4===0) ? value + stringtemp : ''
                     },
                     font:{
                         size:12,
@@ -63,12 +63,12 @@ function ResourcesSection(props){
         },
           title: {
             display: windowSize,
-            text: 'Produksi MHU Dalam Jutaan Ton',
+            text: 'Penjualan Konsolidasi MMS Resources Dalam Jutaan Ton',
             padding:{
                 top:10
             },
             font:{
-                size:16,
+                size:14,
                 color: '#953735',
                 family : 'poppins'
             },
@@ -99,15 +99,17 @@ function ResourcesSection(props){
     const data = {
         labels,
         datasets: [{
-            label: 'Produksi',
-            data: [3.5,5.5,9.1,11.0,13.9],
+            label: 'Penjualan',
+            data: [7.7,9.7,13.0,15.6,17.5],
             backgroundColor: '#953735',
         }],
     };
 
-    const text=`Pasca akuisisi MHU oleh MMSGI pada 2017, MHU mengalami peningkatan volume produksi batubara yang signifikan. Terjadi peningkatan sebesar 294% dalam 4 tahun terakhir. Hal ini membuktikan kemampuan MMSGI dalam memberikan nilai tambah untuk pengoperasian tambang batubara.
+    const text=`MMS Resources adalah pilar bisnis yang menaungi anak usaha pertambangan dan perdagangan batu bara dengan wilayah kerja di Kalimantan Timur dan Kalimantan Selatan. Diawali dengan PT Mitra Maju Sukses (MMS) sebagai pemasok batu bara untuk pasar domestik, MMS tumbuh menjadi perusahaan yang terpercaya. dan memperluas wilayah operasinya ke pasar ekspor.
+
+    Dengan keahlian dan kepercayaan yang dibangun, MMSGI memperluas usahanya dengan mendirikan MMS Resources dan melakukan akuisisi tambang di Kalimantan Selatan (PT Duta Dharma Utama, IUP) dan Kalimantan Timur (PT Multi Harapan Utama, PKP2B) sehingga menjelma menjadi perusahaan tambang batu bara terintegrasi. 
     
-    Penerapan strategi yang tepat sejak awal, kepercayaan dari stakeholders dan pengalaman dalam sektor batubara merupakan kunci sukses dari MMSGI dalam meningkatkan produksi MHU dengan pesat dalam waktu yang singkat.
+    MMS Resources adalah salah satu perusahaan dengan peningkatan pertumbuhan tertinggi mencapai 126% dalam 4 tahun terakhir. Penerapan strategi yang tepat sejak awal, kepercayaan dari stakeholders dan pengalaman dalam sektor batubara merupakan kunci sukses dari MMSGI untuk berkembang pesat kedepannya.
     `
  
     return(
@@ -115,14 +117,17 @@ function ResourcesSection(props){
             <div className='container container-xl-custom pb-5'>
                <div className='row'>
                    <div className='col-lg-6 mb-3 mb-lg-0'>
+                       <div className='d-flex align-items-center h-100'>
+
                        <Bar options={options} data={data}  />
+                       </div>
                     </div>
 
                    <div className='col-lg-6'>
                         <div className='h-100 px-3'>
                             <div className=''>
-                                <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">Produksi</p>
-                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Pertumbuhan pesat sejak akuisisi MHU oleh MMSGI </p>
+                                <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">Penjualan Batu Bara</p>
+                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Menjadi Mitra Terpercaya di Pasar Intenasional</p>
                                 <p class="text-4" style={{whiteSpace:'pre-line'}}>
                                     {text}
                                     
