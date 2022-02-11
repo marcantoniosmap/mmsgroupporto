@@ -48,7 +48,7 @@ function Navbar(props){
 										<Link to="/">
 											<img alt="MMSGI Logo" className="my-2" height={isScrolled?'55':'48'}  src="/img/MMS/logo/MMS/MMSGI Horizontal.png"/>
 										</Link>
-										{page==='CSR' && <img alt="MMSGI Logo" className="mx-3" height={isScrolled?'55':'48'}  src="/img/MMS/logo/MMS/LAM color.png"/>}
+										{page==='CSR' && <img alt="MMSGI Logo" className="mx-3" height={isScrolled?'0':'48'}  src="/img/MMS/logo/MMS/LAM color.png"/>}
 
 									</div>
 								</div>
@@ -146,7 +146,7 @@ function Navbar(props){
 
 
 				<a class="g-20" style={{cursor:'pointer'}} onClick={handleOpen}>
-					<img alt="MMSGI Logo" className="ms-1 my-float" height={'60px'}  src="/img/MMS/logo/MMS/logo-g20.png"/>
+					<img alt="MMSGI Logo" className="ms-1 my-float"   src="/img/MMS/logo/MMS/logo-g20.png"/>
 				</a>
 			
 				<Modal

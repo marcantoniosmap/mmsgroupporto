@@ -35,10 +35,10 @@ function ResourcesSection(props){
                 ticks: {
                     // Include a dollar sign in the ticks
                     callback: function(value, index, values) {
-                        return (value%4===0) ? value  : ''
+                        return value%4===0 ? value  : ''
                     },
                     font:{
-                        size:14,
+                        size:12,
                         color: '#777',
                         family : 'poppins'
                     }
@@ -49,7 +49,7 @@ function ResourcesSection(props){
                     display:false
                 }, ticks :{
                     font:{
-                        size:14,
+                        size:12,
                         color: '#777',
                         family : 'poppins'
                     }
@@ -62,10 +62,10 @@ function ResourcesSection(props){
             enabled:false,
         },
           title: {
-            display: windowSize,
-            text: 'Penjualan Konsolidasi MMS Resources Dalam Jutaan Ton',
+            display: true,
+            text: ['Penjualan Konsolidasi MMS Resources','Dalam Jutaan Ton'],
             padding:{
-                top:0
+                top:10
             },
             font:{
                 size:14,
@@ -117,7 +117,7 @@ function ResourcesSection(props){
             <div className='container container-xl-custom pb-5'>
                <div className='row'>
                    <div className='col-lg-6 mb-3 mb-lg-0'>
-                       <div className=' h-100 '>
+                       <div className=' h-100 ' style={{minHeight:'300px'}}>
 
                             <Bar options={options} data={data}  />
                        </div>
@@ -127,7 +127,7 @@ function ResourcesSection(props){
                         <div className='h-100 px-3'>
                             <div className=''>
                                 <p class="font-weight-semibold mb-1 text-primary text-uppercase">Perdagangan Batu Bara</p>
-                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Mitra Energi Terpercaya Indonesia</p>
+                                <span class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Mitra Energi Terpercaya Indonesia</span>
                                 <p class="text-4 mb-0" style={{whiteSpace:'pre-line'}}>
                                     {text}
                                     
