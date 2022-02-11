@@ -26,6 +26,7 @@ function ResourcesSection(props){
 
     const options = {
         responsive: true,
+        maintainAspectRatio:false,
         scales: {
             y: {
                 grid:{
@@ -34,11 +35,10 @@ function ResourcesSection(props){
                 ticks: {
                     // Include a dollar sign in the ticks
                     callback: function(value, index, values) {
-                        var stringtemp= windowSize ? 'MIO MT' : ''
-                        return (value%4===0) ? value + stringtemp : ''
+                        return (value%4===0) ? value  : ''
                     },
                     font:{
-                        size:12,
+                        size:14,
                         color: '#777',
                         family : 'poppins'
                     }
@@ -49,7 +49,7 @@ function ResourcesSection(props){
                     display:false
                 }, ticks :{
                     font:{
-                        size:12,
+                        size:14,
                         color: '#777',
                         family : 'poppins'
                     }
@@ -65,7 +65,7 @@ function ResourcesSection(props){
             display: windowSize,
             text: 'Penjualan Konsolidasi MMS Resources Dalam Jutaan Ton',
             padding:{
-                top:10
+                top:0
             },
             font:{
                 size:14,
@@ -107,9 +107,9 @@ function ResourcesSection(props){
 
     const text=`Diawali dengan PT Mitra Maju Sukses (MMS) sebagai pemasok batu bara untuk pasar domestik, MMS tumbuh menjadi perusahaan yang terpercaya. dan memperluas wilayah operasinya ke pasar ekspor.
 
-    Dengan keahlian dan kepercayaan yang dibangun, MMSGI memperluas usahanya dengan mendirikan MMS Resources dan melakukan akuisisi tambang di Kalimantan Selatan (PT Duta Dharma Utama, IUP) dan Kalimantan Timur (PT Multi Harapan Utama, PKP2B) sehingga menjelma menjadi perusahaan tambang batu bara terintegrasi. 
+    Dengan keahlian dan kepercayaan yang dibangun, MMSGI memperluas usahanya dengan mendirikan MMS Resources dan melakukan akuisisi beberapa tambang di Kalimantan Timur (PT Multi Harapan Utama, PKP2B) dan Kalimantan Selatan sehingga menjelma menjadi perusahaan tambang batu bara terintegrasi. 
     
-    MMS Resources adalah salah satu perusahaan dengan peningkatan pertumbuhan tertinggi mencapai 126% dalam 4 tahun terakhir. Penerapan strategi yang tepat sejak awal, kepercayaan dari stakeholders dan pengalaman dalam sektor batubara merupakan kunci sukses dari MMSGI untuk berkembang pesat kedepannya.
+    MMS Resources adalah salah satu perusahaan dengan peningkatan pertumbuhan tertinggi mencapai 126% dalam 4 tahun terakhir.
     `
  
     return(
@@ -117,18 +117,18 @@ function ResourcesSection(props){
             <div className='container container-xl-custom pb-5'>
                <div className='row'>
                    <div className='col-lg-6 mb-3 mb-lg-0'>
-                       <div className='d-flex align-items-center h-100'>
+                       <div className=' h-100 '>
 
-                       <Bar options={options} data={data}  />
+                            <Bar options={options} data={data}  />
                        </div>
                     </div>
 
                    <div className='col-lg-6'>
                         <div className='h-100 px-3'>
                             <div className=''>
-                                <p class="font-weight-semibold mb-1 mt-2 text-primary text-uppercase">Penjualan Batu Bara</p>
-                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Menjadi Mitra Terpercaya di Pasar Intenasional</p>
-                                <p class="text-4" style={{whiteSpace:'pre-line'}}>
+                                <p class="font-weight-semibold mb-1 text-primary text-uppercase">Perdagangan Batu Bara</p>
+                                <p class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Mitra Energi Terpercaya Indonesia</p>
+                                <p class="text-4 mb-0" style={{whiteSpace:'pre-line'}}>
                                     {text}
                                     
                                 </p>
