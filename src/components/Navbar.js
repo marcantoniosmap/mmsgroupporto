@@ -171,7 +171,7 @@ function Navbar(props){
 								<div>
 							<h1 className="text-lg-7 text-6 mb-0 font-weight-bold text-uppercase" style={{lineHeight:'35px'}}>MMSGI in B20 Indonesia 2022</h1>
 							<h1 className="text-4 mb-3 font-weight-bold text-primary" style={{lineHeight:'20px'}}>Advancing Innovative, Inclusive, and Collaborative Growth </h1>
-							<p className="text-4">MMSGI merupakan salah satu partisipan pada forum B20 Indonesia pada Tahun 2022. Ingin tahu mengenai forum B20 lebih lanjut? Klik link dibawah ini!</p>
+							<p className="text-4">MMS Group Indonesia merupakan member dari Task Force Energy, Sustainability and Climate pada B20 Forum yang merupakan salah satu dialogue group dalam rangkaian kegiatan Presidensi G20 Indonesia 2022.</p>
 
 							<a className="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5 mt-2" href="https://b20indonesia2022.org/" target='blank'>Visit B20 Website
 							<i class="fas fa-arrow-right ms-2"></i> </a>

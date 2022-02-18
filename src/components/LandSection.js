@@ -35,7 +35,7 @@ function LandSection(props){
             judul:'Perumahan Kalimantan Timur',
             description :<>
                 <p>
-                Di wilayah Kutai Kartangera, Kalimantan Timur, MMS Land memili 2 portfolio di bidang perumahan. Perumahan Bukit Andara Jonggon serta Kota Harapan Sukses (KHS) di Tanjung Laong.</p>
+                Di wilayah Kutai Kartangera, Kalimantan Timur, MMS Land memiliki 2 portfolio di bidang perumahan. Perumahan Bukit Andara Jonggon serta Kota Harapan Sukses (KHS) di Tanjung Laong.</p>
                 <p>
                 Perumahan Bukit Andara Jonggon dikembangkan oleh PT Mitra Persona Harmoni terletak pada jalan poros utama Tenggarong - Penajam Paser Utara (ibukota negara baru). Sedangkan, KHS memiliki konsep mini city yang dikembangkan diatas lahan seluas 300 Ha.</p>
             </>,
