@@ -26,7 +26,7 @@ function  OverviewSubsidiaries(props){
     ]
 
     // const mmsCaption='was established in 2005 as coal trading company, as business grow the function transformed into a holding company for three main business pillars'
-    const mmsCaption='Berawal pada tahun 2005 sebagai perusahaan perdagangan batubara, dalam perjalannnya MMSGI tumbuh menjadi perusahaan induk dengan tiga pilar usaha utama'
+    const mmsCaption='Berawal pada tahun 2005 sebagai perusahaan perdagangan batubara, dalam perjalanannya MMSGI tumbuh menjadi perusahaan induk dengan tiga pilar usaha utama'
 
     return(
     
