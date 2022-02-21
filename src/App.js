@@ -87,7 +87,7 @@ function App() {
           <Route 
             path='/newspage'
             component={(props) =>
-                  <Redirect to='/news/1'/>
+                  <Redirect to='/newspage/1'/>
             }
             />
 

@@ -1,4 +1,5 @@
 import React, {useEffect,useState} from 'react'
+import { Helmet } from 'react-helmet';
 import Awards from '../components/Awards';
 import Corporate_value from '../components/Corporate_value';
 import Header from '../components/Header';
@@ -20,6 +21,9 @@ function About(){
     console.log('about')
     return(
         <>
+          <Helmet>
+            <title>Tentang Kami | MMS Group Indonesia</title>
+        </Helmet>
             {/* <Header 
                 imageUrl="img/MMS/slider-2.png" 
                 textZero="Tentang" 

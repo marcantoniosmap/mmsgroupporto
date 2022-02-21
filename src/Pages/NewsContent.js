@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from 'react'
 import { Link } from 'react-router-dom';
 import content from "../newscontent";
-
+import {Helmet} from "react-helmet";
 
 function NewsContent(props){
     
@@ -36,7 +36,15 @@ function NewsContent(props){
             
             <div style={{height:'100px'}}/>
             {newsContent && 
+                
                 <div class="container container-xl-custom py-4 mb-4">
+                     <Helmet>
+                            <title>{newsContent.title}</title>
+                            <meta
+                                name="description"
+                                content={newsContent.newsContent.substring(0,150)}
+                                />
+                    </Helmet>
                     <div class="row">
                         <div class="col-lg-3 order-lg-2 d-none d-lg-block">
                             <div className="position-sticky" style={{top:120}}>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 
@@ -6,6 +7,9 @@ function Contact(props){
 
     return(
         <>
+		<Helmet>
+            <title>Kontak | MMS Group Indonesia</title>
+        </Helmet>
          {/* <Header 
                 imageUrl="img/MMS/Parallax2.jpg" 
                 textZero="Contact" 

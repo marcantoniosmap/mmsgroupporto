@@ -1,4 +1,5 @@
 import React, {useEffect,useState} from 'react'
+import { Helmet } from 'react-helmet';
 import Header from '../components/Header';
 import NewsContainer from '../components/NewsContainer';
 
@@ -13,6 +14,9 @@ function News(props){
                     {name :'Beranda',url:'/'}
                 ]}/> */}
             <div style={{height:'100px'}}/>
+            <Helmet>
+            <title>Berita | MMS Group Indonesia</title>
+        </Helmet>
 
             <NewsContainer 
                 showPagination={true}

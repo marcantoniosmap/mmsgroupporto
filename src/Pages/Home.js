@@ -7,6 +7,7 @@ import Introduction from "../components/Introduction";
 import OverviewSubsidiaries from "../components/OverviewSubsidiaries";
 import ESGSection from "../components/ESGsection";
 import NewsonHome from "../components/NewsonHome";
+import { Helmet } from "react-helmet";
 
 function Home(props){
 
@@ -40,6 +41,9 @@ function Home(props){
 
 return(
     <div role="main" class="main">
+        <Helmet>
+            <title>Beranda | MMS Group Indonesia</title>
+        </Helmet>
         <HomeSliderSlick sliderContent={sliderContent}/>
 		<Introduction/>
 		<OverviewSubsidiaries/>

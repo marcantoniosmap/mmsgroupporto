@@ -1,4 +1,5 @@
 import React, {useEffect,useRef,useState} from 'react'
+import { Helmet } from 'react-helmet';
 import Slider from 'react-slick';
 import Header from '../components/Header';
 import HomeSliderSlick from '../components/HomeSliderSlick';
@@ -109,6 +110,9 @@ function CSR(){
     return(
         <>
            <HomeSliderSlick sliderContent={sliderContent}/>
+           <Helmet>
+            <title>CSR | MMS Group Indonesia</title>
+        </Helmet>
             <section class="section-default my-4">
                 <div className='container container-xl-custom'>
                     <div class="row">

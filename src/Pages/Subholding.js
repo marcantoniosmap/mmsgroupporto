@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import Slider from "react-slick";
 import Header from "../components/Header";
 import HeaderSubholding from "../components/HeaderSubholding";
@@ -73,6 +74,11 @@ function Subholding(props){
             subholdingContent &&
 
        <>
+        <Helmet>
+            <title>{subholdingContent.subheading} | MMS Group Indonesia</title>
+            <meta name="description"
+                content= {subholdingContent.caption}/>
+        </Helmet>
         <HeaderSubholding
             imageUrl={subholdingContent.header_image}
             id={subholdingContent.id}
