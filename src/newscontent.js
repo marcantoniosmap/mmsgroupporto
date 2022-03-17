@@ -324,6 +324,83 @@ var content=[
         
         Bupati Manggarai Barat, Edistasius Endi menyampaikan, “Dengan banyaknya konferensi yang akan dilaksanakan di Labuan Bajo seperti side event KTT G20 yang akan diselenggarakan tahun 2022 nanti, Labuan Bajo membutuhkan lebih banyak lagi hotel bertaraf internasional. Kami sangat mendukung rencana MPS untuk mendirikan hotel ini untuk kemajuan daerah. Kami himbau MPS untuk dapat segera menyelesaikan pembangunan hotel”.`        
     },
+    {
+        id:'133229f53ngk47',
+        title:'MMSGI Masuk Task Force Perumusan Kebijakan Transisi Energi B20',
+        imageUrl:'News - 18',
+        date:"2022-03-16",
+        newsUrl:'/',
+        newsContent:`MMS Group Indonesia (MMSGI) turut berkontribusi untuk menyukseskan rangkaian kegiatan Presidensial G20 Indonesia 2022. MMSGI menjadi bagian task force (TF) Energy, Sustainability, and Climate pada B20 yang merupakan salah satu dialogue group G20.
+        
+        TF Energy, Sustainability & Climate memiliki objektif untuk menjawab kegelisahan global, salah satunya mengenai proses transisi menuju penggunaan energi berkelanjutan, baik dari sisi mitigasi dampak maupun strategi percepatannya melalui penyusunan policy paper yang akan menjadi masukan bagi Presiden Joko Widodo pada G20 Summit 2022.
+        
+        Task force ini diisi perwakilan 100 perusahaan bidang energi terkemuka dari seluruh anggota G20.
+        
+        “Dibutuhkan strategi jangka panjang dan kolaborasi seluruh stakeholder untuk menjamin a just and orderly energy transition dengan mengoptimalisasi aset yang sudah ada.” ujar Andrew Hidayat, Founder MMS Group Indonesia pada pertemuan TF Energy, Sustainability, and Climate, Rabu (16/3).
+        
+        MMS Group Indonesia merupakan holding perusahaan energi yang bertransisi ke arah sustainable business. 
+        
+        Berawal dari perusahaan perdagangan (trading) batubara di tahun 2005, MMSGI tumbuh menjadi salah satu perusahaan produsen energi terpercaya di Indonesia dengan turnover lebih dari USD 1,9 miliar.
+        
+        Seiring perkembangan perusahaan, MMSGI berkomitmen meningkatkan adopsi energi terbarukan di Indonesia untuk mendukung target bauran energi (energy mix) Indonesia di tahun 2025 (23% penggunaan energi terbarukan).
+        
+        Salah satu wujud nyata komitmen tersebut adalah melalui partisipasi MMSGI pada TF Energy, Sustainability, and Climate B20 dengan mendukung konsep pengembangan energi terbarukan melalui skema power wheeling.
+     ` 
+    },
+    {
+        id:'1029fwefekkms7',
+        title:'Sederet Program CSR PT MMS Group Indonesia, Ada yang Dukung IKN Nusantara',
+        imageUrl:'News - 19',
+        date:"2022-03-16",
+        newsUrl:'/',
+        newsContent:`PT MMS Group Indonesia (MMSGI) merupakan perusahan energi berkelanjutan dengan tiga pilar bisnis utama, yaitu perdagangan dan pertambangan batu bara, properti dan real estate, dan bisnis berkelanjutan.
+
+        Diawali dari MMS Resources yang bergerak di bidang perdagangan dan pertambangan batu bara, MMS Group Indonesia telah mulai bertransisi dengan diversifikasi bisnis ke sektor properti melalui MMS Land, serta bisnis berkelanjutan melalui MMS Solution.
+        
+        “Melalui tiga pilar tersebut, MMS Group Indonesia berkomitmen untuk terus mendukung pembangunan Indonesia yang lebih baik dan sebagai perusahaan energi berkelanjutan yang terpercaya,” ujar Adri Martowardojo, division Head of Corporate Strategy and Communication dalam penjurian TOP CSR Awards 2022 yang diselenggarakan secara virtual, Kamis (10/3/2022).
+        
+        Hadir pula dalam penjurian ini, Wijayono Sarosa (GM Mining Support), Muslim (Superintendent Community Development), Panji (Superintendent Community Development), dan Akhmad Hamzah (Department Head of Corporate Strategy and Communication).
+        
+        Wilayah operasi tambang batubara MMSGI berada di Kutai Kartanegara (Kalimantan Timur), Banjar (Kalimantan Selatan), dan Sumatera Selatan. .
+        
+        Dalam presentasinya. Adri memaparkan soal peran dan kontribusi perusahaan terkait isu pembangunan berkelanjutan, terutama aspek ekonomi, sosial, dan lingkungan. Dalam aspek ekonomi, MMSGI sangat fokus pada program pemberdayaan ekonomi masyarakat yang mendukung SDGs melalui program CSR yang sesuai Kepmen ESDM Nomer 1824 Tahun 2018 (delapan pilar program) dan mengacu pula pada ISO 26000 Social Responsibility.
+        
+        “Program pemberdayaan ekonomi ini disinergikan dengan program prioritas Pemerintah sesuai RPJMD dan Blue Print PPM Kalimantan Timur yang mendukung pengentasan kemiskinan dan sekaligus berperan serta dalam pencapaian Tujuan Pembangunan Berkelanjutan (SDGs),” ujar dia.
+        
+        Dukungan tersebut antara lain berupa  penyerapan tenaga kerja (7.196 karyawan), pengembangan ekonomi BUMDesa/UMKM/KSU, pengembangan Kawasan Agrowisata Mapantama, pengembangan industri perkayuan berbahan kayu lokal (Sungkai), pembangunan pabrik kompos skala menengah berbahan jangkos, program Kampung Kambing, dan lainnya
+        
+        Termasuk juga dalam aspek ekonomi, MMSGI  melakukan pengembangan Mini Ranch Jayatama, sebuah fasilitas peternakan modern yang terintegrasi dengan perkebunan jagung di Kalimantan Timur. MMSGI menyediakan fasilitas peternakan modern berkapasitas 200 sapi, lahan pakan (jagung dan rumput) dan diseminasi Good Farming Practices kepada peternak lokal.
+        
+        MMSGi juga melakukan pembukaan lahan plasma untuk masyarakat seluas 150 Ha di Sumatera Selatan. Selain menyediakan lahan, perusahaan juga mengadakan transfer knowledge Good Agriculture Practice (GAP) kepada petani lokal dan juga menjadi standby buyer untuk meningkatkan kesejahteraan petani lokal.
+        
+        Sedangkan peran dan kontribusi di bidang sosial antara lain sesuai misi perusahaan, MMSGI sangat mendukung kegiatan sosial kemasyarakatan di internal maupun di desa-desa sekitar area operasional pada level grup maupun anak usaha. Ini dilakukan antara lain untuk harmonisasi hubungan dengan masyarakat .
+        
+        MMSGI juga mendirikan Yayasan Life After Mine (YLAM) sebagai koordinator dan implementer kegiatan CSR maupun inisiatif lingkungan yang dilakukan oleh grup, anak usaha/afiliasi, maupun mitra lainnya.
+        
+        Menurut Adri, beragam kegiatan telah dilaksanakan MMSGI melalui YLAM maupun secara langsung, terutama untuk mengatasi pandemi covid-19 yang meningkat dua tahun terakhir.
+        
+        Misalnya di bidang kesehatan/penanganan Covid-19, MMSSGI menyelenggarakan vaksinasi massal dan pemberian sembako gratis kepada 7.500 warga di area Kalimantan secara mandiri maupun bersama Kodam VI Mulawarman.
+        
+        “Kami juga memberikan donasi 510 hospital bed kepada Kementerian Kesehatan untuk perawatan pasien Covid-19, donasi 1.000 tabung oksigen kepada Pusat Krisis Kesehatan Indonesia, donasi 1.000 oksimeter kepada Pemerintah Kota Balikpapan, donasi 30-unit rumah kepada instansi pemerintah dan masyarakat untuk penanganan Covid-19 dan lainnya,” tutur dia.
+        
+        Di bidang sosial/budaya, MMSGI juga memberikan bantuan kepada korban bencana alam, serta bantuan untuk pelestarian adat dan budaya Suku Dayak Kenyah, pelestarian senjata khas Mandau Raksasa (6 meter), serta pelestarian alat musik khas Dayak-Sampeq.
+        
+        MMSGI pada Februari 2022  turut serta dalam program Kampus Merdeka, sebuah program dari Kementerian Pendidikan dan Kebudayaa yang bertujuan memfasilitasi mahasiswa untuk mendapatkan pengalaman magang bersertifikat dan memberikan kontribusi langsung kepada industri.
+        
+        “Dalam program Kampus Merdeka ini MMSGI mengakomodasi 44 pemagang dari berbagai universitas di Indonesia untuk mendapatkan pengalaman kerja berkualitas,” kata Adri.
+        
+        Sedangkan kontribusi MMSGI terkait Aspek Lingkungan  di antaranya adalah melalui MMS Resources, khususnya di PT Multi Harapan Utama (MHU) memiliki beberapa tim khusus yang mengurus dan mengelola aspek lingkungan perusahaan yang sesuai dengan amanat Pemerintah agar lingkungan selalu terjaga, bersih dan sehat demi keberlangsungan bumi untuk generasi yang akan datang.
+        
+        Kontribusi MMSGI dalam aspek lingkungan antara lain; reklamasi lahan pasca tambang, pembuatan Arboretum untuk pelestarian plasma nuthfah, penangkaran Rusa Sambar, pemanfaatan void untuk irigasi dan air bersih, pengelolaan Sedimen Pond agar air yang keluar dari tambang sesuai standar baku mutu, pengelolaan sampah di lingkungan tambang, bantuan dan pendampingan Bank Sampah, pembersihan/pengerukan anak sungai agar mengalir dengan lancar ke sungai, dan lainnya.
+        
+        MMSGI juga berkomitmen untuk meningkatkan penggunaan listrik yang berasal dari sumber energi baru terbarukan melalui proses penandatanganan perjanjian jual beli Renewable Energy Credit (REC) PLN ekuivalen dengan total 50 persen penggunaan listrik MHU.
+        
+        “Kami juga membangun pembangkit listrik tenaga surya sebesar 1.3 MW peak yang akan menjadi sumber listrik dengan energi terbarukan untuk operasional MHU,” tutur Adri.
+        
+        MMSGI juga memiliki  Program Industri Pertukangan Berbahan Kayu Lokal.  Awalnya kelompok warga peserta program tersebut merupakan pihak yang berkonflik dengan PT MHU, tetapi sekarang menjadi pendukung utama keberlanjutan perusahaan dan menjadi role model usaha kemitraan bidang pertukangan.
+        
+        Program ini dikerjasamakan dengan Komunitas Pecinta Kutai, Disperindag Kabupaten Kutai, Dinsos Kabupaten Kutai dan sangat didukung oleh Bupati serta Ketua DPRD Kabupaten Kutai Kartanegara.  Ada komitmen untuk support dana Aspirasi tahun 2022 sebesar Rp 3,5 miliar untuk pengembangan program  Industri Pertukangan Berbahan Kayu Lokal di enam kecamatan se-Kabupaten Kutai Kartanegara dalam rangka persiapan menyambut Ibu Kota Negara (IKN) Nusantara di Kalimantan Timur.`        
+    },
     
     
     

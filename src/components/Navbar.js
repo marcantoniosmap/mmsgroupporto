@@ -173,8 +173,8 @@ function Navbar(props){
 							<h1 className="text-4 mb-3 font-weight-bold text-primary" style={{lineHeight:'20px'}}>Advancing Innovative, Inclusive, and Collaborative Growth </h1>
 							<p className="text-4">MMS Group Indonesia merupakan member dari Task Force Energy, Sustainability and Climate pada B20 Forum yang merupakan salah satu dialogue group dalam rangkaian kegiatan Presidensi G20 Indonesia 2022.</p>
 
-							<a className="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5 mt-2" href="https://b20indonesia2022.org/" target='blank'>Visit B20 Website
-							<i class="fas fa-arrow-right ms-2"></i> </a>
+							<Link onClick={()=> setLgShow(false)} className="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5 mt-2" to="/news/133229f53ngk47">Lanjut baca..
+							<i class="fas fa-arrow-right ms-2"></i> </Link>
 
 								</div>
 
