@@ -401,6 +401,23 @@ var content=[
         
         Program ini dikerjasamakan dengan Komunitas Pecinta Kutai, Disperindag Kabupaten Kutai, Dinsos Kabupaten Kutai dan sangat didukung oleh Bupati serta Ketua DPRD Kabupaten Kutai Kartanegara.  Ada komitmen untuk support dana Aspirasi tahun 2022 sebesar Rp 3,5 miliar untuk pengembangan program  Industri Pertukangan Berbahan Kayu Lokal di enam kecamatan se-Kabupaten Kutai Kartanegara dalam rangka persiapan menyambut Ibu Kota Negara (IKN) Nusantara di Kalimantan Timur.`        
     },
+    {
+        id:'10d39fjzfms3',
+        title:'MMS Group Indonesia Menjadi Bagian dari American Chamber of Commerce Indonesia',
+        imageUrl:'News - 20',
+        date:"2022-04-11",
+        newsUrl:'/',
+        newsContent:`MMS Group Indonesia (MMSGI) secara resmi menjadi Platinum Member American Chamber of Commerce Indonesia (AmCham Indonesia) per 11 Maret 2022 dimana founder MMSGI, Andrew Hidayat didaulat sebagai salah satu Dewan Gubernur (Board of Governors).
+        
+        AmCham Indonesia merupakan asosiasi bisnis yang berorientasi Amerika tertua dan terbesar di Indonesia dengan misi mempromosikan hubungan komersial antara Indonesia dan US dalam rangka pengembangan ekonomi dan bisnis di Indonesia.
+        
+        Sebagai perusahaan energi yang sedang melakukan diversifikasi bisnis menuju sustainable businesses, MMSGI menjalin kemitraan dengan berbagai perusahaan baik lokal maupun asing dalam pengembangan usahanya.
+        
+        Beberapa mitra MMSGI merupakan perusahaan besar asal Amerika, diantaranya yaitu Central Wisconsin Ag Service (CWAS) yang mendukung perkembangan bisnis perkebunan jagung dengan metode precision farming, berkolaborasi antara perusahaan kripto asal Amerika dengan salah satu anak perusahaan MMSGI dalam mengembangkan cryptocurrency trading platform di Indonesia, serta kerjasama dengan salah satu perusahaan data center terbesar di Amerika dalam pembangunan Data Center di kawasan Kuningan, Jakarta Selatan.
+        
+        Keikutsertaan MMSGI dalam American Chamber of Commerce Indonesia merupakan langkah awal dalam mambangun hubungan, baik dari sisi komersil maupun non komersil, dengan business player lain dalam upaya pengembangan bisnis berkelanjutan yang menerapkan prinsip responsible business kedepannya.`
+        
+    },
     
     
     
