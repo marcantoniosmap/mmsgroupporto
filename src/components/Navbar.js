@@ -2,13 +2,20 @@ import React,{useState,useEffect} from "react";
 import $ from 'jquery'
 import { Link,useLocation } from "react-router-dom";
 import {Modal} from 'react-bootstrap'
+import {useLanguage} from "../Pages/LanguageContext"
 
 function Navbar(props){
     const [isScrolled,setIsScrolled]=useState(false)
     const location=useLocation()
     const [page,setPage]=useState()
 	const [tabOpen,setTabOpen]=useState(false)
+	const {isIndo,setWebLanguage} = useLanguage()
 
+	function HandleLangChange(lang){
+		setWebLanguage(lang)
+
+
+	}
 	function openTabs(e){
 		e.preventDefault()
 		if (window.innerWidth>992) return ''
@@ -65,20 +72,20 @@ function Navbar(props){
                                                     {/* HOME */}
 													<li class="dropdown">
                                                         <Link class={`${page==''&&'active '}dropdown-item text-3 dropdown-toggle`} to="/">
-                                                            Beranda
+                                                            {isIndo ? 'Beranda' :'Home'}
                                                         </Link>
 													</li>
                                                     {/* ABOUT US */}
                                                     <li class="dropdown">
                                                     <Link class={`${page=='about'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/about">
-                                                            Tentang Kami
+                                                            {isIndo ? 'Tentang Kami' : 'About Us'}
                                                         </Link>
 													</li>
 
 													{/* OUR BUSINESS */}
 													<li class={`dropdown dropdown-reverse ${tabOpen && 'open'}`}>
 														<a onClick={(e)=>openTabs(e)} class={`${page=='business'&&'active '} dropdown-item text-3 dropdown-toggle`} >
-															Bisnis Kami
+															{isIndo ? 'Bisnis Kami' : 'Our Business'}
 															<i class="fas fa-chevron-down"></i>
 														</a>
 														<ul class="dropdown-menu">
@@ -104,23 +111,32 @@ function Navbar(props){
                                                        {/* NEWS */}
 													   <li class="dropdown">
                                                     <Link class={`${(page==='newspage'|| page==='news') &&'active '}dropdown-item text-3 dropdown-toggle`} to="/newspage/1">
-                                                            Berita
+                                                            {isIndo ?'Berita' :'News'}
                                                         </Link>
 													</li>
 
                                                       {/* Career */}
 													  <li class="dropdown">
                                                     <Link class={`${page=='career'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/career">
-                                                            Karir
+                                                            {isIndo ? 'Karir': 'Career'}
                                                         </Link>
 													</li>
 
                                                      {/* Contact */}
 													 <li class="dropdown">
                                                     <Link class={`${page=='contact'&&'active '}dropdown-item text-3 dropdown-toggle`} to="/contact">
-                                                            Kontak
+                                                            {isIndo ? 'Kontak':'Contact'}
                                                         </Link>
 													</li>
+													
+													<li class="dropdow">
+                                                    <a class="text-3">
+                                                            <span onClick={()=>setWebLanguage(true)}className={`${isIndo && 'text-primary'} pe-1`}>ID </span>  | 
+															<span onClick={()=>setWebLanguage(false)}className={`${!isIndo && 'text-primary'} ps-1`}>EN </span>
+                                                        </a>
+													</li>
+												
+													
 													
 												</ul>
 											</nav>

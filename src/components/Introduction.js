@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Typewriter from 'typewriter-effect';
+import { useLanguage } from "../Pages/LanguageContext";
 function Introduction(props){
 
+	const {isIndo} =useLanguage()
 
-    const introText=[
-        'MMS Group Indonesia (MMSGI) merupakan perusahaan Unicorn energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.'
-    ]
+    const introText_in='MMS Group Indonesia (MMSGI) merupakan perusahaan Unicorn energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.'
+	const introText_en='MMS Group Indonesia (MMSGI) merupakan perusahaan Unicorn energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.'
 
     return(
         <div class="container container-xl-custom py-4">
@@ -26,8 +27,7 @@ function Introduction(props){
 					<div class="custom-divider divider divider-primary divider-small my-3">
 						<hr class="my-0"/>
 					</div>
-					<p class="text-4 mb-lg-4" >{introText[0]}</p>
-					{/* <p class="pb-1 mb-4">{introText[1]}</p> */}
+					<p class="text-4 mb-lg-4" >{isIndo ? introText_in : introText_en}</p>
 					<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
 						<Link to='/about' class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 ">Tentang Kami</Link>
 						<Link to='/contact' class="btn btn-outline btn-dark custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 d-md-block d-none ">Kontak Kami</Link>

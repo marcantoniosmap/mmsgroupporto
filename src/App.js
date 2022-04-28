@@ -17,14 +17,15 @@ import NewsContent from "./Pages/NewsContent";
 import ScrollToTop from './ScrollToTop'
 import CSR from "./Pages/CSR";
 import { useState } from "react";
+import { LanguageProvider } from "./Pages/LanguageContext";
 
 function App() {
 
 
   return (
     <>
-    
       <Router>
+      <LanguageProvider>
         <Navbar />
         <ScrollToTop>
         <Switch>
@@ -119,9 +120,8 @@ function App() {
          <Redirect to="/" />
         </Switch>
         </ScrollToTop>
-
         <Footer/>
-
+      </LanguageProvider>
       </Router>
 
     </>
