@@ -2,9 +2,11 @@ import React, {useEffect,useState} from 'react'
 import { Link } from 'react-router-dom';
 import content from "../newscontent";
 import {Helmet} from "react-helmet";
+import { useLanguage } from './LanguageContext';
 
 function NewsContent(props){
     
+    const {isIndo}= useLanguage()
     const [newsContent,setNewsContent]=useState(null)
     const [textArray,setTextArray]=useState([])
     const [recentPost,setRecentPost]=useState([])
@@ -48,7 +50,7 @@ function NewsContent(props){
                     <div class="row">
                         <div class="col-lg-3 order-lg-2 d-none d-lg-block">
                             <div className="position-sticky" style={{top:120}}>
-                                <h5 class="font-weight-semi-bold">Berita Terakhir</h5>
+                                <h5 class="font-weight-semi-bold">{isIndo?'Berita Terakhir':'Latest News'}</h5>
                                     <aside class="sidebar">
                                         <ul class="simple-post-list">
                                             {

@@ -7,7 +7,7 @@ function Introduction(props){
 	const {isIndo} =useLanguage()
 
     const introText_in='MMS Group Indonesia (MMSGI) merupakan perusahaan Unicorn energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.'
-	const introText_en='MMS Group Indonesia (MMSGI) merupakan perusahaan Unicorn energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.'
+	const introText_en='MMS Group Indonesia (MMSGI) is a natural resources Unicorn company with 3 main business pillars , namely MMS Resources, MMS Land, and MMS Solution with span of operation across Indonesia. One of the MMSGIs portfolios is PT Multi Harapan Utama, a company which holds IUPK (formerly PKP2B) license in East Kalimantan under MMS Resources.'
 
     return(
         <div class="container container-xl-custom py-4">
@@ -15,7 +15,10 @@ function Introduction(props){
                 <div class="col-lg-7 pe-lg-5 mb-3 mb-lg-0 d-flex align-items-center" >
                     <div>
 
-						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">Perusahaan <span className="text-primary">Unicorn </span>di Sektor Energi</h2>
+						{
+							isIndo? <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 ">Perusahaan <span className="text-primary">Unicorn </span>di Sektor Energi</h2> :
+							<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 "><span className="text-primary">Unicorn </span>Company in the Energy Sector</h2> 
+						}
     
                         {/* <Typewriter
                             options={{
@@ -29,8 +32,8 @@ function Introduction(props){
 					</div>
 					<p class="text-4 mb-lg-4" >{isIndo ? introText_in : introText_en}</p>
 					<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
-						<Link to='/about' class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 ">Tentang Kami</Link>
-						<Link to='/contact' class="btn btn-outline btn-dark custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 d-md-block d-none ">Kontak Kami</Link>
+						<Link to='/about' class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 ">{isIndo ? 'Tentang Kami' :'About Us'}</Link>
+						<Link to='/contact' class="btn btn-outline btn-dark custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 d-md-block d-none ">{isIndo ? 'Kontak Kami' : 'Contact Us'}</Link>
 					</div>
                     </div>
 				</div>

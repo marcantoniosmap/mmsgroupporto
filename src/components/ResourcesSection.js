@@ -11,7 +11,11 @@ import {
   } from 'chart.js';
   import { Bar } from 'react-chartjs-2';
   import ChartDataLabels from 'chartjs-plugin-datalabels';
+import { useLanguage } from '../Pages/LanguageContext';
+
 function ResourcesSection(props){
+
+    const {isIndo}=useLanguage()
 
     const [windowSize,setWindowSize]=useState(window.innerWidth>992)
 
@@ -63,7 +67,7 @@ function ResourcesSection(props){
         },
           title: {
             display: true,
-            text: ['Penjualan Konsolidasi MMS Resources','Dalam Jutaan Ton'],
+            text: [`${isIndo ? 'Penjualan Konsolidasi MMS Resources' : 'MMS Resources Consolidated Sales '}`,`${isIndo?"Dalam Jutaan Ton" :"in Million Tons"}`],
             padding:{
                 top:10
             },
@@ -111,6 +115,12 @@ function ResourcesSection(props){
     
     MMS Resources adalah salah satu perusahaan dengan peningkatan pertumbuhan tertinggi mencapai 126% dalam 4 tahun terakhir.
     `
+    const text_en=`Starting with PT Mitra Maju Sukses (MMS) as a coal supplier for the domestic market, MMS has grown to become a trusted company and expands its area of operations to the export market.
+
+    With the expertise and trust built, MMSGI expanded its business by establishing MMS Resources and acquired several mines in East Kalimantan (PT Multi Harapan Utama, a former PKP2B) and South Kalimantan thus emerged as integrated coal mining company.
+    
+    MMS Resources is one of the companies with the highest growth increase of 126% in the last 4 years.
+    `
  
     return(
         <section class=" section-height-1 section-no-border my-5">
@@ -126,10 +136,10 @@ function ResourcesSection(props){
                    <div className='col-lg-6'>
                         <div className='h-100 px-3'>
                             <div className=''>
-                                <p class="font-weight-semibold mb-1 text-primary text-uppercase">Perdagangan Batu Bara</p>
-                                <span class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">Mitra Energi Terpercaya Indonesia</span>
+                                <p class="font-weight-semibold mb-1 text-primary text-uppercase">{isIndo ?'Perdagangan Batu Bara':'Coal Trading'}</p>
+                                <span class="text-7 text-color-dark font-weight-bold negative-ls-2 mb-2">{isIndo ?`Mitra Energi Terpercaya Indonesia` :`Indonesia's Trusted Energy Partner`}</span>
                                 <p class="text-4 mb-0" style={{whiteSpace:'pre-line'}}>
-                                    {text}
+                                    {isIndo ? text : text_en}
                                     
                                 </p>
                                 {/* <p class=" mb-4 text-4">{points.description}</p> */}

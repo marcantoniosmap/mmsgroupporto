@@ -2,29 +2,32 @@ import { convertNeSwToNwSe } from 'google-map-react';
 import React from 'react'
 import {Link} from 'react-router-dom'
 import content from "../newscontent";
+import { useLanguage } from '../Pages/LanguageContext';
 
 function Footer(props){
 
+	const {isIndo} = useLanguage()
     const footerAboutUsText="MMS Group Indonesia merupakan perusahaan energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources"
+    const footerAboutUsText_en="MMS Group Indonesia is a sustainable energy company with 3 main business pillars, namely MMS Resources, MMS Land, and MMS Solution with locations spread across Indonesia. One of the MMS Group's portfolios is PT Multi Harapan Utama, a company holding a PKP2B license in East Kalimantan under MMS Resources"
 
     return(
         <footer id="footer" className="mt-0">
         <div class="container container-xl-custom">
         <div class="row py-lg-4 py-3 my-5">
             <div class="col-md-6 col-lg-4 pe-lg-5">
-				<h5 class="text-4 text-color-light mb-3">Tentang Kami</h5>
-				<p class="mb-2">{footerAboutUsText}</p>
-                <p><Link to="/about" class="btn-flat btn-xs text-color-light"><strong class="text-2">LIHAT LEBIH</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></Link></p>
+				<h5 class="text-4 text-color-light mb-3">{isIndo?'Tentang Kami':'About Us'}</h5>
+				<p class="mb-2">{isIndo?footerAboutUsText: footerAboutUsText_en}</p>
+                <p><Link to="/about" class="btn-flat btn-xs text-color-light"><strong class="text-2">{isIndo? 'LIHAT LEBIH':'EXPLORE MORE'}</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></Link></p>
 			</div>
 			<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-				<h5 class="text-4 text-color-light mb-3">Kontak Kami</h5>
+				<h5 class="text-4 text-color-light mb-3">{isIndo?'Kontak Kami':'Contact Us'}</h5>
 				<ul class="list list-unstyled">
 					<li class="pb-1 mb-2">
-						<span class="d-block font-weight-normal line-height-1 text-color-light">Alamat</span> 
+						<span class="d-block font-weight-normal line-height-1 text-color-light">{isIndo?'Alamat':'Address'}</span> 
 						TCC Batavia Tower One, Jl. K.H. Mas Mansyur No.126, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Jakarta
 					</li>
 					<li class="pb-1 mb-2">
-						<span class="d-block font-weight-normal line-height-1 text-color-light">Telepon</span>
+						<span class="d-block font-weight-normal line-height-1 text-color-light">{isIndo?'Telepon':'Telephone'}</span>
 						<a href="tel:+622129529473">(62-21) 29529473</a>
 					</li>
 					<li class="pb-1 mb-2">
@@ -40,21 +43,21 @@ function Footer(props){
 				</ul>
 			</div>
 			<div class="col-md-6 col-lg-2 mb-5 mb-lg-0">
-				<h5 class="text-4 text-color-light mb-3">TAUTAN</h5>
+				<h5 class="text-4 text-color-light mb-3">{isIndo?'TAUTAN':'LINKS'}</h5>
 				<ul class="list list-unstyled mb-0">
-					<li class="mb-0"><Link to='/'>Beranda</Link></li>
-					<li class="mb-0"><Link to='/about'>Tentang Kami</Link></li>
+					<li class="mb-0"><Link to='/'>{isIndo?'Beranda':'Home'}</Link></li>
+					<li class="mb-0"><Link to='/about'>{isIndo?'Tentang Kami':'About Us'}</Link></li>
 					<li class="mb-0"><Link to='/business/resources'>MMS Resources</Link></li>
 					<li class="mb-0"><Link to='/business/land'>MMS Land</Link></li>
 					<li class="mb-0"><Link to='/business/solution'>MMS Solution</Link></li>
 					<li class="mb-0"><Link to='/csr'>CSR</Link></li>
-					<li class="mb-0"><Link to='/news'>Karir</Link></li>
-					<li class="mb-0"><Link to='/career'>Berita</Link></li>
-					<li class="mb-0"><Link to='/contact'>Kontak</Link></li>
+					<li class="mb-0"><Link to='/news'>{isIndo?'Karir':'Career'}</Link></li>
+					<li class="mb-0"><Link to='/career'>{isIndo?'Berita':'News'}</Link></li>
+					<li class="mb-0"><Link to='/contact'>{isIndo?'Kontak':'Conract'}</Link></li>
 				</ul>
 			</div>
 			<div class="col-md-6 col-lg-3 mb-5 mb-md-0">
-				<h5 class="text-4 text-color-light mb-3">BERITA TERAKHIR</h5>
+				<h5 class="text-4 text-color-light mb-3">{isIndo?'BERITA TERAKHIR':'LATEST NEWS'}</h5>
                 {content.slice(0,3).map((news,index)=>
                     <article class="mb-3">
                         <Link to={`/news/${news.id}`} class="text-color-light text-3-5">{news.title.substring(0,40)}...</Link>

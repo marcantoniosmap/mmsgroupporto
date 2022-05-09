@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import NewsCard from "./NewsCard";
 import content from "../newscontent";
 import { Link } from "react-router-dom";
+import { useLanguage } from "../Pages/LanguageContext";
 
 function NewsContainer(props){
 
+	const {isIndo}=useLanguage()
 	content.sort(function(a,b){
 		return new Date(b.date) - new Date(a.date);
 	  });
@@ -35,7 +37,7 @@ function NewsContainer(props){
 					props.showPagination &&
 					<div class="text-center pt-4">
 						<h3 class="font-weight-bold text-color-primary text-4-5 ls-0 mb-2">MMS GROUP INDONESIA</h3>
-						<h2 class="font-weight-bold text-color-dark text-lg-11 text-9 line-height-3 line-height-md-1 mb-5">Berita dan Acara</h2>
+						<h2 class="font-weight-bold text-color-dark text-lg-11 text-9 line-height-3 line-height-md-1 mb-5">{isIndo?'Berita dan Acara':'News and Events'}</h2>
 					</div>
 				}
 				<div class="col">
