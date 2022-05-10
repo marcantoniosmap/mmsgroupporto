@@ -86,7 +86,7 @@ function LandSection(props){
         },
 		{
             id:'Labuan Bajo',
-            judul:'Business Hotel Bintang 4 di Labuan Bajo',
+            judul:'Business Hotel Bintang 5 di Labuan Bajo',
             judul_en:'5-star Business Hotel in Labuan Bajo',
             description :
             <>
@@ -100,7 +100,7 @@ function LandSection(props){
             description_en :
             <>
             <p>
-                MMS Land through PT Mitra Properti Sentosa plans to develop a 4-star hotel with a business hotel concept to support the MICE (Meeting, Incentive, Conference, and Exhibition) tourism ecosystem with international standard in Labuan Bajo.            </p>
+                MMS Land through PT Mitra Properti Sentosa plans to develop a 5-star hotel with a business hotel concept to support the MICE (Meeting, Incentive, Conference, and Exhibition) tourism ecosystem with international standard in Labuan Bajo.            </p>
             <p>
                 The hotel is planned to be managed by an international hotel chain and equipped with international standard facilities and services.            </p>
             </>,

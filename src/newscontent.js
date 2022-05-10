@@ -418,6 +418,53 @@ var content=[
         Keikutsertaan MMSGI dalam American Chamber of Commerce Indonesia merupakan langkah awal dalam mambangun hubungan, baik dari sisi komersil maupun non komersil, dengan business player lain dalam upaya pengembangan bisnis berkelanjutan yang menerapkan prinsip responsible business kedepannya.`
         
     },
+    {
+        id:'14n2ffnppo23',
+        title:'Perusahaan Unicorn Sektor Energi Asal Indonesia Resmi Jadi Anggota UN Global Impact',
+        imageUrl:'News - 21',
+        date:"2022-04-21",
+        newsUrl:'/',
+        newsContent:`Jakarta - Berkat komitmen pada transformasi menuju bisnis yang berkelanjutan, MMS Group Indonesia (MMSGI) secara resmi berhasil terdaftar sebagai anggota dalam UN Global Compact (UNGC) sejak Maret 2022. 
+
+        Konsistensi MMSGI dalam menerapkan strategi bisnis berkelanjutan melalui pengelolaan tanggung jawab sosial yang mengantarkan MMSGI terpilih menjadi salah satu perusahaan nasional yang terdaftar sebagai anggota UNGC. 
+        
+        Dengan keanggotaannya, MMSGI siap menunjukan kesungguhan perusahaan dalam penerapan prinsip Environment, Social, and Governance (ESG) dalam setiap lini bisnisnya yang juga selaras dengan tujuan pembangunan berkelanjutan (Sustainable Development Goals/SDGs).
+        
+        MMSGI merupakan salah satu dari 5 perusahaan di sektor energi asal Indonesia yang tergabung dalam keanggotaan ini. UNGC merupakan badan internasional dibawah Perserikatan Bangsa-Bangsa (PBB) yang mendorong perusahaan-perusahaan swasta menyelaraskan strategi dan operasinya dengan 10 prinsip UNGC di bidang hak asasi manusia, lingkungan hidup, anti-korupsi dan ketenagakerjaan. 
+        
+        UNGC memiliki anggota dari berbagai sektor yang tersebar di 160 negara. Sebagai anggota, MMSGI kedepannya memiliki kewajiban untuk menyerahkan laporan Communication of Progress (COP) tahunan sebagai bentuk komitmen perusahaan dalam menerapkan prinsip-prinsip tersebut serta dukungan pencapaian 17 tujuan PBB pada tujuan pembangunan berkelanjutan.
+        
+        “Seluruh kegiatan berkelanjutan yang sudah dan akan dilakukan perusahaan merupakan turunan dari visi misi MMSGI yaitu fokus dalam memberikan dampak positif di bidang baik bagi internal perusahaan maupun komunitas di sekitar wilayah operasi perusahaan.” ujar Andrew Hidayat, pendiri MMS Group Indonesia yang dikutip INDUSTRY.co.id, Kamis (21/4/2022).
+        
+        Bentuk implementasi 10 prinsip UNGC tersebut terlihat dari program-program perusahaan seperti peningkatan kesejahteraan dan kemampuan karyawan melalui continuous learning and growth, pengembangan komunitas di wilayah operasi MMSGI melalui program CSR terpadu yang bekerjasama dengan berbagai stakeholder. 
+        
+        Di sisi lingkungan, aktivitas perusahaan fokus pada pemanfaatan lahan pascatambang dan pengembangan skill-set baru masyarakat lokal. Harapannya hal ini dapat mengurangi ketergantungan terhadap kegiatan penambangan serta diversifikasi sumber ekonomi, yang mana semua itu merupakan langkah perusahaan untuk memastikan a just and orderly energy transition di wilayah pertambangan batubara.`
+        
+    },
+    {
+        id:'14n2fdk2123',
+        title:'Meriahkan Hari Kartini, Susi Pudjiastuti Berbagi Pengalaman Leadership kepada Wanita MMS Group Indonesia',
+        imageUrl:'News - 22',
+        date:"2022-04-25",
+        newsUrl:'/',
+        newsContent:`Senin, 25 April 2022 – Dalam rangka menghormati dan memperingati Hari Kartini pada 21 April lalu, MMS Group Indonesia (MMSGI) mengadakan acara Leader Talk dan Ramadhan Festival dengan mengusung tema Berbagi.  Acara yang buka oleh Adri Martowardojo, Head of Corporate Strategy and Communication MMSGI ini terdiri dari 3 acara besar: Leader Talks, Siraman Rohani & Santunan Kepada Yayasan Panti Asuhan, serta Buka Bersama diiringi oleh RAN.
+        
+        “Hari ini bertepatan dengan Hari Kartini, dimana kita mengingat perjuangan wanita di Indonesia. Di hari ini juga kita harusnya dapat belajar banyak hal dari para kartini di era modern, baik dari pemimpin-pemimpin wanita di MMSGI maupun figur-figur wanita di Indonesia”, ujar Adri dalam pembukaan acara mewakili Andrew Hidayat, Founder MMS Group Indonesia.
+        
+        Dalam acara leader talk yang pertama ini, dihadirkan Ibu Susi Pudjiastuti, sosok pemimpin Wanita Indonesia yang memberikan dampak cukup besar, khususnya pada kedaulatan laut Indonesia. Selain menjadi pemimpin yang disegani, Ibu Susi Pudjiastuti juga merupakan sosok pemimpin yang inspiratif dan seringkali dipandang sebagai cerminan Raden Adjeng Kartini yang berani berjuang demi emansipasi Wanita di Indonesia.
+        
+        “Tidak perlu berpikir saya perempuan, mereka laki-laki. Saya tidak pernah merasa kalau saya ini laki-laki ataupun setengah laki-laki, saya ini tetap perempuan. Semua hal yang dilakukan tidak boleh memiliki pemikiran bahwa saya lebih lemah dari laki-laki”, ujar Susi pada acara Leader Talk MMS Group Indonesia.
+        
+        Harapannya Leader Talk ini dapat membangkitkan semangat juang pada setiap perempuan, khususnya di MMS Group Indonesia, dalam berusaha bagi dirinya sendiri, keluarga, dan juga perusahaan tempat mengabdi dan berkarya. Integritas, loyalitas, kredibilitas, dan saling berbagi merupakan sifat pemimpin yang perlu ada dalam setiap orang agar dapat terbentuk kepercayaan dan membawa manfaat kepada orang-orang disekitarnya.
+        
+        Pentingnya berbagi juga tercermin dalam acara Siraman Rohani oleh Ust. Hilman Fauzi Nugraha dan Santunan kepada 5 Yayasan Panti Asuhan, yang merupakan bentuk syukur atas nikmat rezeki yang diberikan kepada MMS Group Indonesia.
+        
+        Ust. Hilman menyatakan bahwa kunci hidup bahagia adalah jangan banyak gelisah dengan apa yang Tuhan berikan serta jangan menunggu bahagia baru bersyukur, namun bersyukurlah maka kamu akan bahagia.
+        
+        Acara Leader Talk dan Ramadhan Festival yang diselenggarakan di Kawasan Pattiunus, Jakarta Selatan ini ditutup dengan buka bersama bagi seluruh insan MMS Group Indonesia dengan diiringi penampilan group band RAN.
+        `
+        
+    },
     
     
     
