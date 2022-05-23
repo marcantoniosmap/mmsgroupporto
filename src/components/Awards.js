@@ -37,7 +37,12 @@ function Awards(){
     }
 
    const awardList=[
-       {
+        {
+            title :'TOP CSR Awards 2022',
+            title_en :'TOP CSR Awards 2022',
+            content:'Apresiasi atas Konsistensi Dalam Menerapkan Strategi Bisnis Berkelanjutan Melalui Pengelolaan Tanggung Jawab Sosial',
+            content_en:'Appreciation for Consistency in Applying Sustainable Business Strategy through Social Responsible Activity '
+        },{
            title :'Kepatuhan Pajak 2019',
            title_en :'Tax Compliance 2019',
            content:'Apresiasi Atas Kontribusi dan Pemenuhan Kepatuhan Formal kepada PT Mitra Asian Properti',

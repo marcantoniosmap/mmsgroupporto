@@ -49,6 +49,10 @@ function CareerAccordion(props){
                                         </ul>
                                             </div>
                                         </div>
+                                        <div className="w-100 d-flex justify-content-end">
+                                            <a  href="mailto:recruitment@mmsgroup.co.id" className="btn btn-primary btn-modern font-weight-bold text-3 py-3 btn-px-5 mt-2"><i class="fas fa-envelope pe-2 top-6"></i>Apply</a>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>

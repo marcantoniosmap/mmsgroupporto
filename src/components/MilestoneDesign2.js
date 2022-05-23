@@ -88,6 +88,14 @@ function MilestoneTab(props){
                         <>MMSGI mendukung program Food Estate pemerintah, dengan mendirikan PT Bramasta Sakti (Bramasta) di Kalimantan Timur yang memanfaatkan lahan pascatambang untuk pertanian jagung dan peternakan sapi. Bramasta bekerja sama dengan petani lokal dengan skema <i>profit-sharing</i> sebagai bentuk kepedulian perusahaan terhadap masyarakat sekitar.</>],
             content_en : [ <>As an innovative company with major concerns in environment and social issue, MMSGI realized its vision by establishing MMS Solution (PT Mitrakarya Cipta Gemilang) to accommodate new and sustainable business and such as renewable energy and social entrprise.</>,
                         <>MMSGI supports Indonesian Government Food Estate program by establishing PT Bramasta Sakti (Bramasta) in East Kalimantan which optimizes post-mining land for corn precision farming and mini ranch. Bramasta collaborates with local farmers under a profit-sharing scheme as an effort and care to build the local farmers independency.</>]
+        },{
+            title : 'Kontribusi untuk Komunitas',
+            title_en : 'Contributing to Community',
+            year : '2021',
+            content : [ <>Sebagai bentuk tanggung jawab terhadap masyarakat dan lingkungan. MMS Group Indonesia menyiapkan serangkaai program dan inisiatif dengan tema kemanusiaan yang disalurkan melalui Yayasan Life After Mine.</>,
+                        <>Fokus tanggung jawab sosial MMS Group Indonesia saat ini adalah pengembangan komunitas di sekitar wilayah pertambangan dan/atau wilayah paskatambang. Hal ini dilakukan guna menyiapkan komunitas yang mandiri dalam menghadapi tantangan global. </>],
+            content_en : [ <>As a form of responsibility to society and the environment. MMS Group Indonesia has prepared a series of programs and initiatives with the theme of humanity distributed through the Life After Mine Foundation.</>,
+            <>MMS Group Indonesia's current focus in social responsibility is community development around post-mining areas. All this initiatives are executed in order to prepare an independent community in facing global challenges.</>]
         }]
 
     

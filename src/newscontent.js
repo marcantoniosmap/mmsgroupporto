@@ -465,6 +465,40 @@ var content=[
         `
         
     },
+    {
+        id:'14n2fd3njf011',
+        title:'MMS Group Indonesia Jalankan EBT Demi NZE 2060',
+        imageUrl:'News - 23',
+        date:"2022-05-18",
+        newsUrl:'/',
+        newsContent:`Jakarta, 18 Mei 2022 - Pencanangan net zero emission pada tahun 2060 menjadi perhatian berbagai pihak, khusunya MMS Group Indonesia. Upaya membuat aktivitas bisnis di dunia lebih hijau dan berkelanjutan ini tidak luput dari rencana MMS Group Indonesia dengan melakukan Inisiatif dalam menerapkan energi baru terbarukan (EBT).
+        
+        Seperti yang dilakukan anak usahanya, yakni PT Multi Harapan Utama (MHU), yang mengembangkan solar power plant untuk sumber listrik di area operasionalnya dan ditargetkan mulai beroperasi pada paruh kedua 2022.
+        
+        Adapun usaha lainnya dalam mendukung pengembangan renewable energy, MHU berkolaborasi PT PLN (Persero) guna memperoleh sertifikasi atas penggunaan renewable energy dari PLN (REC). 
+        
+        REC atawa renewable energy certificate merupakan sertifikasi atas produksi energi listrik yang dihasilkan oleh pembangkit energi terbarukan dengan proses penerbitan sesuai standar dan mekanisme yang diakui secara internasional.
+        
+        REC juga merupakan instrumen berbasis pasar yang menyatakan, bahwa pemegang sertifikat menggunakan 1 MWh (megawatt hours) listrik dari sumber-sumber EBT.
+        
+        Sertifikasi yang dirilis oleh PLN ini berstandar internasional. Sudah pasti menunjukkan pemegang sertifikat sebagai pihak yang turut berkontribusi terhadap kelestarian lingkungan.
+        
+        Melalui dua inisiatif tersebut, MHU pada tahun 2022 akan beroperasi menggunakan listrik terbarukan.
+        
+        "Hal ini sejalan dengan rencana kami untuk mendukung program Net Zero Emission pemerintah. Kami merasa ini saatnya untuk merealisasikan visi dan rencana kami untuk turut membangun ekosistem energi hijau di Indonesia, dimulai dari anak usaha kami sendiri," ujar Andrew Hidayat, Founder MMS Group Indonesia di Jakarta, Rabu (18/5/2022).
+        
+        Dia menjelaskan, ke depannya MMS Group Indonesia akan mengembangkan proyek-proyek dengan konsep sustainable business seperti solar power plant dan smelter nikel matte sebagai bahan baku utama industri baterai.
+        
+        Andrew Hidayat Kembali menegaskan, bahwa sertifikasi ini menjadi bukti bahwa MHU telah menggunakan listrik terbarukan yang diakui secara internasional dalam asset-aset MHU.
+        
+        Hal ini dikatakan Andrew Hidayat merupakan langkah konkret MMS Group Indonesia dalam mendukung program Indonesia Net Zero Emission 2060 yang dideklarasikan pemerintah di UNFCCC COP 26 di Glasgow tahun lalu.
+        
+        Sementara itu, Senior Manager Niaga dan Manajemen Pelanggan PLN UIW Kaltimra, Himawan Sutanto menyampaikan, bahwa PLN berharap kerja sama ini dapat diikuti oleh perusahaan lain.
+        
+        "Serta menjadi langkah awal dalam mewujudkan pemanfaatan listrik yang bersumber dari energi baru dan terbarukan di Indonesia khususnya di Kalimantan Timur dan Kalimantan Utara," terangnya.
+        `
+        
+    },
     
     
     
