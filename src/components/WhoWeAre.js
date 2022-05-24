@@ -58,13 +58,14 @@ function WhoWeAre(props){
 					{/* <p class="font-weight-bold text-primary text-uppercase mb-0">Siapakah Kami?</p> */}
 					<h2 class="text-color-dark font-weight-bold text-lg-12 text-10 mb-lg-4 mb-2 pt-0 mt-0">{isIndo ?'Tentang MMSGI':'About Us'}</h2>
 					<p class="text-4">
-                    MMS Group Indonesia is a sustainable energy company with 3 main business pillars, namely MMS Resources, MMS Land, and MMS Solution with locations spread across Indonesia. One of the MMS Group's portfolios is PT Multi Harapan Utama, a company holding a PKP2B license in East Kalimantan under MMS Resources.
+                        {isIndo? 'MMS Group Indonesia merupakan perusahaan energi berkelanjutan yang mempunyai 3 pilar bisnis utama yaitu MMS Resources, MMS Land dan MMS Solution dengan lokasi yang tersebar di Indonesia. Salah satu portofolio MMS Group adalah PT Multi Harapan Utama, sebuah perusahaan pemegang lisensi PKP2B di Kalimantan Timur yang berada dibawah MMS Resources.':
+                        "MMS Group Indonesia is a sustainable energy company with 3 main business pillars, namely MMS Resources, MMS Land, and MMS Solution with locations spread across Indonesia. One of the MMS Group's portfolios is PT Multi Harapan Utama, a company holding a PKP2B license in East Kalimantan under MMS Resources."}
 					</p>
 					<p class ="text-4">
-                    Started from MMS Resources which engage in coal trading and mining business, MMS Group Indonesia had developed and diversified its businesses into the property sector through MMS Land and sustainable businesses under MMS Solution with annual turnover more than USD 1.9 bn.
+                        {isIndo? 'Berawal dari MMS Resources yang bergerak di bidang perdagangan dan pertambangan batubara, MMS Group Indonesia berkembang dan melakukan diversifikasi bisnis ke sektor properti melalui MMS Land dan bisnis berkelanjutan dengan MMS Solution.':"Started from MMS Resources which engage in coal trading and mining business, MMS Group Indonesia had developed and diversified its businesses into the property sector through MMS Land and sustainable businesses under MMS Solution with annual turnover more than USD 1.9 bn."}
                     </p>
 					<p class ="text-4">
-                    Through these 3 pillars, MMS Group Indonesia envisions to continue supporting the development of greener Indonesia for a better future and to emerge as a trusted sustainable energy company.					
+                        {isIndo? 'Melalui 3 pilar tersebut, MMS Group Indonesia mempunyai visi untuk terus mendukung pengembangan Indonesia yang lebih hijau untuk masa depan yang lebih baik serta menjadi perusahaan energi berkelanjutan yang terpercaya.':'Through these 3 pillars, MMS Group Indonesia envisions to continue supporting the development of greener Indonesia for a better future and to emerge as a trusted sustainable energy company.'}
                     </p>
 				</div>
 			</div>

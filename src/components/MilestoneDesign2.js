@@ -5,7 +5,7 @@ import { useLanguage } from "../Pages/LanguageContext";
 
 function MilestoneTab(props){
     const {isIndo}= useLanguage()
-    const [selectedYear,setSelectedYear]=useState(0)
+    const [selectedYear,setSelectedYear]=useState(8)
     const milestoneContent=[
         {
             title : 'Mengawali Perjalanan MMSGI',
@@ -89,7 +89,7 @@ function MilestoneTab(props){
             content_en : [ <>As an innovative company with major concerns in environment and social issue, MMSGI realized its vision by establishing MMS Solution (PT Mitrakarya Cipta Gemilang) to accommodate new and sustainable business and such as renewable energy and social entrprise.</>,
                         <>MMSGI supports Indonesian Government Food Estate program by establishing PT Bramasta Sakti (Bramasta) in East Kalimantan which optimizes post-mining land for corn precision farming and mini ranch. Bramasta collaborates with local farmers under a profit-sharing scheme as an effort and care to build the local farmers independency.</>]
         },{
-            title : 'Kontribusi untuk Komunitas',
+            title : 'Kontribusi Nyata untuk Komunitas',
             title_en : 'Contributing to Community',
             year : '2021',
             content : [ <>Sebagai bentuk tanggung jawab terhadap masyarakat dan lingkungan. MMS Group Indonesia menyiapkan serangkaai program dan inisiatif dengan tema kemanusiaan yang disalurkan melalui Yayasan Life After Mine.</>,
@@ -110,7 +110,7 @@ function MilestoneTab(props){
         <div class="container container-xl-custom pt-3">
             <div class="row">
                 <div class="col">
-                    <p class="font-weight-bold text-primary text-uppercase mb-4 text-4">Tonggak Perjalanan</p>
+                    <p class="font-weight-bold text-primary text-uppercase mb-4 text-4">{isIndo? 'Tonggak Perjalanan':'Milestone'}</p>
                     <div class="tabs tabs-simple tabs-bottom mb-0">
 						<ul class="nav nav-tabs nav-justified flex-row ">
                         {milestoneContent.map((milestone,index)=>
