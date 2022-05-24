@@ -499,7 +499,7 @@ var content=[
         `
     },
     {
-        id:'21012106rntk',
+        id:'210620206rntk',
         title:'Yayasan Life After Mine Kirim Bantuan Untuk Pemulihan Lokasi Rawan Banjir dan Tanah Longsor di Kabupaten Lebak Banten',
         imageUrl:'News - 24',
         date:"2022-05-09",
@@ -515,7 +515,6 @@ var content=[
         Kondisi banjir rutin di sepanjang sungai Cibeurang ini berdampak langsung pada setidaknya 4 kecamatan yang berada pada sekitar sungai, diantaranya Cibeber, Bojongmanik, Cirinten, dan Leuwidamar.
         
         “Daerah terdampak banjir dan tanah longsor seperti Kabupaten Lebak ini perlu disiapkan fasilitas pendukung, terutama terkait aspek logistik pada saat proses penanggulangan”, ujar Andrew Hidayat, pembina YLAM.
-        
         `
     },
     
