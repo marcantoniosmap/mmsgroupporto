@@ -497,7 +497,27 @@ var content=[
         
         "Serta menjadi langkah awal dalam mewujudkan pemanfaatan listrik yang bersumber dari energi baru dan terbarukan di Indonesia khususnya di Kalimantan Timur dan Kalimantan Utara," terangnya.
         `
+    },
+    {
+        id:'21012106rntk',
+        title:'Yayasan Life After Mine Kirim Bantuan Untuk Pemulihan Lokasi Rawan Banjir dan Tanah Longsor di Kabupaten Lebak Banten',
+        imageUrl:'News - 24',
+        date:"2022-05-09",
+        newsUrl:'/',
+        newsContent:`Yayasan Life After Mine (YLAM) menyalurkan bantuan kepada korban terdampak bencana banjir dan longsor berupa mobil operasional guna mendukung percepatan pemulihan lokasi rawan bencana banjir dan tanah longsor di Kabupaten Lebak, Banten.
         
+        Yayasan Life After Mine merupakan yayasan binaan MMS Group Indonesia yang memiliki fokus pada isu-isu sosial, kesehatan, dan lingkungan pada masyarakat umumnya serta wilayah pascatambang khususnya. YLAM merupakan salah satu badan yang berperan cukup signifikan pada penanggulangan pandemi Covid-19, khususnya di wilayah Kalimantan Timur sepanjang 2020-2021.
+        
+        Bantuan mobil operasional dengan tipe double cabin ini diserahkan langsung oleh Perwakilan YLAM kepada masyarakat diKabupaten Lebak, Banten awal Mei 2022.
+        
+        Kabupaten Lebak merupakan salah satu daerah rawan bencana banjir dan longsor. Adanya cuaca ekstrim khususnya di musim penghujan dengan curah hujan tinggi (100 mm per detik) menyebabkan meluapnya hulu sungai Cibeurang di wilayah Kabupaten Bogor yang berbatasan langsung dengan Kabupaten Lebak merupakan salah satu faktor penyebab terjadinya banjir tahunan di wilayah ini. Berukurangnya resapan air akibat penebangan pohon di daerah aliran sungai (DAS) memperburuk kondisi sungai di waktu banjir.
+        
+        Kondisi banjir rutin di sepanjang sungai Cibeurang ini berdampak langsung pada setidaknya 4 kecamatan yang berada pada sekitar sungai, diantaranya Cibeber, Bojongmanik, Cirinten, dan Leuwidamar.
+        
+        “Daerah rawan banjir dan longsor seperti Kabupaten Lebak ini perlu disiapkan fasilitas pendukung logistiknya sambil terus mengupayakan segala bentuk pencegahan agar banjir dan longsor dapat dikendalikan”, ujar Andrew Hidayat, pembina YLAM.
+        
+        Andrew berharap dengan tersedianya mobil operasional ini dapat membantu masyarakat dalam proses distribusi logistik saat terjadinya bencana dan/atau proses pemulihannya. Yayasan Life After Mine akan terus bekerjasama dan berkoordinasi dengan berbagai pihak untuk bersinergi dalam pemulihan daerah rawan bencana di Kabupaten Lebak, Banten.
+        `
     },
     
     
