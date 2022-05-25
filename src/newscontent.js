@@ -517,6 +517,27 @@ var content=[
         “Daerah terdampak banjir dan tanah longsor seperti Kabupaten Lebak ini perlu disiapkan fasilitas pendukung, terutama terkait aspek logistik pada saat proses penanggulangan”, ujar Andrew Hidayat, pembina YLAM.
         `
     },
+    {
+        id:'27dri041986',
+        title:'MHU Diganjar Penghargaan dari Kemnaker, Catat 85 Juta Jam Kerja Tanpa Kecelakaan',
+        imageUrl:'News - 25',
+        date:"2022-05-24",
+        newsUrl:'/',
+        newsContent:`Kinerja Keselamatan dan Kesehatan Kerja (K3) PT Multi Harapan Utama (MHU) kembali meraih pengakuan atas capaiannya. Kementerian Ketenagakerjaan memberikan beberapa apresiasi kepada MHU pada gelaran Penganugerahaan Penghargaan K3 Tahun 2022 di Ruang Birawa, Hotel Bidakara Jakarta (24/5/2022).
+
+        MHU adalah perusahaan pertambangan batu bara yang beroperasi di Kabupaten Kutai Kartanegara (Kukar), dan Samarinda, Kaltim. Perusahaan ini mendapat Penghargaan Kecelakaan Nihil (Zero Accident Award) atas performa 85 juta jam kerja tanpa kecelakaan dari periode Desember 2014-Desember 2021. Selain itu, MHU juga memperoleh Penghargaan Program Pencegahan dan Penanggulangan Covid-19 di tempat kerja kategori Platinum.
+        
+        Wakil Kepala Teknik Tambang MHU Risdiatullah menyampaikan, capaian ini membuktikan perusahaan memiliki komitmen tinggi dalam menjaga area kerja dan melindungi tenaga kerjanya. “Kami akan terus berusaha untuk dapat menjaga operasi perusahaan tetap aman tanpa menimbulkan kecelakaan kerja dan selalu menjaga lingkungan kerja dengan baik melalui program pencegahan dan penanggulangan Covid-19,” imbuhnya.
+        
+        Menurut Risdiatullah, MHU melakukan langkah-langkah pencegahan kecelakaan yang berkelanjutan melalui berbagai sistem, perencanaan, pengawasan dan perbaikan atas implementasi K3. “Semua usaha menjaga keselamatan dan kesehatan karyawan tentunya sangat mendukung produktivitas kinerja operasi perusahaan,” tegasnya.
+        
+        Diketahui, Penganugerahaan Penghargaan K3 Tahun 2022 dari Kemnaker merupakan ajang untuk mengapresiasi sekaligus memotivasi para pemimpin daerah dan perusahaan. Untuk mempertahankan kinerja K3 sebagai investasi keberlangsungan usaha dan menjaga produktivitas perusahaan.
+        
+        Pada ajang tahun ini terdapat empat kategori yaitu Penghargaan Kecelakaan Nihil (Zero Accident Award), Penghargaan Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3), Penghargaan Program Pencegahan HIV/AIDS, dan Penghargaan Program Pencegahan dan Penanggulangan Covid-19.
+        
+        Para pimpinan daerah dan perusahaan yang menjadi kandidat dinilai berdasarkan hasil evaluasi tingkat pusat. Yaitu dengan mempertimbangkan beberapa kriteria, termasuk pelaksanaan uji petik secara luring di beberapa wilayah dan berdasarkan laporan dari Lembaga Audit SMK3. 
+        `
+    },
     
     
     
